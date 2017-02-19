@@ -1,96 +1,955 @@
-F:\CS-555-Agile\Assignment 3\GEDCOM Project 03>python exe.py
-PATH VERIFIED...
-
-                        -----------------------------------------------------
-
-                                        INDIVIDUAL DETAILS
-
-                        -----------------------------------------------------
-+-------+------------------------------+------------+------+------------+-----------+------------------+
-|  UID  |             NAME             | BIRTHDATE  | SEX  | DAETH DATE |    FAMC   |       FAMS       |
-+-------+------------------------------+------------+------+------------+-----------+------------------+
-|  @I1@ |  ['Jiajaji', '/Ugaonkar/']   | 1890-02-06 |  M   | 1941-02-15 |     []    |     ['@F1@']     |
-|  @I2@ |    ['Anandi', '/Joshi/']     | 1892-02-06 |  F   | 1945-11-11 |     []    |     ['@F1@']     |
-|  @I3@ |  ['Shamrao', '/Ugaonkar/']   | 1915-05-15 |  M   | 1980-08-12 |  ['@F1@'] |     ['@F5@']     |
-|  @I4@ |    ['Ram', '/Ugaonkar/']     | 1919-05-15 |  M   | 2009-05-16 |  ['@F1@'] |        []        |
-|  @I5@ |   ['Laxman', '/Ugaonkar/']   | 1917-05-15 |  M   |    None    |  ['@F1@'] | ['@F2@', '@F3@'] |
-|  @I6@ |   ['Laxmi', '/Kulkarni/']    | 1918-06-15 |  F   | 1975-08-08 |     []    |     ['@F3@']     |
-|  @I7@ |   ['Vijay', '/Ugaonkar/']    | 1954-09-15 |  M   |    None    |  ['@F5@'] |     ['@F4@']     |
-|  @I8@ | ['Vijaya', '/Ratnaparkhi/']  | 1921-07-30 |  F   | 2011-01-01 |     []    |     ['@F5@']     |
-|  @I9@ |   ['Nanda', '/Ugaonkar/']    | 1953-09-01 |  F   |    None    |  ['@F5@'] |    ['@F12@']     |
-| @I10@ |   ['Vilas', '/Ugaonkar/']    | 1958-09-13 |  M   |    None    |  ['@F5@'] | ['@F6@', '@F7@'] |
-| @I11@ |    ['Ajay', '/Ugaonkar/']    | 1960-08-30 |  M   |    None    |  ['@F5@'] |     ['@F8@']     |
-| @I12@ |  ['Pratibha', '/Ugaonkar/']  | 1957-10-13 |  F   |    None    |  ['@F5@'] |     ['@F9@']     |
-| @I13@ |   ['Sunil', '/Ugaonkar/']    | 1962-05-21 |  M   | 2014-07-29 |  ['@F5@'] |    ['@F10@']     |
-| @I14@ |    ['Priya', '/Rajput/']     | 1967-03-24 |  F   |    None    |     []    |    ['@F10@']     |
-| @I15@ |    ['Sunanda', '/Kale/']     | 1920-06-09 |  F   | 1980-06-15 |     []    |     ['@F2@']     |
-| @I16@ |   ['Abhay', '/Ugaonkar/']    | 0019-06-13 |  M   | 2016-03-12 |  ['@F3@'] |        []        |
-| @I17@ |    ['Hema', '/Ugaonkar/']    | 1960-06-13 |  F   |    None    |  ['@F3@'] |        []        |
-| @I18@ |    ['Aru', '/Ugaonkar/']     | 1955-09-17 |  F   |    None    |  ['@F3@'] |        []        |
-| @I19@ |   ['Madhukar', '/Tillu/']    | 1974-08-17 |  M   |    None    | ['@F12@'] |    ['@F11@']     |
-| @I20@ |   ['Madhukar', '/Tillu/']    | 1954-03-07 |  M   |    None    |     []    |    ['@F12@']     |
-| @I21@ |     ['Mansi', '/Tillu/']     | 1979-11-13 |  F   |    None    | ['@F12@'] |    ['@F13@']     |
-| @I22@ |  ['Shital', '/Mehendale/']   | 1979-10-10 |  F   |    None    |     []    |    ['@F11@']     |
-| @I23@ |     ['Swara', '/Tillu/']     | 2011-11-10 |  F   |    None    | ['@F11@'] |        []        |
-| @I24@ |   ['Abhay', '/Ganorkar/']    | 1978-09-11 |  M   |    None    |     []    |    ['@F13@']     |
-| @I25@ |    ['Arya', '/Ganorkar/']    | 2009-05-09 |  M   |    None    | ['@F13@'] |        []        |
-| @I26@ |   ['Archit', '/Ganorkar/']   | 2016-11-15 |  M   |    None    | ['@F13@'] |        []        |
-| @I27@ |  ['Archita', '/Ganorkar/']   | 2010-09-07 |  F   | 2010-09-07 | ['@F13@'] |        []        |
-| @I28@ |     ['Anjali', '/Alpe/']     | 1967-11-17 |  F   |    None    | ['@F14@'] |     ['@F8@']     |
-| @I29@ |  ['Abhilash', '/Ugaonkar/']  | 1992-10-04 |  M   |    None    |  ['@F8@'] |        []        |
-| @I30@ |   ['Rohini', '/Padalkar/']   | 1964-05-28 |  F   |    None    |     []    |     ['@F7@']     |
-| @I31@ |    ['Sulbha', '/Pujari/']    | 1960-09-15 |  F   | 2015-11-13 |     []    |     ['@F6@']     |
-| @I32@ |   ['Naresh', '/Ugaonkar/']   | 1996-07-09 |  M   |    None    |  ['@F7@'] |        []        |
-| @I33@ |  ['Tirumala', '/Ugaonkar/']  | 2000-04-17 |  F   |    None    |  ['@F7@'] |        []        |
-| @I34@ | ['Raghvendra', '/Anakalgi/'] | 1958-06-14 |  M   |    None    |     []    |     ['@F9@']     |
-| @I35@ |   ['Sagar', '/Anakalgi/']    | 1985-08-26 |  M   | 2014-12-18 |  ['@F9@'] |    ['@F15@']     |
-| @I36@ |    ['Gayatri', '/Joshi/']    | 1989-08-16 |  F   |    None    |     []    |    ['@F15@']     |
-| @I37@ |   ['Badal', '/Anakalgi/']    | 1990-10-30 |  M   |    None    |  ['@F9@'] |    ['@F16@']     |
-| @I38@ |    ['Akshata', '/Joshi/']    | 1990-04-12 |  F   |    None    |     []    |    ['@F16@']     |
-| @I39@ |    ['Nilima', '/Mulay/']     | 1960-11-11 |  F   |    None    |     []    |     ['@F4@']     |
-| @I40@ |   ['Sujit', '/Ugaonkar/']    | 1985-07-19 |  M   |    None    |  ['@F4@'] |    ['@F17@']     |
-| @I41@ |   ['Radhika', '/Telang/']    | 1989-09-28 |  F   |    None    |     []    |    ['@F17@']     |
-| @I42@ |    ['Aara', '/Ugaonkar/']    | 2016-08-08 |  F   |    None    | ['@F17@'] |        []        |
-| @I43@ |   ['Aabha', '/Ugaonkar/']    | 2016-08-08 |  F   |    None    | ['@F17@'] |        []        |
-| @I44@ |  ['Ajinkya', '/Ugaonkar/']   | 1993-03-17 | None |    None    |  ['@F4@'] |        []        |
-| @I45@ |   ['Ranganath', '/Alpe/']    | 1927-01-01 |  M   |    None    |     []    |    ['@F14@']     |
-| @I46@ |  ['Sunanda', '/Arlulkar/']   | 1930-05-01 |  F   |    None    |     []    |    ['@F14@']     |
-| @I47@ |     ['Sunita', '/Alpe/']     | 1970-04-21 |  F   |    None    | ['@F14@'] |    ['@F18@']     |
-| @I48@ |  ['Shekhar', '/Arankalle/']  | 1968-02-17 |  M   |    None    |     []    |    ['@F18@']     |
-| @I49@ | ['Sharvari', '/Arankalle/']  | 2005-08-07 |  F   |    None    | ['@F18@'] |        []        |
-| @I50@ |     ['Nilima', '/Alpe/']     | 1974-04-28 |  F   |    None    | ['@F14@'] |    ['@F19@']     |
-| @I51@ | ['Narendra', '/Panshikar/']  | 1970-04-26 |  M   |    None    |     []    |    ['@F19@']     |
-| @I52@ |  ['Mrunmai', '/Panshikar/']  | 2001-04-24 |  F   |    None    | ['@F19@'] |        []        |
-| @I53@ |     ['Vivek', '/Alpe/']      | 1976-01-21 |  M   |    None    | ['@F14@'] |        []        |
-| @I54@ | ['Neelkanth', '/Ugaonkar/']  | 1993-06-15 |  M   |    None    |  ['@F6@'] |        []        |
-| @I55@ |   ['Manali', '/Ugaonkar/']   | 1996-09-17 |  F   |    None    |  ['@F6@'] |        []        |
-+-------+------------------------------+------------+------+------------+-----------+------------------+
-
-                        -----------------------------------------------------
-
-                                        FAMILY DETAILS
-
-                        -----------------------------------------------------
-+-------+----------+---------+-------+------------------------------------------------------+---------+
-|  FID  | MARRIAGE | HUSBAND |  WIFE |                       CHILDREN                       | DIVORCE |
-+-------+----------+---------+-------+------------------------------------------------------+---------+
-|  @F1@ |   None   |   @I1@  |  @I2@ |               ['@I3@', '@I4@', '@I5@']               |   None  |
-|  @F2@ |   None   |   @I5@  | @I15@ |                          []                          |   None  |
-|  @F3@ |   None   |   @I5@  |  @I6@ |             ['@I16@', '@I17@', '@I18@']              |   None  |
-|  @F4@ |   None   |   @I7@  | @I39@ |                  ['@I40@', '@I44@']                  |   None  |
-|  @F5@ |   None   |   @I3@  |  @I8@ | ['@I7@', '@I9@', '@I10@', '@I11@', '@I12@', '@I13@'] |   None  |
-|  @F6@ |   None   |  @I10@  | @I31@ |                  ['@I54@', '@I55@']                  |   None  |
-|  @F7@ |   None   |  @I10@  | @I30@ |                  ['@I32@', '@I33@']                  |   None  |
-|  @F8@ |   None   |  @I11@  | @I28@ |                      ['@I29@']                       |   None  |
-|  @F9@ |   None   |  @I34@  | @I12@ |                  ['@I35@', '@I37@']                  |   None  |
-| @F10@ |   None   |  @I13@  | @I14@ |                          []                          |   None  |
-| @F11@ |   None   |  @I19@  | @I22@ |                      ['@I23@']                       |   None  |
-| @F12@ |   None   |  @I20@  |  @I9@ |                  ['@I19@', '@I21@']                  |   None  |
-| @F13@ |   None   |  @I24@  | @I21@ |             ['@I25@', '@I26@', '@I27@']              |   None  |
-| @F14@ |   None   |  @I45@  | @I46@ |         ['@I28@', '@I47@', '@I50@', '@I53@']         |   None  |
-| @F15@ |   None   |  @I35@  | @I36@ |                          []                          |   None  |
-| @F16@ |   None   |  @I37@  | @I38@ |                          []                          |   None  |
-| @F17@ |   None   |  @I40@  | @I41@ |                  ['@I42@', '@I43@']                  |   None  |
-| @F18@ |   None   |  @I48@  | @I47@ |                      ['@I49@']                       |   None  |
-| @F19@ |   None   |  @I51@  | @I50@ |                      ['@I52@']                       |   None  |
-+-------+----------+---------+-------+------------------------------------------------------+---------+
+NOTE Parth Pandya
+0 HEAD
+Level:  0
+Tag:  HEAD
+1 SOUR Family Echo
+Level:  1
+Tag: Invalid Tag
+2 WWW http://www.familyecho.com/
+Level:  2
+Tag: Invalid Tag
+1 FILE Family 2
+Level:  1
+Tag: Invalid Tag
+1 DATE 29 JAN 2017
+Level:  1
+Tag:  DATE
+1 DEST ANSTFILE
+Level:  1
+Tag: Invalid Tag
+1 GEDC
+Level:  1
+Tag: Invalid Tag
+2 VERS 5.5.1
+Level:  2
+Tag: Invalid Tag
+2 FORM LINEAGE-LINKED
+Level:  2
+Tag: Invalid Tag
+1 SUBM @I1@
+Level:  1
+Tag: Invalid Tag
+2 NAME Parth Pandya
+Level:  2
+Tag:  NAME
+1 SUBN
+Level:  1
+Tag: Invalid Tag
+1 CHAR UTF-8
+Level:  1
+Tag: Invalid Tag
+0 @I1@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Edina /Schulz/
+Level:  1
+Tag:  NAME
+2 GIVN Edina
+Level:  2
+Tag: Invalid Tag
+2 SURN Schulz
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Bettencourt
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 8 JAN 1890
+Level:  2
+Tag:  DATE
+1 DEAT Y
+Level:  1
+Tag:  DEAT
+2 DATE 16 AUG 1977
+Level:  2
+Tag:  DATE
+1 FAMS @F1@
+Level:  1
+Tag:  FAMS
+1 FAMS @F2@
+Level:  1
+Tag:  FAMS
+0 @I2@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Charles /Bettencourt/
+Level:  1
+Tag:  NAME
+2 GIVN Charles
+Level:  2
+Tag: Invalid Tag
+2 SURN Bettencourt
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Bettencourt
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 18 MAY 1888
+Level:  2
+Tag:  DATE
+1 DEAT Y
+Level:  1
+Tag:  DEAT
+2 DATE 2 DEC 1933
+Level:  2
+Tag:  DATE
+1 FAMS @F2@
+Level:  1
+Tag:  FAMS
+0 @I3@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Ross /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Ross
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 15 MAY 1891
+Level:  2
+Tag:  DATE
+1 DEAT Y
+Level:  1
+Tag:  DEAT
+2 DATE 3 NOV 1986
+Level:  2
+Tag:  DATE
+1 FAMS @F1@
+Level:  1
+Tag:  FAMS
+0 @I4@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Henry /Bettencourt/
+Level:  1
+Tag:  NAME
+2 GIVN Henry
+Level:  2
+Tag: Invalid Tag
+2 SURN Bettencourt
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Bettencourt
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 6 JUL 1915
+Level:  2
+Tag:  DATE
+1 DEAT Y
+Level:  1
+Tag:  DEAT
+2 DATE 1 APR 1947
+Level:  2
+Tag:  DATE
+1 FAMC @F2@
+Level:  1
+Tag:  FAMC
+0 @I5@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Edward /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Edward
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 15 AUG 1938
+Level:  2
+Tag:  DATE
+1 FAMS @F3@
+Level:  1
+Tag:  FAMS
+1 FAMC @F1@
+Level:  1
+Tag:  FAMC
+0 @I6@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Emma /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Emma
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 6 APR 1940
+Level:  2
+Tag:  DATE
+1 FAMS @F4@
+Level:  1
+Tag:  FAMS
+1 FAMC @F1@
+Level:  1
+Tag:  FAMC
+0 @I7@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Victoria /Koch/
+Level:  1
+Tag:  NAME
+2 GIVN Victoria
+Level:  2
+Tag: Invalid Tag
+2 SURN Koch
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 30 APR 1938
+Level:  2
+Tag:  DATE
+1 FAMS @F3@
+Level:  1
+Tag:  FAMS
+1 FAMS @F5@
+Level:  1
+Tag:  FAMS
+0 @I8@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Margaret /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Margaret
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Thomson
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 28 NOV 1977
+Level:  2
+Tag:  DATE
+1 FAMS @F6@
+Level:  1
+Tag:  FAMS
+1 FAMC @F3@
+Level:  1
+Tag:  FAMC
+0 @I9@ INDI
+Level:  0
+Tag:  INDI
+1 NAME John /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN John
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 10 SEP 1979
+Level:  2
+Tag:  DATE
+1 FAMS @F7@
+Level:  1
+Tag:  FAMS
+1 FAMS @F8@
+Level:  1
+Tag:  FAMS
+1 FAMC @F3@
+Level:  1
+Tag:  FAMC
+0 @I10@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Richard /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Richard
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 30 JUN 1981
+Level:  2
+Tag:  DATE
+1 FAMS @F9@
+Level:  1
+Tag:  FAMS
+1 FAMC @F3@
+Level:  1
+Tag:  FAMC
+0 @I11@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Harold /Walton/
+Level:  1
+Tag:  NAME
+2 GIVN Harold
+Level:  2
+Tag: Invalid Tag
+2 SURN Walton
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Walton
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 1 DEC 1934
+Level:  2
+Tag:  DATE
+1 FAMS @F4@
+Level:  1
+Tag:  FAMS
+0 @I12@ INDI
+Level:  0
+Tag:  INDI
+1 NAME William /Powell/
+Level:  1
+Tag:  NAME
+2 GIVN William
+Level:  2
+Tag: Invalid Tag
+2 SURN Powell
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Powell
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 24 APR 1936
+Level:  2
+Tag:  DATE
+1 FAMS @F5@
+Level:  1
+Tag:  FAMS
+0 @I13@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Edgar /Powell/
+Level:  1
+Tag:  NAME
+2 GIVN Edgar
+Level:  2
+Tag: Invalid Tag
+2 SURN Powell
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Powell
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 2 SEP 1966
+Level:  2
+Tag:  DATE
+1 FAMS @F10@
+Level:  1
+Tag:  FAMS
+1 FAMC @F5@
+Level:  1
+Tag:  FAMC
+0 @I14@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Mary /Cornel/
+Level:  1
+Tag:  NAME
+2 GIVN Mary
+Level:  2
+Tag: Invalid Tag
+2 SURN Cornel
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Powell
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 17 MAY 1966
+Level:  2
+Tag:  DATE
+1 FAMS @F10@
+Level:  1
+Tag:  FAMS
+0 @I15@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Louis /Powell/
+Level:  1
+Tag:  NAME
+2 GIVN Louis
+Level:  2
+Tag: Invalid Tag
+2 SURN Powell
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Powell
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 30 JAN 1989
+Level:  2
+Tag:  DATE
+1 FAMC @F10@
+Level:  1
+Tag:  FAMC
+0 @I16@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Duncan /Thomson/
+Level:  1
+Tag:  NAME
+2 GIVN Duncan
+Level:  2
+Tag: Invalid Tag
+2 SURN Thomson
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Thomson
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 1 FEB 1977
+Level:  2
+Tag:  DATE
+1 FAMS @F6@
+Level:  1
+Tag:  FAMS
+0 @I17@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Donald /Thomson/
+Level:  1
+Tag:  NAME
+2 GIVN Donald
+Level:  2
+Tag: Invalid Tag
+2 SURN Thomson
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Thomson
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 24 NOV 2005
+Level:  2
+Tag:  DATE
+1 FAMC @F6@
+Level:  1
+Tag:  FAMC
+0 @I18@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Emilia /Stone/
+Level:  1
+Tag:  NAME
+2 GIVN Emilia
+Level:  2
+Tag: Invalid Tag
+2 SURN Stone
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 3 MAR 1980
+Level:  2
+Tag:  DATE
+1 FAMS @F8@
+Level:  1
+Tag:  FAMS
+0 @I19@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Abigail /Jhonson/
+Level:  1
+Tag:  NAME
+2 GIVN Abigail
+Level:  2
+Tag: Invalid Tag
+2 SURN Jhonson
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 24 JUN 1978
+Level:  2
+Tag:  DATE
+1 FAMS @F9@
+Level:  1
+Tag:  FAMS
+0 @I20@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Ned /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Ned
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 7 OCT 2010
+Level:  2
+Tag:  DATE
+1 FAMC @F9@
+Level:  1
+Tag:  FAMC
+0 @I21@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Kat /Botham/
+Level:  1
+Tag:  NAME
+2 GIVN Kat
+Level:  2
+Tag: Invalid Tag
+2 SURN Botham
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 5 JUL 1986
+Level:  2
+Tag:  DATE
+1 FAMS @F7@
+Level:  1
+Tag:  FAMS
+0 @I22@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Jane /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Jane
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX F
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 30 DEC 2015
+Level:  2
+Tag:  DATE
+1 FAMC @F7@
+Level:  1
+Tag:  FAMC
+0 @I23@ INDI
+Level:  0
+Tag:  INDI
+1 NAME Phillip /Rothschild/
+Level:  1
+Tag:  NAME
+2 GIVN Phillip
+Level:  2
+Tag: Invalid Tag
+2 SURN Rothschild
+Level:  2
+Tag: Invalid Tag
+2 _MARNM Rothschild
+Level:  2
+Tag: Invalid Tag
+1 SEX M
+Level:  1
+Tag:  SEX
+1 BIRT
+Level:  1
+Tag:  BIRT
+2 DATE 28 FEB 2007
+Level:  2
+Tag:  DATE
+1 FAMC @F8@
+Level:  1
+Tag:  FAMC
+0 @F1@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I3@
+Level:  1
+Tag:  HUSB
+1 WIFE @I1@
+Level:  1
+Tag:  WIFE
+1 CHIL @I5@
+Level:  1
+Tag:  CHIL
+1 CHIL @I6@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 15 AUG 1935
+Level:  2
+Tag:  DATE
+1 _CURRENT Y
+Level:  1
+Tag: Invalid Tag
+0 @F2@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I2@
+Level:  1
+Tag:  HUSB
+1 WIFE @I1@
+Level:  1
+Tag:  WIFE
+1 CHIL @I4@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 1 JAN 1913
+Level:  2
+Tag:  DATE
+1 EVEN
+Level:  1
+Tag: Invalid Tag
+2 TYPE Ending
+Level:  2
+Tag: Invalid Tag
+1 _CURRENT N
+Level:  1
+Tag: Invalid Tag
+0 @F3@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I5@
+Level:  1
+Tag:  HUSB
+1 WIFE @I7@
+Level:  1
+Tag:  WIFE
+1 CHIL @I8@
+Level:  1
+Tag:  CHIL
+1 CHIL @I9@
+Level:  1
+Tag:  CHIL
+1 CHIL @I10@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 17 SEP 1976
+Level:  2
+Tag:  DATE
+1 _CURRENT Y
+Level:  1
+Tag: Invalid Tag
+0 @F4@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I11@
+Level:  1
+Tag:  HUSB
+1 WIFE @I6@
+Level:  1
+Tag:  WIFE
+1 _CURRENT N
+Level:  1
+Tag: Invalid Tag
+0 @F5@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I12@
+Level:  1
+Tag:  HUSB
+1 WIFE @I7@
+Level:  1
+Tag:  WIFE
+1 CHIL @I13@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 7 MAR 1964
+Level:  2
+Tag:  DATE
+1 EVEN
+Level:  1
+Tag: Invalid Tag
+2 TYPE Ending
+Level:  2
+Tag: Invalid Tag
+2 DATE 22 MAY 1975
+Level:  2
+Tag:  DATE
+1 _CURRENT N
+Level:  1
+Tag: Invalid Tag
+0 @F6@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I16@
+Level:  1
+Tag:  HUSB
+1 WIFE @I8@
+Level:  1
+Tag:  WIFE
+1 CHIL @I17@
+Level:  1
+Tag:  CHIL
+1 EVEN
+Level:  1
+Tag: Invalid Tag
+2 TYPE Relationship
+Level:  2
+Tag: Invalid Tag
+2 DATE 5 MAY 2000
+Level:  2
+Tag:  DATE
+1 _CURRENT Y
+Level:  1
+Tag: Invalid Tag
+0 @F7@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I9@
+Level:  1
+Tag:  HUSB
+1 WIFE @I21@
+Level:  1
+Tag:  WIFE
+1 CHIL @I22@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 12 APR 2014
+Level:  2
+Tag:  DATE
+1 _CURRENT Y
+Level:  1
+Tag: Invalid Tag
+0 @F8@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I9@
+Level:  1
+Tag:  HUSB
+1 WIFE @I18@
+Level:  1
+Tag:  WIFE
+1 CHIL @I23@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 2 FEB 2005
+Level:  2
+Tag:  DATE
+1 DIV
+Level:  1
+Tag:  DIV
+2 DATE 4 DEC 2013
+Level:  2
+Tag:  DATE
+1 _CURRENT N
+Level:  1
+Tag: Invalid Tag
+0 @F9@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I10@
+Level:  1
+Tag:  HUSB
+1 WIFE @I19@
+Level:  1
+Tag:  WIFE
+1 CHIL @I20@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 15 AUG 2006
+Level:  2
+Tag:  DATE
+1 _CURRENT Y
+Level:  1
+Tag: Invalid Tag
+0 @F10@ FAM
+Level:  0
+Tag:  FAM
+1 HUSB @I13@
+Level:  1
+Tag:  HUSB
+1 WIFE @I14@
+Level:  1
+Tag:  WIFE
+1 CHIL @I15@
+Level:  1
+Tag:  CHIL
+1 MARR
+Level:  1
+Tag:  MARR
+2 DATE 17 APR 1987
+Level:  2
+Tag:  DATE
+1 _SEPR
+Level:  1
+Tag: Invalid Tag
+2 DATE 1 NOV 1995
+Level:  2
+Tag:  DATE
+1 _CURRENT Y
+Level:  1
+Tag: Invalid Tag
+0 TRLR
+Level:  0
+Tag:  TRLR

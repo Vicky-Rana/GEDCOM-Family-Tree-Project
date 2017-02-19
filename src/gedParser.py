@@ -3,8 +3,8 @@ Project 03
 Team Members: Abhilash Ugaonkar, Anurag Patil, Ketaki Thatte, Vicky Rana
 """
 from .gedClasses import gedcomTagLine, individualPerson, familyClass
-from datetime import date
 from datetime import datetime
+from itertools import islice
 
 
 def GEDCOMParser(filename):
@@ -26,53 +26,55 @@ def GEDCOMParser(filename):
         if gedcomline.tag == 'INDI':
 
             date_type = None
-            indiObject = individualPerson(gedcomline.ref)
-
+            indiObject = {}
+            indiObject["ID"] = str(gedcomline.ref)
             # set the object attributes untill next level 0
-            for gedline in gedlist[index + 1:]:
+            for gedline in gedlist[index+1:]:
+                
                 if gedline.level == 0:
                     break
                 if gedline.tag == "NAME":
-                    indiObject.name = gedline.arg
+                    indiObject["NAME"] = gedline.arg
                 if gedline.tag == "SEX":
-                    indiObject.sex = gedline.arg[0]
+                    indiObject["SEX"] = gedline.arg[0]
                 if gedline.tag == "BIRT":
                     date_type = "BIRT"
                 if gedline.tag == "DEAT":
                     date_type = "DEAT"
                 if gedline.tag == "FAMC":
-                    indiObject.famc.append(gedline.arg[0])
+                    indiObject["FAMC"] = gedline.arg[0]
                 if gedline.tag == "FAMS":
-                    indiObject.fams.append(gedline.arg[0])
+                    indiObject["FAMS"]  = gedline.arg[0]
 
                 # check if date is birth or date
                 if gedline.tag == 'DATE':
                     if date_type == 'BIRT':
-                        indiObject.birthday = date(
+                        indiObject["birthday"] = str(datetime(
                             int(gedline.arg[2]),
-                            datetime.strptime(gedline.arg[1], '%b').month,
-                            int(gedline.arg[0])
+                            int(datetime.strptime(gedline.arg[1], '%b').month),
+                            int(gedline.arg[0]))
                         )
                         date_type = None
                     elif date_type == 'DEAT':
-                        indiObject.deathDate = date(
+                        indiObject["deathDate"] = str(datetime(
                             int(gedline.arg[2]),
                             datetime.strptime(gedline.arg[1], '%b').month,
-                            int(gedline.arg[0])
+                            int(gedline.arg[0]))
                         )
                         date_type = None
 
             # add object into the individual list
+            #print("*****************")
+            #print(indiObject)
             individual.append(indiObject)
 
         # For family list
         if gedcomline.tag == 'FAM':
 
             date_type = None
-
+            familyObject = {}
+            familyObject["FAMID"] = str(gedcomline.ref)
             # create blank object
-            familyObject = familyClass(gedcomline.ref)
-
             # ste values until next level 0
             for gedline in gedlist[index + 1:]:
                 if gedline.level == 0:
@@ -82,28 +84,30 @@ def GEDCOMParser(filename):
                 if gedline.tag == "DIV":
                     date_type = "DIV"
                 if gedline.tag == "HUSB":
-                    familyObject.husband = gedline.arg[0]
+                    familyObject["HUSBAND"] = gedline.arg[0]
                 if gedline.tag == "WIFE":
-                    familyObject.wife = gedline.arg[0]
+                    familyObject["WIFE"] = gedline.arg[0]
                 if gedline.tag == "CHIL":
-                    familyObject.children.append(gedline.arg[0])
+                	children = []
+                	children.append(gedline.arg[0])
+                	familyObject['CHILDREN'] = children
 
                 
                 if gedline.tag == "DATE": # check if marriage date 
                     if date_type == "MARR": # check if divorce date
 
-                        familyObject.marriage = date(
+                        familyObject.marriage = str(datetime(
                             int(gedline.arg[2]),
                             datetime.strptime(gedline.arg[1], '%b').month,
-                            int(gedline.arg[0]))
+                            int(gedline.arg[0])))
                         date_type = None
 
                     elif date_type == "DIV":
 
-                        familyObject.divorce = date(
+                        familyObject.divorce = str(datetime(
                             int(gedline.arg[2]),
                             datetime.strptime(gedline.arg[1], '%b').month,
-                            int(gedline.arg[0]))
+                            int(gedline.arg[0])))
                         date_type = None
             
             family.append(familyObject)

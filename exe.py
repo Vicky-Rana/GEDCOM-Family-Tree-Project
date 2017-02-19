@@ -6,37 +6,59 @@ import argparse
 import os
 from prettytable import PrettyTable
 from src.gedParser import GEDCOMParser
-
-
+import pymongo
+from pymongo import MongoClient
+from pprint import pprint
+import datetime
 #Default File Path
 
 FILENAME = 'gedcom_files/myFTree.ged'
 
+connection = MongoClient('localhost', 27017)
+db = connection['GEDCOMDB']
+print(db)
+print(pymongo.version)
+
+people = db.people
+family = db.family
+#individual_id = people.insert_one(indi_hash).inserted_id
+#cursor = people.find({})
+#for document in cursor: 
+#pprint("***********")
+#pprint(document)
+#data = open("My-Family-12-Feb-2017-425.ged").readlines()
+#print(data)
+
+
+
 p1 = PrettyTable()
 p2 = PrettyTable()
 
+
 #This is the function to print the family and individual details in a pretty table
 def printPretty(individual, families):
+    for i in individual:
+        individual = people.insert_one(i)
+    
     print('\n\t\t\t-----------------------------------------------------')
     print('\n\t\t\t\t\tINDIVIDUAL DETAILS ')
     print('\n\t\t\t-----------------------------------------------------')
-    p1.field_names = ["UID","NAME","BIRTHDATE","SEX","DAETH DATE","FAMC","FAMS"]
-    for line in individual:
-        attribute = vars(line)
-        p1.add_row(attribute.values())
+    cursor = people.find({})
+    for document in cursor: 
+        pprint(document)
 
-    print(p1)
-    
+
+    for j in families:
+        print(j)
+        family_id = family.insert_one(j)
+
     print('\n\t\t\t-----------------------------------------------------')
     print('\n\t\t\t\t\tFAMILY DETAILS ')
     print('\n\t\t\t-----------------------------------------------------')
-
-    p2.field_names = ["FID","MARRIAGE","HUSBAND","WIFE","CHILDREN","DIVORCE"]
-    for line in families:
-        attribute = vars(line)
-        p2.add_row(attribute.values())
-#        print (', '.join("%s: %s" % item for item in attribute.items()))
-    print(p2)
+        
+    cursor2 = family.find({})
+    for document2 in cursor2: 
+        pprint(document2)
 
 
 # Main Funciton 
