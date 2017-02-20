@@ -3,21 +3,22 @@ import pymongo
 from pymongo import MongoClient
 from pprint import pprint
 import datetime
-#DB connection
+#DB Connection
 connection = MongoClient('localhost', 27017)
 db = connection['GEDCOMDB']
 
-#check each id is associated with only one individual, not more than one.
-def check_distinct_individual(id):
-	individual_list = db.people.distinct('_id',{"ID" : id})
-	if len(individual_list) == 1:
+# Check only one family present with particular family id  
+def check_distinct_Family(id):
+	fam_list = db.family.distinct('_id',{"FAMID" : id})
+	#Check number of families with same Family ID
+	if len(fam_list) == 1:
 		return "true"
 	else:
 		return "false"
 
 def main(n):
-    individual_list = check_distinct_individual(n)
-    print(individual_list)
+    family_list = check_distinct_Family(n)
+    print(family_list)
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
