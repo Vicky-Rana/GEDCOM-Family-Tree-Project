@@ -76,5 +76,5 @@ def main(id):
 if __name__=='__main__':
     #main("@F5@")
     if len(sys.argv)>1:
-        print("START")
+        #print("START")
         main(str(sys.argv[1]))
