@@ -1,5 +1,5 @@
 0   HEAD   None   None
-1   DATE   None   ['25', 'FEB', '2017']
+1   DATE   None   ['26', 'FEB', '2017']
 2   NAME   None   ['Abhilash', 'Ugaonkar']
 0   INDI   @I1@   None
 1   NAME   None   ['Jiajaji', '/Ugaonkar/']
@@ -112,7 +112,7 @@
 1   NAME   None   ['Abhay', '/Ugaonkar/']
 1   SEX   None   ['M']
 1   BIRT   None   []
-2   DATE   None   ['13', 'JUN', '0019']
+2   DATE   None   ['13', 'JUN', '1963']
 1   DEAT   None   ['Y']
 2   DATE   None   ['12', 'MAR', '2016']
 0   INDI   @I17@   None
@@ -352,6 +352,8 @@
 1   CHIL   None   ['@I16@']
 1   CHIL   None   ['@I17@']
 1   CHIL   None   ['@I18@']
+1   MARR   None   []
+2   DATE   None   ['8', 'FEB', '1980']
 0   FAM   @F4@   None
 1   HUSB   None   ['@I7@']
 1   WIFE   None   ['@I39@']
@@ -368,6 +370,8 @@
 1   CHIL   None   ['@I11@']
 1   CHIL   None   ['@I12@']
 1   CHIL   None   ['@I13@']
+1   MARR   None   []
+2   DATE   None   ['15', 'AUG', '1935']
 0   FAM   @F6@   None
 1   HUSB   None   ['@I10@']
 1   WIFE   None   ['@I31@']
