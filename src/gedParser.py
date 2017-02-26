@@ -96,7 +96,7 @@ def GEDCOMParser(filename):
                 if gedline.tag == "DATE": # check if marriage date 
                     if date_type == "MARR": # check if divorce date
 
-                        familyObject.marriage = str(datetime(
+                        familyObject["marriage"] = str(datetime(
                             int(gedline.arg[2]),
                             datetime.strptime(gedline.arg[1], '%b').month,
                             int(gedline.arg[0])))
