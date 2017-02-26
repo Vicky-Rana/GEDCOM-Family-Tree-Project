@@ -45,10 +45,11 @@ def getBirthday(c):
     return idAndBirthday
 def main(n):
     a=getChildrenList(n)
- 
-
+    print (a)
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
+        print("START")
        	main(str(sys.argv[1]))
+        #main("@F1@")
  
