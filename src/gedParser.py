@@ -11,15 +11,19 @@ def GEDCOMParser(filename):
     individual = []
     family = []
     gedlist = []
-
+    filterGEDCOM = open("filterGEDCOM.txt", 'w')
     # readas a line from file and strip \n from the end
     lines = [line.rstrip('\n\r') for line in open(filename)]
-
+    
     # Create and add  objects to the list
     for line in lines:
         current = gedcomTagLine(line)
         gedlist.append(current)
-
+       
+    #Following Loop to filter out relevent information and store it in a file
+    for l in gedlist:
+        if(l.tag!=None):
+            filterGEDCOM.write(str(l.level)+"   "+str(l.tag)+"   "+str(l.ref)+"   "+str(l.arg)+"\n")
     # Check Every Tag
     for index, gedcomline in enumerate(gedlist):
         #for an Individual 
@@ -76,6 +80,7 @@ def GEDCOMParser(filename):
             familyObject["FAMID"] = str(gedcomline.ref)
             # create blank object
             # ste values until next level 0
+            children = []
             for gedline in gedlist[index + 1:]:
                 if gedline.level == 0:
                     break
@@ -88,28 +93,21 @@ def GEDCOMParser(filename):
                 if gedline.tag == "WIFE":
                     familyObject["WIFE"] = gedline.arg[0]
                 if gedline.tag == "CHIL":
-                	children = []
-                	children.append(gedline.arg[0])
-                	familyObject['CHILDREN'] = children
-
-                
+                    children.append(gedline.arg[0])
+                    familyObject['CHILDREN'] = children
                 if gedline.tag == "DATE": # check if marriage date 
                     if date_type == "MARR": # check if divorce date
-
                         familyObject["marriage"] = str(datetime(
                             int(gedline.arg[2]),
                             datetime.strptime(gedline.arg[1], '%b').month,
                             int(gedline.arg[0])))
                         date_type = None
-
                     elif date_type == "DIV":
-
                         familyObject.divorce = str(datetime(
                             int(gedline.arg[2]),
                             datetime.strptime(gedline.arg[1], '%b').month,
                             int(gedline.arg[0])))
                         date_type = None
-            
             family.append(familyObject)
 
     return individual, family
