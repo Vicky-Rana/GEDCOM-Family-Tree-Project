@@ -1,14 +1,9 @@
-"""
-Sprint 1
-Developed By : Abhilash Ugaonkar
-User Story: Unique Username and Birthdate 
-"""
 import sys
 import pymongo
 
 from pymongo import MongoClient
 from pprint import pprint
-#import datetime
+import datetime
 from datetime import datetime, timedelta
 from datetime import datetime
 #from dateutil.relativedelta import relativedelta
@@ -23,22 +18,22 @@ def unique_name_bdate():
 	individual = db.people.find({})
 	results = [res for res in individual] 
 	individual.close()
-	print ("Printing the ID of all whose Birthday and Name is Unique and For those whose ID is repeated more than once, then the Birthday and Name of those Individuals is not Unique")
+	
 	for res in results:
 		
 		id = res["ID"]
 		for doc2 in results:
 			date = doc2["birthday"]
 			name = doc2["NAME"]
-			
-			if(date==res["birthday"] and name==res["NAME"]):			
+			idd = doc2["ID"]
+					
+			if(date==res["birthday"] and name==res["NAME"] and idd!=id ):
 				number=[]
 				number.append(id)
-
 				for value in number:
-					
+					print ("Printing the ID of the Individual whose Birthday and Name is Not Unique")
 					print(value),"\n"
-					
+
 def valid_date():
 	return_flag=False
 	people=db.people.find({})
@@ -62,3 +57,5 @@ if __name__ == '__main__':
 	
 if __name__ == '__main__':
 	family_date = valid_date()
+	
+ 
