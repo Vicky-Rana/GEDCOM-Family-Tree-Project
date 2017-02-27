@@ -4,7 +4,7 @@ Team Members: Abhilash Ugaonkar, Anurag Patil, Ketaki Thatte, Vicky Rana
 """
 import argparse
 import os
-from prettytable import PrettyTable
+#from prettytable import PrettyTable
 from src.gedParser import GEDCOMParser
 import pymongo
 from pymongo import MongoClient
@@ -31,8 +31,8 @@ family = db.family
 
 
 
-p1 = PrettyTable()
-p2 = PrettyTable()
+#p1 = PrettyTable()
+#p2 = PrettyTable()
 
 
 #This is the function to print the family and individual details in a pretty table

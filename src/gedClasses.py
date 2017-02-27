@@ -46,8 +46,9 @@ class gedcomTagLine(object):
 
         # for setting tag and argument
         if self.level > 0:
-            self.tag = listLine[1]
-            self.arg = listLine[2:]
+            if listLine[1] in VALID:
+                self.tag = listLine[1]
+                self.arg = listLine[2:]
 
         if self.level == 0:
             if listLine[1] in VALID:
