@@ -1,0 +1,4 @@
+F:\CS-555-Agile\Assignment 4\CS55-FamilyTreeProject-mongoDB_develop>python birth_before_death.py
+         SPRINT 1: USER SOTRY : BIRTHDATE SHOULD BE BEFORE DEATH
+All Individuals have Birthdate Before Deathdate...!
+True
