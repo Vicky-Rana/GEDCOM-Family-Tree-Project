@@ -1,0 +1,14 @@
+Name : Vicky Rana
+Student ID: 10416500
+
+
+/* Output of User Story US04 - Marriage Before Divorce */
+
+E:\Agile\temp_vicky\temp\CS55-FamilyTreeProject-mongoDB_develop\CS55-FamilyTreeProject-mongoDB_develop>python Marriagebeforedivorce.py
+Marriage_Date------ 1975-02-08 00:00:00
+Divorce_Date------ 1958-10-12 00:00:00
+Marriage Date and Divorce Date for Husband ID @I13@ and Wife ID @I14@ is not correct
+
+Marriage_Date------ 1947-04-10 00:00:00
+Divorce_Date------ 1972-10-12 00:00:00
+Marriage Date and Divorce Date for Husband ID @I15@ and Wife ID @I16@ is correct
