@@ -21,23 +21,41 @@ def birth_before_death():
 	people=db.people.find({})
 	results = [res for res in people] #count = cursor.count()
 	people.close()
+	print("\n-----------------------------------------------------------")
 	print("\t SPRINT 1: USER SOTRY : BIRTHDATE SHOULD BE BEFORE DEATH")
+	print("\n-----------------------------------------------------------")
+	print("Checking if any of the died person has birth before death....")
+	print("\n."*3)
+	print("List of Dead Inidividuals")
+	print("\n-----------------------------------------------------------")
+	print("\n")
 	for res in results:			
 		if "deathDate" in res  and "birthday" in res:
 			death_date= datetime.strptime(res["deathDate"],"%Y-%m-%d %H:%M:%S")
 			birthday= datetime.strptime(res["birthday"],"%Y-%m-%d %H:%M:%S")
 			difference_in_years = relativedelta(death_date, birthday).years
-			
+			print(res["NAME"])
+			print(res["birthday"]+ res["deathDate"])
 			difference= death_date.year - birthday.year
 			if(difference > 0):
 				return_flag=True
 			else:
 				return_flag=False
+	print("Checking if any of the living person has birth before death....")
+	print("\n."*3)
+	print("\n-----------------------------------------------------------")
+	print("\nList of Living Individuals")
+	print("\n-----------------------------------------------------------")
+	for res in results:
+		if "birthday" in res and "deathDate" not in res:
+			print (res["NAME"]) 
+			print(res ["birthday"])
+	print("\n-----------------------------------------------------------")
 	if (return_flag==True):
-		print("All Individuals have Birthdate Before Deathdate...!")
+		print("This GEDCOM has contains all the Birthdates before Deathdates ")	
 	else:
 		print("Few Individuals have Birthdate Before Deathdate... Please modify the records in GEDCOM")	
-	print (return_flag)
+	print("\n-----------------------------------------------------------")
 	return return_flag
 
 def valid_date():

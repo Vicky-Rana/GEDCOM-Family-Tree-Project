@@ -1,0 +1,75 @@
+Name : Vicky Rana
+Student ID: 10416500
+
+
+
+/* Output of User Story US22 - Unique IDs */
+
+
+
+E:\Agile\temp_vicky\temp\CS55-FamilyTreeProject-mongoDB_develop\CS55-FamilyTreeProject-mongoDB_develop>python UniqueID.py
+Individual ID @I1@  is unique
+
+Individual ID @I1@  already exists
+
+Individual ID @I3@  is unique
+
+Individual ID @I4@  is unique
+
+Individual ID @I5@  is unique
+
+Individual ID @I5@  already exists
+
+Individual ID @I7@  is unique
+
+Individual ID @I8@  is unique
+
+Individual ID @I9@  is unique
+
+Individual ID @I10@  is unique
+
+Individual ID @I11@  is unique
+
+Individual ID @I12@  is unique
+
+Individual ID @I13@  is unique
+
+Individual ID @I14@  is unique
+
+Individual ID @I15@  is unique
+
+Individual ID @I16@  is unique
+
+Individual ID @I17@  is unique
+
+Individual ID @I18@  is unique
+
+Individual ID @I19@  is unique
+
+Individual ID @I20@  is unique
+
+Individual ID @I21@  is unique
+
+False
+
+Family ID @F1@  is unique
+
+Family ID @F2@  is unique
+
+Family ID @F5@  is unique
+
+Family ID @F3@  is unique
+
+Family ID @F4@  is unique
+
+Family ID @F6@  is unique
+
+Family ID @F7@  is unique
+
+Family ID @F8@  is unique
+
+Family ID @F9@  is unique
+
+True
+
+E:\Agile\temp_vicky\temp\CS55-FamilyTreeProject-mongoDB_develop\CS55-FamilyTreeProject-mongoDB_develop>
