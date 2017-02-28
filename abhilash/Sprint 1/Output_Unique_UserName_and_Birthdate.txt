@@ -1,3 +1,0 @@
-F:\CS-555-Agile\Assignment 4\CS55-FamilyTreeProject-mongoDB_develop>python UniqueUserNameAndBirthDate.py
-Checking if the date given is Valid or not, If true than all the bdate is valid and if false the one of the bdate is not valid
-True
