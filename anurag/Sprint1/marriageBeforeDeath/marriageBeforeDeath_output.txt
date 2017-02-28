@@ -1,0 +1,14 @@
+ D:\CS555\CS55-FamilyTreeProject\anurag\Sprint1\marriageBeforeDeath> python .\marriageBeforeDeath_test.py
+F.
+======================================================================
+FAIL: test3 (__main__.TestMarriageBeforeDeath)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File ".\marriageBeforeDeath_test.py", line 8, in test3
+    self.assertEqual(res3, True)
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.015s
+
+FAILED (failures=1)
