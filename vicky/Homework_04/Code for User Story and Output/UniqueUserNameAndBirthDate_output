@@ -1,0 +1,21 @@
+Name : Vicky Rana
+Student ID: 10416500
+
+
+
+/* Output of User Story US23 - Unique name and birth date */
+
+
+
+
+E:\Agile\temp_vicky\temp\CS55-FamilyTreeProject-mongoDB_develop\CS55-FamilyTreeProject-mongoDB_develop>python UniqueUserNameAndBirthDate.py
+Printing the ID of the Individual whose Birthday and Name is Not Unique
+@I1@
+
+Printing the ID of the Individual whose Birthday and Name is Not Unique
+@I4@
+
+False
+
+Checking if the date given is Valid or not, If true than all the bdate is valid and if false the one of the bdate is not valid
+True
