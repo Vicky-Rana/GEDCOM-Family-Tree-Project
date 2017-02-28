@@ -13,14 +13,11 @@ db = connection['GEDCOMDB']
 
 
 def living_marriages():
-	#living_marriage = True
 	family=db.family.find({})
 	results = [res for res in family] #count = cursor.count()
 	family.close()
 
-	for res in results: # while index != count //This will iterate the list without you needed to keep a counter:
-    # doc = cursor[index] // No need for this since 'res' holds the current record in the loop cycle
-	#Check age for dead person 
+	for res in results: 
 		wife_age = 0
 		husband_age = 0
 		if "marriage" in res:
