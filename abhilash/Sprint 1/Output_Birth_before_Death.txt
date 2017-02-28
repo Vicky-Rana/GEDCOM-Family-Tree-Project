@@ -1,0 +1,142 @@
+F:\CS-555-Agile\Assignment 4\CS55-FamilyTreeProject-mongoDB_develop>python birth_before_death.py
+
+-----------------------------------------------------------
+ SPRINT 1: USER SOTRY : BIRTHDATE SHOULD BE BEFORE DEATH
+
+-----------------------------------------------------------
+Checking if any of the died person has birth before death....
+
+.
+.
+.
+List of Dead Inidividuals
+
+-----------------------------------------------------------
+
+
+['Jiajaji', '/Ugaonkar/']
+1890-02-06 00:00:001941-02-15 00:00:00
+['Anandi', '/Joshi/']
+1892-02-06 00:00:001945-11-11 00:00:00
+['Shamrao', '/Ugaonkar/']
+1915-05-15 00:00:001980-08-12 00:00:00
+['Ram', '/Ugaonkar/']
+1919-05-15 00:00:002009-05-16 00:00:00
+['Laxmi', '/Kulkarni/']
+1918-06-15 00:00:001975-08-08 00:00:00
+['Vijaya', '/Ratnaparkhi/']
+1921-07-30 00:00:002011-01-01 00:00:00
+['Sunil', '/Ugaonkar/']
+1962-05-21 00:00:002014-07-29 00:00:00
+['Sunanda', '/Kale/']
+1920-06-09 00:00:001980-06-15 00:00:00
+['Abhay', '/Ugaonkar/']
+0019-06-13 00:00:002016-03-12 00:00:00
+['Archita', '/Ganorkar/']
+2010-09-07 00:00:002010-09-07 00:00:00
+['Sulbha', '/Pujari/']
+1960-09-15 00:00:002015-11-13 00:00:00
+['Sagar', '/Anakalgi/']
+1985-08-26 00:00:002014-12-18 00:00:00
+Checking if any of the living person has birth before death....
+
+.
+.
+.
+
+-----------------------------------------------------------
+
+List of Living Individuals
+
+-----------------------------------------------------------
+['Laxman', '/Ugaonkar/']
+1917-05-15 00:00:00
+['Vijay', '/Ugaonkar/']
+1954-09-15 00:00:00
+['Nanda', '/Ugaonkar/']
+1953-09-01 00:00:00
+['Vilas', '/Ugaonkar/']
+1958-09-13 00:00:00
+['Ajay', '/Ugaonkar/']
+1960-08-30 00:00:00
+['Pratibha', '/Ugaonkar/']
+1957-10-13 00:00:00
+['Priya', '/Rajput/']
+1967-03-24 00:00:00
+['Hema', '/Ugaonkar/']
+1960-06-13 00:00:00
+['Aru', '/Ugaonkar/']
+1955-09-17 00:00:00
+['Madhukar', '/Tillu/']
+1974-08-17 00:00:00
+['Madhukar', '/Tillu/']
+1954-03-07 00:00:00
+['Mansi', '/Tillu/']
+1979-11-13 00:00:00
+['Shital', '/Mehendale/']
+1979-10-10 00:00:00
+['Swara', '/Tillu/']
+2011-11-10 00:00:00
+['Abhay', '/Ganorkar/']
+1978-09-11 00:00:00
+['Arya', '/Ganorkar/']
+2009-05-09 00:00:00
+['Archit', '/Ganorkar/']
+2016-11-15 00:00:00
+['Anjali', '/Alpe/']
+1967-11-17 00:00:00
+['Abhilash', '/Ugaonkar/']
+1992-10-04 00:00:00
+['Rohini', '/Padalkar/']
+1964-05-28 00:00:00
+['Naresh', '/Ugaonkar/']
+1996-07-09 00:00:00
+['Tirumala', '/Ugaonkar/']
+2000-04-17 00:00:00
+['Raghvendra', '/Anakalgi/']
+1958-06-14 00:00:00
+['Gayatri', '/Joshi/']
+1989-08-16 00:00:00
+['Badal', '/Anakalgi/']
+1990-10-30 00:00:00
+['Akshata', '/Joshi/']
+1990-04-12 00:00:00
+['Nilima', '/Mulay/']
+1960-11-11 00:00:00
+['Sujit', '/Ugaonkar/']
+1985-07-19 00:00:00
+['Radhika', '/Telang/']
+1989-09-28 00:00:00
+['Aara', '/Ugaonkar/']
+2016-08-08 00:00:00
+['Aabha', '/Ugaonkar/']
+2016-08-08 00:00:00
+['Ajinkya', '/Ugaonkar/']
+1993-03-17 00:00:00
+['Ranganath', '/Alpe/']
+1927-01-01 00:00:00
+['Sunanda', '/Arlulkar/']
+1930-05-01 00:00:00
+['Sunita', '/Alpe/']
+1970-04-21 00:00:00
+['Shekhar', '/Arankalle/']
+1968-02-17 00:00:00
+['Sharvari', '/Arankalle/']
+2005-08-07 00:00:00
+['Nilima', '/Alpe/']
+1974-04-28 00:00:00
+['Narendra', '/Panshikar/']
+1970-04-26 00:00:00
+['Mrunmai', '/Panshikar/']
+2001-04-24 00:00:00
+['Vivek', '/Alpe/']
+1976-01-21 00:00:00
+['Neelkanth', '/Ugaonkar/']
+1993-06-15 00:00:00
+['Manali', '/Ugaonkar/']
+1996-09-17 00:00:00
+
+-----------------------------------------------------------
+This GEDCOM has contains all the Birthdates before Deathdates
+
+-----------------------------------------------------------

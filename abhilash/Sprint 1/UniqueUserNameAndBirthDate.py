@@ -11,6 +11,11 @@ from datetime import datetime
 # MongoDB connection
 connection = MongoClient('localhost', 27017)
 db = connection['GEDCOMDB']
+
+print("\n-----------------------------------------------------------")
+print ("SPRINT 1: USER STORY: UNIQUE NAME AND BIRTHDAY")
+print("\n-----------------------------------------------------------")
+
 # Check family present for particular individual
 def unique_name_bdate():
 	
@@ -18,7 +23,8 @@ def unique_name_bdate():
 	individual = db.people.find({})
 	results = [res for res in individual] 
 	individual.close()
-	
+	print("Checking in Individual Collection for Uniqueness ")
+	print("\n."*3)
 	for res in results:
 		
 		id = res["ID"]
@@ -48,8 +54,10 @@ def valid_date():
 				return_flag=True
 			else:
 				return_flag=False
-	print ("Checking if the date given is Valid or not, If true than all the bdate is valid and if false the one of the bdate is not valid")
 	print (return_flag)
+	print("All the Individuals have unique name and Birthdate....")
+	print("If that would have been false ..program prints the ID and NAME of such individuals separately..")
+
 	return return_flag
     
 if __name__ == '__main__':
