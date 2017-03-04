@@ -4,64 +4,44 @@ Team Members: Abhilash Ugaonkar, Anurag Patil, Ketaki Thatte, Vicky Rana
 """
 import argparse
 import os
-#from prettytable import PrettyTable
+from prettytable import PrettyTable
 from src.gedParser import GEDCOMParser
 import pymongo
 from pymongo import MongoClient
 from pprint import pprint
 import datetime
-#Default File Path
+from US31_above30_single import * 
+from US30_living_marriages import * 
+from birth_date_less_marriage_date import * 
+from all_db_operations import *
+from print_data import *
 
-FILENAME = 'gedcom_files/myFTree.ged'
+FILENAME = 'gedcom_files/myTree.ged'
 
 connection = MongoClient('localhost', 27017)
 db = connection['GEDCOMDB']
-print(db)
-print(pymongo.version)
-
 people = db.people
 family = db.family
-#individual_id = people.insert_one(indi_hash).inserted_id
-#cursor = people.find({})
-#for document in cursor: 
-#pprint("***********")
-#pprint(document)
-#data = open("My-Family-12-Feb-2017-425.ged").readlines()
-#print(data)
 
-
-
-#p1 = PrettyTable()
-#p2 = PrettyTable()
-
-
-#This is the function to print the family and individual details in a pretty table
 def printPretty(individual, families):
     for i in individual:
         individual = people.insert_one(i)
-    
-    print('\n\t\t\t-----------------------------------------------------')
-    print('\n\t\t\t\t\tINDIVIDUAL DETAILS ')
-    print('\n\t\t\t-----------------------------------------------------')
-    cursor = people.find({})
-    for document in cursor: 
-        pprint(document)
-
 
     for j in families:
-        print(j)
         family_id = family.insert_one(j)
 
-    print('\n\t\t\t-----------------------------------------------------')
-    print('\n\t\t\t\t\tFAMILY DETAILS ')
-    print('\n\t\t\t-----------------------------------------------------')
-        
-    cursor2 = family.find({})
-    for document2 in cursor2: 
-        pprint(document2)
+    # we will call each story.
+    # Call Usere Story 30
+    living_marriages()
+    # Call User Story 02
+    birth_date_less_marriage_date()
+    #Call user story 31
+    more_than_30_unmarried()
+    
+    # Print Individual Data
+    print(print_individuals())
+    print(print_families())
 
-
-# Main Funciton 
 def main():
     
     parser = argparse.ArgumentParser() # Allow for args to be passed for filename
@@ -73,7 +53,7 @@ def main():
     args = parser.parse_args()
     path = args.file
     if os.path.exists(path):
-        print("PATH VERIFIED...")
+        #print("PATH VERIFIED...")
         individual, families = GEDCOMParser(path)
     else:
         print("[!!] FILE \"%s\" DOESN'T EXISIT.\n Terminiating..." % path)
