@@ -4,7 +4,7 @@ Team Members: Abhilash Ugaonkar, Anurag Patil, Ketaki Thatte, Vicky Rana
 """
 import argparse
 import os
-from prettytable import PrettyTable
+#from prettytable import PrettyTable
 from src.gedParser import GEDCOMParser
 import pymongo
 from pymongo import MongoClient
@@ -43,7 +43,6 @@ def printPretty(individual, families):
     print(print_families())
 
 def main():
-    
     parser = argparse.ArgumentParser() # Allow for args to be passed for filename
     action = parser.add_mutually_exclusive_group()
     action.add_argument("-f", "--file", nargs="?", const=FILENAME,
