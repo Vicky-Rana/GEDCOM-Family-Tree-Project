@@ -1,0 +1,6 @@
+Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I18@ age is 62 not married yet.
+Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I17@ age is 57 not married yet.
+Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I53@ age is 41 not married yet.
+Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I18@ age is 62 not married yet.
+Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I17@ age is 57 not married yet.
+Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I53@ age is 41 not married yet.
