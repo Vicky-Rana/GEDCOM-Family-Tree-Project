@@ -119,7 +119,7 @@
 1   NAME   None   ['Hema', '/Ugaonkar/']
 1   SEX   None   ['F']
 1   BIRT   None   []
-2   DATE   None   ['13', 'JUN', '1960']
+2   DATE   None   ['30', 'AUG', '1960']
 0   INDI   @I18@   None
 1   NAME   None   ['Aru', '/Ugaonkar/']
 1   SEX   None   ['F']
@@ -378,7 +378,9 @@
 1   CHIL   None   ['@I54@']
 1   CHIL   None   ['@I55@']
 1   MARR   None   []
+2   DATE   None   ['8', 'MAY', '1985']
 1   DIV   None   []
+2   DATE   None   ['1', 'APR', '1989']
 0   FAM   @F7@   None
 1   HUSB   None   ['@I10@']
 1   WIFE   None   ['@I30@']

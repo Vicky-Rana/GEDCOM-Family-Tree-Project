@@ -22,7 +22,8 @@ connection = MongoClient('localhost', 27017)
 db = connection['GEDCOMDB']
 people = db.people
 family = db.family
-
+db.people.remove({})
+db.family.remove({})
 def printPretty(individual, families):
     for i in individual:
         individual = people.insert_one(i)

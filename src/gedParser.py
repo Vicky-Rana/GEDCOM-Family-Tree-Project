@@ -103,7 +103,7 @@ def GEDCOMParser(filename):
                             int(gedline.arg[0])))
                         date_type = None
                     elif date_type == "DIV":
-                        familyObject["divorce"] s= str(datetime(
+                        familyObject["divorce"] = str(datetime(
                             int(gedline.arg[2]),
                             datetime.strptime(gedline.arg[1], '%b').month,
                             int(gedline.arg[0])))
