@@ -5,6 +5,7 @@ import sys
 import pymongo
 from pymongo import MongoClient
 from pprint import pprint
+from all_db_operations import *
 import datetime
 
 #Datebase Connection
@@ -12,14 +13,18 @@ connection=MongoClient('localhost',27017)
 db=connection['GEDCOMDB']
 
 def getFamilyData(famID):
-    family=db.family.find({"FAMID":famID})
+    family=db.family.find({})
+    
     marriageDate=0
     flag=0
     for document in family:
         try:
+            famID=document["FAMID"]
             marriageDate=getMarriageDate(famID)
             marriageDate=marriageDate.split("-")
             deathData=getDeathDate(famID)
+            marriageAfterDeath=[]
+            marriageBeforeDeath=[]
             for death in deathData:
                 death=death.split("-")
                 if death[0]<marriageDate[0]:
@@ -40,9 +45,15 @@ def getFamilyData(famID):
                     
                     flag=1
             if(flag==0):
-                return False
+                #return False
+                marriageAfterDeath.append(famID)
             else:
-                return True 
+                #return True 
+                marriageBeforeDeath.append(famID)
+            
+            for familyID in marriageAfterDeath:
+                message="A member of this family has marriage date after their death date"
+                save_invalid_family_for_print(familyID,"US05",message)
         except:
             marriageDate="No marriage"
             deathData="No Death"
@@ -68,13 +79,5 @@ def getDeathDate(id):
         except:continue
     return peoples
 
-# def main(id):
-#     ans=getFamilyData(id)
-    
-#     print(ans)
 
-# if __name__=='__main__':
-#     #main("@F5@")
-#     if len(sys.argv)>1:
-#         #print("START")
-#         main(str(sys.argv[1]))
+
