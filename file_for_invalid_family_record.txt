@@ -6,3 +6,11 @@ Error:  Family: US39 Family_ID : @F3@ Anniversary has passed for@F3@
 Error:  Family: US39 Family_ID : @F11@ Anniversary has passed for@F11@
 Error:  Family: US39 Family_ID : @F13@ Anniversary has passed for@F13@
 Error:  Family: US39 Family_ID : @F18@ Anniversary has passed for@F18@
+Error:  Family: US05 Family_ID : @F3@ A member of this family has marriage date after their death date
+Error:  Family: US05 Family_ID : @F4@ A member of this family has marriage date after their death date
+Error:  Family: US30 Family_ID : @F5@ This is no Living Marriage as @I3@ and @I8@ one of them is not alive
+Error:  Family: US02 Family_ID : @F5@ Age of Wife is 14, Age of Husband is20, therefore marriage is not valid.
+Error:  Family: US39 Family_ID : @F3@ Anniversary has passed for@F3@
+Error:  Family: US39 Family_ID : @F11@ Anniversary has passed for@F11@
+Error:  Family: US39 Family_ID : @F13@ Anniversary has passed for@F13@
+Error:  Family: US39 Family_ID : @F18@ Anniversary has passed for@F18@

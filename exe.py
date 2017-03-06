@@ -13,8 +13,8 @@ from US05_marriageBeforeDeath import *
 from US07_lessThan150 import *
 from US31_above30_single import * 
 from US30_living_marriages import * 
-from birth_date_less_marriage_date import * 
-from upcoming_anniversary import *
+from US02_birth_date_less_marriage_date import * 
+from US39_upcoming_anniversary import *
 from US23_unique_userName_BirthDate import *
 from US03_birth_before_death import *
 from all_db_operations import *
