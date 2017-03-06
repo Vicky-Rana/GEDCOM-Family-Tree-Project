@@ -4,7 +4,6 @@ Team Members: Abhilash Ugaonkar, Anurag Patil, Ketaki Thatte, Vicky Rana
 """
 import argparse
 import os
-#from prettytable import PrettyTable
 from src.gedParser import GEDCOMParser
 import pymongo
 from pymongo import MongoClient
@@ -15,6 +14,9 @@ from US07_lessThan150 import *
 from US31_above30_single import * 
 from US30_living_marriages import * 
 from birth_date_less_marriage_date import * 
+from upcoming_anniversary import *
+from US23_unique_userName_BirthDate import *
+from US03_birth_before_death import *
 from all_db_operations import *
 from print_data import *
 
@@ -33,11 +35,12 @@ def printPretty(individual, families):
     for j in families:
         family_id = family.insert_one(j)
 
-    # we will call each story.
-    ##############ANURAG USER STORIES##########################
+    # Call User story 05
     US05_marriageBeforeDeath()
+
+    #Call User story 07
     US07_lessThan150()
-    ###########################################################
+
     # Call Usere Story 30
     living_marriages()
     # Call User Story 02
@@ -45,9 +48,17 @@ def printPretty(individual, families):
     #Call user story 31
     more_than_30_unmarried()
     
+    # Call User story 39
+    upcoming_anniversary()
+
+    # User Story 23
+    unique_name_bdate()
+
+    # User Story 03
+    birth_before_death()
     # Print Individual Data
-    #print(print_individuals())
-    #print(print_families())
+    print(print_individuals())
+    print(print_families())
 
 def main():
     parser = argparse.ArgumentParser() # Allow for args to be passed for filename

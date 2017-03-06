@@ -3,10 +3,10 @@ from dateutil.relativedelta import relativedelta
 import re
 import sys
 from all_db_operations import *
-#from prettytable import PrettyTable
+from prettytable import PrettyTable
 
-#person_detail = PrettyTable()
-#family_detail = PrettyTable()
+person_detail = PrettyTable()
+family_detail = PrettyTable()
 
 def save_invalid_people_for_print(id, user_story,message):
 	file_for_invalid_people_record = open('file_for_invalid_people_record.txt', 'a')
