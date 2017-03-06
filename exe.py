@@ -17,6 +17,9 @@ from US02_birth_date_less_marriage_date import *
 from US39_upcoming_anniversary import *
 from US23_unique_userName_BirthDate import *
 from US03_birth_before_death import *
+from US06_Divorcebeforedeath import *  
+from US04_Marriagebeforedivorce import * 
+from US22_UniqueID import * 
 from all_db_operations import *
 from print_data import *
 
@@ -56,6 +59,17 @@ def printPretty(individual, families):
 
     # User Story 03
     birth_before_death()
+	
+	#Call user story 06
+	divorcebeforedeath()
+	
+	#Call user story 04
+	check_marriagebeforedivorce()
+	
+	#Call user story 22
+	unique_indids()
+	unique_famids()
+	
     # Print Individual Data
     print(print_individuals())
     print(print_families())

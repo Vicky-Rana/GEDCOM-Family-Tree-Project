@@ -63,7 +63,7 @@ def unique_famids():
 	unq_list1 = list(set(temp2))
 	for i in unq_list1:
 		message = "Family ID"+i+", occurs twice ,therefore it is not valid."
-		save_invalid_family_for_print(FAMID, "US22", message)
+		save_invalid_family_for_print(i, "US22", message)
 
 
 
