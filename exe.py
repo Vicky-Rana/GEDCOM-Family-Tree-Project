@@ -60,14 +60,15 @@ def printPretty(individual, families):
     # User Story 03
     birth_before_death()
 	
-	# Call user story 06 
+    
+    # Call user story 06 
     divorcebeforedeath()
 	
 	
-	#Call user story 04
+    #Call user story 04
     check_marriagebeforedivorce()
 	
-	#Call user story 22
+    #Call user story 22
     unique_indids()
     unique_famids()
 	

@@ -40,7 +40,7 @@ def check_marriagebeforedivorce():
 			#newdate2 = time.strptime(divv, "%d/%m/%Y")
 			if marr > divv:
 			
-				message = "Divorced"+str(divv)+", Before Marriage"+str(marr)+ ", therefore it is not valid."
+				message = "Divorced date "+str(divv)+", Before Marriage date "+str(marr)+ " , therefore it is not valid."
 				save_invalid_family_for_print(res["FAMID"], "US04", message)
 
 

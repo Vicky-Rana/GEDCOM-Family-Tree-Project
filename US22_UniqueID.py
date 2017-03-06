@@ -39,7 +39,7 @@ def unique_indids():
 	
 	unq_list = list(set(temp1))
 	for i in unq_list:
-		message = "Individual ID"+i+", occurs twice ,therefore it is not valid."
+		message = "Individual ID "+i+" , occurs twice ,therefore it is not valid."
 		save_invalid_people_for_print(i, "US22", message)
 
 
@@ -62,7 +62,7 @@ def unique_famids():
 			
 	unq_list1 = list(set(temp2))
 	for i in unq_list1:
-		message = "Family ID"+i+", occurs twice ,therefore it is not valid."
+		message = "Family ID "+i+" , occurs twice ,therefore it is not valid."
 		save_invalid_family_for_print(i, "US22", message)
 
 

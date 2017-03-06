@@ -41,7 +41,7 @@ def divorcebeforedeath():
 					
 
 			
-						message = "Divorced"+str(divdateh)+", After Husband"+str(husband)+ "Death on"+str(deathdth)+", therefore Divorce is not valid."
+						message = "Divorced date "+str(divdateh)+", After Husband id "+str(husband)+ " Death on "+str(deathdth)+", therefore Divorce is not valid."
 						save_invalid_family_for_print(res["FAMID"], "US06", message)
 	
 				if wife == temp["ID"] and "deathDate" in temp:
@@ -50,7 +50,7 @@ def divorcebeforedeath():
 					if divdate > deathdt:
 						
 						
-						message = "Divorced"+str(divdate)+", After Wife"+str(wife)+ "Death on"+str(deathdt)+", therefore Divorce is not valid."
+						message = "Divorced date "+str(divdate)+", After Wife id "+str(wife)+ " Death on "+str(deathdt)+", therefore Divorce is not valid."
 						save_invalid_family_for_print(res["FAMID"], "US06", message)
 		
 
