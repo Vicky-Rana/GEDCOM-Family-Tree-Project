@@ -6,15 +6,5 @@ Error:  Family: US39 Family_ID : @F3@ Anniversary has passed for@F3@
 Error:  Family: US39 Family_ID : @F11@ Anniversary has passed for@F11@
 Error:  Family: US39 Family_ID : @F13@ Anniversary has passed for@F13@
 Error:  Family: US39 Family_ID : @F18@ Anniversary has passed for@F18@
-Error:  Family: US06 Family_ID : @F6@ Divorced1989-04-01 00:00:00, After Wife@I31@Death on1988-11-13 00:00:00, therefore Divorce is not valid.
-Error:  Family: US04 Family_ID : @F4@ Divorced1986-04-01 00:00:00, Before Marriage1987-05-11 00:00:00, therefore it is not valid.
-Error:  Family: US05 Family_ID : @F3@ A member of this family has marriage date after their death date
-Error:  Family: US05 Family_ID : @F4@ A member of this family has marriage date after their death date
-Error:  Family: US30 Family_ID : @F5@ This is no Living Marriage as @I3@ and @I8@ one of them is not alive
-Error:  Family: US02 Family_ID : @F5@ Age of Wife is 14, Age of Husband is20, therefore marriage is not valid.
-Error:  Family: US39 Family_ID : @F3@ Anniversary has passed for@F3@
-Error:  Family: US39 Family_ID : @F11@ Anniversary has passed for@F11@
-Error:  Family: US39 Family_ID : @F13@ Anniversary has passed for@F13@
-Error:  Family: US39 Family_ID : @F18@ Anniversary has passed for@F18@
 Error:  Family: US06 Family_ID : @F6@ Divorced date 1989-04-01 00:00:00, After Wife id @I31@ Death on 1988-11-13 00:00:00, therefore Divorce is not valid.
 Error:  Family: US04 Family_ID : @F4@ Divorced date 1986-04-01 00:00:00, Before Marriage date 1987-05-11 00:00:00 , therefore it is not valid.
