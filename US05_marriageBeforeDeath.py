@@ -13,7 +13,7 @@ import datetime
 connection=MongoClient('localhost',27017)
 db=connection['GEDCOMDB']
 
-def getFamilyData():
+def US05_marriageBeforeDeath():
     family=db.family.find({})
     
     marriageDate=0
@@ -82,4 +82,3 @@ def getDeathDate(id):
     return peoples
 
 
-getFamilyData()

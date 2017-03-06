@@ -10,6 +10,8 @@ import pymongo
 from pymongo import MongoClient
 from pprint import pprint
 import datetime
+from US05_marriageBeforeDeath import *
+from US07_lessThan150 import *
 from US31_above30_single import * 
 from US30_living_marriages import * 
 from birth_date_less_marriage_date import * 
@@ -32,6 +34,10 @@ def printPretty(individual, families):
         family_id = family.insert_one(j)
 
     # we will call each story.
+    ##############ANURAG USER STORIES##########################
+    US05_marriageBeforeDeath()
+    US07_lessThan150()
+    ###########################################################
     # Call Usere Story 30
     living_marriages()
     # Call User Story 02
@@ -40,8 +46,8 @@ def printPretty(individual, families):
     more_than_30_unmarried()
     
     # Print Individual Data
-    print(print_individuals())
-    print(print_families())
+    #print(print_individuals())
+    #print(print_families())
 
 def main():
     parser = argparse.ArgumentParser() # Allow for args to be passed for filename
