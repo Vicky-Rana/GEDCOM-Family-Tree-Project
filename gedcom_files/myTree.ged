@@ -2,7 +2,7 @@
 1 SOUR Family Echo
 2 WWW http://www.familyecho.com/
 1 FILE My Family
-1 DATE 26 FEB 2017
+1 DATE 10 MAR 2017
 1 DEST ANSTFILE
 1 GEDC
 2 VERS 5.5.1
@@ -324,7 +324,7 @@
 1 BIRT
 2 DATE 15 SEP 1960
 1 DEAT Y
-2 DATE 13 NOV 1988
+2 DATE 13 NOV 2015
 1 FAMS @F6@
 0 @I32@ INDI
 1 NAME Naresh /Ugaonkar/
@@ -548,12 +548,150 @@
 1 BIRT
 2 DATE 17 SEP 1996
 1 FAMC @F6@
+0 @I56@ INDI
+1 NAME Shekhar /Ugaonkar/
+2 GIVN Shekhar
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 5 AUG 1923
+1 DEAT Y
+2 DATE 10 JUN 1980
+1 FAMS @F20@
+1 FAMC @F1@
+0 @I57@ INDI
+1 NAME Aditi /Ugaonkar/
+2 GIVN Aditi
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 5 JUL 1926
+1 DEAT Y
+2 DATE 3 APR 1988
+1 FAMS @F20@
+0 @I58@ INDI
+1 NAME Bhargav /Ugaonkar/
+2 GIVN Bhargav
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1950
+1 FAMC @F20@
+0 @I59@ INDI
+1 NAME Aarav /Ugaonkar/
+2 GIVN Aarav
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1950
+1 FAMC @F20@
+0 @I60@ INDI
+1 NAME Aarush /Ugaonkar/
+2 GIVN Aarush
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1950
+1 FAMC @F20@
+0 @I61@ INDI
+1 NAME Aayush /Ugaonkar/
+2 GIVN Aayush
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1950
+1 FAMC @F20@
+0 @I62@ INDI
+1 NAME Advika /Ugaonkar/
+2 GIVN Advika
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 1 JAN 1950
+1 FAMC @F20@
+0 @I63@ INDI
+1 NAME Shalaka /Ugaonkar/
+2 GIVN Shalaka
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 1 JAN 1950
+1 FAMC @F20@
+0 @I64@ INDI
+1 NAME Narayan /Ugaonkar/
+2 GIVN Narayan
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 6 MAY 1922
+1 DEAT Y
+2 DATE 2 AUG 1976
+1 FAMS @F21@
+1 FAMC @F1@
+0 @I65@ INDI
+1 NAME Saraswati /Ugaonkar/
+2 GIVN Saraswati
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 6 FEB 1922
+1 DEAT Y
+2 DATE 2 AUG 1976
+1 FAMS @F21@
+0 @I66@ INDI
+1 NAME Chirag /Ugaonkar/
+2 GIVN Chirag
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 DEC 1949
+1 FAMC @F21@
+0 @I67@ INDI
+1 NAME Yogeshwar /Ugaonkar/
+2 GIVN Yogeshwar
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 DEC 1949
+1 FAMC @F21@
+0 @I68@ INDI
+1 NAME Guru /Ugaonkar/
+2 GIVN Guru
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 DEC 1949
+1 FAMC @F21@
+0 @I69@ INDI
+1 NAME Dutta /Ugaonkar/
+2 GIVN Dutta
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 1 DEC 1949
+1 FAMC @F21@
 0 @F1@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
 1 CHIL @I3@
 1 CHIL @I4@
 1 CHIL @I5@
+1 CHIL @I56@
+1 CHIL @I64@
 1 _CURRENT Y
 0 @F2@ FAM
 1 HUSB @I5@
@@ -577,8 +715,6 @@
 1 CHIL @I44@
 1 MARR
 2 DATE 11 MAY 1987
-1 DIV
-2 DATE 1 APR 1986
 1 _CURRENT Y
 0 @F5@ FAM
 1 HUSB @I3@
@@ -696,5 +832,23 @@
 1 CHIL @I52@
 1 MARR
 2 DATE 9 JUL 2000
+1 _CURRENT Y
+0 @F20@ FAM
+1 HUSB @I56@
+1 WIFE @I57@
+1 CHIL @I58@
+1 CHIL @I59@
+1 CHIL @I60@
+1 CHIL @I61@
+1 CHIL @I62@
+1 CHIL @I63@
+1 _CURRENT Y
+0 @F21@ FAM
+1 HUSB @I64@
+1 WIFE @I65@
+1 CHIL @I66@
+1 CHIL @I67@
+1 CHIL @I68@
+1 CHIL @I69@
 1 _CURRENT Y
 0 TRLR
