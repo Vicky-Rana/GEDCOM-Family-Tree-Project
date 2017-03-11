@@ -42,7 +42,9 @@ def printPretty(individual, families):
     US05_marriageBeforeDeath()
     #Call User story 07
     US07_lessThan150()
-
+    #Call User story 14
+    US14_multipleBirthLessThan5()
+    
     # Call Usere Story 30
     living_marriages()
     # Call User Story 02
