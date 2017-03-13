@@ -1,20 +1,12 @@
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from print_data import *
 from all_db_operations import *
+from print_data import *
 
 connection = MongoClient('localhost', 27017)
 db = connection['GEDCOMDB']
 
 
 def US07_lessThan150():
-	
+	userStoryName('US07')
 	#return_flag=False
 	people=db.people.find({})
 	results = [res for res in people] #count = cursor.count()

@@ -4,19 +4,13 @@ Developed By : Abhilash Ugaonkar
 User Story: US-03 Birth Before Date 
 """
 
-from datetime import datetime, timedelta
-from datetime import datetime
 from dateutil.relativedelta import relativedelta
-#from collections import counter
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
+
 from print_data import *
 
+
 def birth_before_death():
+    userStoryName('US03')
 	return_flag=False
 	results_for_people = get_people()
 	
@@ -30,5 +24,5 @@ def birth_before_death():
 				return_flag=True
 			else:
 				return_flag=False
-				message= "Birthdate is invalid for" + res["ID"]+ "Please validate the birthdate." 
+                message = "Birth Date is invalid for " + res["ID"] + " Please validate the birth Date."
 				save_invalid_people_for_print(res["ID"], "US03", message)

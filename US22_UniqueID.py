@@ -1,13 +1,4 @@
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 #from collections import counter
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
 from print_data import *
 #from dateutil.relativedelta import relativedelta
 #Default File Path
@@ -19,6 +10,7 @@ db = connection['GEDCOMDB']
 
 
 def unique_indids():
+    userStoryName('US22')
 	individual_list = []
 
 	

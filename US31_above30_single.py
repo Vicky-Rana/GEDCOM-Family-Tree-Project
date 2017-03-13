@@ -1,11 +1,7 @@
-from datetime import datetime, timedelta
-from dateutil.relativedelta import relativedelta
-import re
-import sys
-from all_db_operations import *
 from print_data import *
 
 def more_than_30_unmarried():
+    userStoryName('US31')
 	results_for_family = get_family()
 	results_for_people = get_people()
 	array_of_husband_and_wife = []

@@ -1,18 +1,9 @@
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 #from collections import counter
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
 from print_data import *
 
 
 def birth_date_less_marriage_date():
-	return_flag=False
+    userStoryName('US02')
 	
 	results = get_family()
 

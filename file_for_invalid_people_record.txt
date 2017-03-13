@@ -1,4 +1,14 @@
-Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I53@ age is 41 not married yet.
-Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I18@ age is 62 not married yet.
-Error:  INDIVIDUAL: US31 INDIVIDUAL_ID : @I17@ age is 57 not married yet.
-Error:  INDIVIDUAL: US03 INDIVIDUAL_ID : @I27@ Birthdate is invalid for@I27@Please validate the birthdate.
+	Error:  Individual:US03		Individual_ID:@I27@	Message: Birth Date is invalid for @I27@ Please validate the birth Date.
+	Error:  Individual:US31		Individual_ID:@I58@	Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I66@	Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I63@	Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I62@	Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I17@	Message: age is 57 not married yet.
+	Error:  Individual:US31		Individual_ID:@I60@	Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I68@	Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I67@	Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I18@	Message: age is 62 not married yet.
+	Error:  Individual:US31		Individual_ID:@I59@	Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I61@	Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I53@	Message: age is 41 not married yet.
+	Error:  Individual:US31		Individual_ID:@I69@	Message: age is 68 not married yet.

@@ -1,13 +1,4 @@
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 #from collections import counter
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
 from print_data import *
 #DB connection
 connection = MongoClient('localhost', 27017)
@@ -21,7 +12,7 @@ db = connection['GEDCOMDB']
 
 
 def check_marriagebeforedivorce():
-	
+    userStoryName('US04')
 	
 	#Search Family
 	fam1 = db.family.find({})

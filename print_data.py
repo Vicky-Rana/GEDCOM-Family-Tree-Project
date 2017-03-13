@@ -1,22 +1,36 @@
-from datetime import datetime, timedelta
-from dateutil.relativedelta import relativedelta
-import re
-import sys
-from all_db_operations import *
+from datetime import datetime
+
 from prettytable import PrettyTable
+
+from all_db_operations import *
 
 person_detail = PrettyTable()
 family_detail = PrettyTable()
 
+
+def deleteContent():
+	files = ['output.txt', 'file_for_invalid_people_record.txt', 'file_for_invalid_family_record.txt']
+	for file in files:
+		with open(file, "w"):
+			pass
+
+
+def userStoryName(user_story):
+	output(
+		user_story + '------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+
+
 def save_invalid_people_for_print(id, user_story,message):
 	file_for_invalid_people_record = open('file_for_invalid_people_record.txt', 'a')
-	message_for_person = "Error:  INDIVIDUAL:", user_story, "INDIVIDUAL_ID :",id, message
-	file_for_invalid_people_record.write(' '.join(message_for_person)+'\n')
+	message_for_person = "\tError:  Individual:" + user_story + "\t\tIndividual_ID:" + id + '\tMessage: ' + message
+	output(message_for_person)
+	file_for_invalid_people_record.write(str(message_for_person) + '\n')
 
 def save_invalid_family_for_print (id, user_story, message):
 	file_for_invalid_family_record = open('file_for_invalid_family_record.txt', 'a')
-	message_for_family = "Error:  Family:", user_story, "Family_ID :",id, message
-	#print(' '.join(message_for_family))
+	message_for_family = "\tError:  Family:" + user_story + "\t\tFamily_ID:" + id + '\t\tMessage: ' + message
+
+	output(message_for_family)
 	file_for_invalid_family_record.write(' '.join(message_for_family)+'\n')
 
 def print_individuals():
@@ -24,9 +38,9 @@ def print_individuals():
 	results_for_people = get_people()
 	array_of_indi = []
 	for res in results_for_people:
-		person_details = []		
+		person_details = []
 		person_details.append(res["ID"])
-		person_details.append(res["NAME"])
+		person_details.append(res["NAME"][0] + " " + (res["NAME"][1]).strip("/"))
 		if "SEX" in res:
 			person_details.append(res["SEX"])
 		else:
@@ -79,6 +93,9 @@ def print_individuals():
 		list_of_person = filter(None, array_of_indi)
 	for i in list_of_person:
 		person_detail.add_row(i)
+	userStoryName('INDIVIDUAL DATA')
+	output(person_detail)
+	output('\n')
 	return person_detail
 
 def print_families():
@@ -100,7 +117,7 @@ def print_families():
 			family_details.append(res1["HUSBAND"])
 			result_for_husband = get_person_details(res1["HUSBAND"])
 			for doc in result_for_husband:
-				family_details.append(doc["NAME"])
+				family_details.append(doc["NAME"][0] + " " + (doc["NAME"][1]).strip("/"))
 
 		else:
 			family_details.append("NA")
@@ -109,7 +126,7 @@ def print_families():
 			family_details.append(res1["WIFE"])
 			result_for_wife = get_person_details(res1["WIFE"])
 			for doc1 in result_for_wife:
-				family_details.append(doc1["NAME"])
+				family_details.append(doc1["NAME"][0] + " " + (doc1["NAME"][1]).strip("/"))
 		else:
 			family_details.append("NA")
 			family_details.append("NA")
@@ -125,4 +142,15 @@ def print_families():
 		list_of_family = filter(None, array_of_family)
 	for j in list_of_family:
 		family_detail.add_row(j)
+	userStoryName('FAMILY DATA')
+	output(family_detail)
+	output('\n')
 	return family_detail
+
+
+def output(x):
+	# print ()
+	xs = open('output.txt', 'a')
+	xs.seek(0)
+	xs.write(str(x))
+	xs.write('\n')

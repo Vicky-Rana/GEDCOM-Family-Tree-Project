@@ -1,13 +1,4 @@
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 #from collections import counter
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
 from print_data import *
 
 connection = MongoClient('localhost', 27017)
@@ -17,6 +8,7 @@ family = db.family
 
 existing_living_marriages = []
 def living_marriages():
+    userStoryName('US30')
 	results = get_family()
 	for res in results: 
 		#print(res)

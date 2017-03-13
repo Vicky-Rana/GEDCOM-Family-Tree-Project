@@ -4,25 +4,11 @@ Developed By : Abhilash Ugaonkar
 User Story: US-23List Unique Username and Birthdate
 
 """
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-import datetime
-from datetime import datetime, timedelta
-from datetime import datetime
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-import re
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
 from print_data import *
 
 # Check family present for particular individual
 def unique_name_bdate():
-	
+    userStoryName('US23')
 	#Search for individual
 	individual = db.people.find({})
 	results_for_people = get_people()
