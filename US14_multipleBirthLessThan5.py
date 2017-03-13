@@ -19,7 +19,6 @@ def US14_multipleBirthLessThan5():
         if 'CHILDREN' not in family:
             continue
         if len(family['CHILDREN'])>5:
-            print(family['CHILDREN'])
             s=set()
             for children in family['CHILDREN']:
                 person=getPeopleById(children)

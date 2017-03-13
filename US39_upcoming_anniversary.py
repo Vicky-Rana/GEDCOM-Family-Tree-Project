@@ -8,7 +8,7 @@ User Story: US-39 List Upcoming Anniversary
 from print_data import *
 
 def upcoming_anniversary():
-    userStoryName('US39')
+	userStoryName('US39')
 	return_flag=False
 	results_for_family = get_family()
 	current=datetime.now()
@@ -36,6 +36,5 @@ def upcoming_anniversary():
 	return return_flag
 
 if __name__ == '__main__':
-    
-    b= upcoming_anniversary()
-    
+
+	b= upcoming_anniversary()

@@ -10,12 +10,12 @@ db = connection['GEDCOMDB']
 
 
 def unique_indids():
-    userStoryName('US22')
+	userStoryName('US22')
 	individual_list = []
 
 	
 	temp1 = []
-    
+
 	individual = get_people()
 	
 	for res in individual:

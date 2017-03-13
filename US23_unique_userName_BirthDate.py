@@ -8,7 +8,7 @@ from print_data import *
 
 # Check family present for particular individual
 def unique_name_bdate():
-    userStoryName('US23')
+	userStoryName('US23')
 	#Search for individual
 	individual = db.people.find({})
 	results_for_people = get_people()

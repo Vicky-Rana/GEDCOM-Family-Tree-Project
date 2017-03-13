@@ -28,8 +28,7 @@ def US33_listOrphans():
         if 'deathDate' in husband and 'deathDate' in wife:
             for child in family['CHILDREN']:
                 child_name = getPeopleById(child)
-                output('\t' + family['FAMID'] + '\t\t' + child + '\t\t\t' + child_name["NAME"][0] + " " + (
-                child_name["NAME"][1]).strip("/"))
+                output('\t' + family['FAMID'] + '\t\t' + child + '\t\t\t' + child_name["NAME"][0] + " " + (child_name["NAME"][1]).strip("/"))
 
 
 US33_listOrphans()

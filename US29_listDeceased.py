@@ -13,6 +13,4 @@ def US29_listDeceased():
     for people in results_for_people:
         if 'deathDate' in people:
             death = people['deathDate'].split(' ')
-            output(
-                '\t' + people['ID'] + "\t\t" + people["NAME"][0] + " " + (people["NAME"][1]).strip("/") + "    \t\t" +
-                death[0])
+            output('\t' + people['ID'] + "\t\t" + people["NAME"][0] + " " + (people["NAME"][1]).strip("/") + "    \t\t" +death[0])

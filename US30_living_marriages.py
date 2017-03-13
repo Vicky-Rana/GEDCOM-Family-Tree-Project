@@ -8,7 +8,7 @@ family = db.family
 
 existing_living_marriages = []
 def living_marriages():
-    userStoryName('US30')
+	userStoryName('US30')
 	results = get_family()
 	for res in results: 
 		#print(res)

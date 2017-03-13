@@ -1,8 +1,8 @@
 #from collections import counter
 from print_data import *
 def divorcebeforedeath():
-    userStoryName('US06')
-    results = get_family()
+	userStoryName('US06')
+	results = get_family()
 	for res in results:
 		if ("HUSBAND" or "WIFE") and "divorce" in res:
 			husband = res["HUSBAND"]

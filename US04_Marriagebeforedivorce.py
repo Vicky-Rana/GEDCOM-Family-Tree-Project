@@ -12,7 +12,7 @@ db = connection['GEDCOMDB']
 
 
 def check_marriagebeforedivorce():
-    userStoryName('US04')
+	userStoryName('US04')
 	
 	#Search Family
 	fam1 = db.family.find({})
