@@ -1,27 +1,16 @@
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 #from collections import counter
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
 from print_data import *
 
 
 def birth_date_less_marriage_date():
-	return_flag=False
-	
-	results = get_family()
-
-	for res in results:
-		if "marriage" in res:
-			wife_age = 0
-			husband_age = 0
-			marriage_date = datetime.strptime(res["marriage"],"%Y-%m-%d %H:%M:%S")
-			if "HUSBAND" in res and "WIFE" in res: 
+    userStoryName('US02')
+    results = get_family()
+    for res in results:
+        if "marriage" in res:
+            wife_age = 0
+            husband_age = 0
+            marriage_date = datetime.strptime(res["marriage"],"%Y-%m-%d %H:%M:%S")
+            if "HUSBAND" in res and "WIFE" in res:
 				result_for_husband = get_person_details(res["HUSBAND"])
 				result_for_wife = get_person_details(res["WIFE"])
 				for doc in result_for_husband:

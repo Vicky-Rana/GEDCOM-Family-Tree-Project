@@ -1,19 +1,15 @@
 """
 Marriage Before Death
 """
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from print_data import *
 from all_db_operations import *
-import datetime
+from print_data import *
 
 #Datebase Connection
 connection=MongoClient('localhost',27017)
 db=connection['GEDCOMDB']
 
 def US05_marriageBeforeDeath():
+    userStoryName('US05')
     family=db.family.find({})
     
     marriageDate=0

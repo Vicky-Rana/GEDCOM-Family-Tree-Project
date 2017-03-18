@@ -4,20 +4,11 @@ Developed By : Abhilash Ugaonkar
 User Story: US-39 List Upcoming Anniversary 
 
 """
-from datetime import datetime, timedelta
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 #from collections import counter
-import re
-import sys
-import pymongo
-from pymongo import MongoClient
-from pprint import pprint
-from all_db_operations import *
 from print_data import *
 
 def upcoming_anniversary():
-	
+	userStoryName('US39')
 	return_flag=False
 	results_for_family = get_family()
 	current=datetime.now()
@@ -45,6 +36,5 @@ def upcoming_anniversary():
 	return return_flag
 
 if __name__ == '__main__':
-    
-    b= upcoming_anniversary()
-    
+
+	b= upcoming_anniversary()
