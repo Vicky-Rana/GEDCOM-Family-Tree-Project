@@ -12,6 +12,7 @@ from US05_marriageBeforeDeath import *
 from US06_Divorcebeforedeath import *
 from US07_lessThan150 import *
 from US14_multipleBirthLessThan5 import US14_multipleBirthLessThan5
+from US21_husbandwifegender import *
 from US22_UniqueID import *
 from US23_unique_userName_BirthDate import *
 from US29_listDeceased import US29_listDeceased
@@ -57,6 +58,8 @@ def printPretty(individual, families):
     US07_lessThan150()
     #Call User story 14
     US14_multipleBirthLessThan5()
+    # Call User Story 21
+    husbandwifegender()
     # Call user story 22
     unique_indids()
     unique_famids()
