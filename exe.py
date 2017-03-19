@@ -6,19 +6,23 @@ import argparse
 import os
 
 from US02_birth_date_less_marriage_date import *
+from US35_List_recent_births import *
+from US21_husbandwifegender import *
 from US03_birth_before_death import *
 from US04_Marriagebeforedivorce import *
 from US05_marriageBeforeDeath import *
 from US06_Divorcebeforedeath import *
 from US07_lessThan150 import *
+from US10_Marriage_after_14 import *
+from US12_Parents_not_too_old import *
 from US14_multipleBirthLessThan5 import US14_multipleBirthLessThan5
-from US21_husbandwifegender import *
 from US22_UniqueID import *
 from US23_unique_userName_BirthDate import *
 from US29_listDeceased import US29_listDeceased
 from US30_living_marriages import *
 from US31_above30_single import *
 from US33_listOrphans import US33_listOrphans
+from US35_List_recent_births import *
 from US38_listUpcomingBirthdays import US38_listUpcomingBirthdays
 from US39_upcoming_anniversary import *
 from print_data import *
@@ -43,8 +47,7 @@ def printPretty(individual, families):
     # Print Individual Data
     print(print_individuals())
     print(print_families())
-
-    # Call User Story 02
+    #Print user story 02
     birth_date_less_marriage_date()
     # User Story 03
     birth_before_death()
@@ -56,10 +59,14 @@ def printPretty(individual, families):
     divorcebeforedeath()
     #Call User story 07
     US07_lessThan150()
+    #US10  User story 10
+    Marriage_after_14()
+    # Call User Story 12
+    US12_Parents_not_too_old()
     #Call User story 14
     US14_multipleBirthLessThan5()
     # Call User Story 21
-    husbandwifegender()
+   	husbandwifegender()
     # Call user story 22
     unique_indids()
     unique_famids()
@@ -73,13 +80,13 @@ def printPretty(individual, families):
     more_than_30_unmarried()
     # Call User story 33
     US33_listOrphans()
+    #Call User story 35
+    US35_list_recent_births()
     # Call User story 38
     US38_listUpcomingBirthdays()
-
     # Call User story 39
     upcoming_anniversary()
-
-
+    
 
 def main():
     deleteContent()
