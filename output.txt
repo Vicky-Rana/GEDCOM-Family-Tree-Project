@@ -103,6 +103,7 @@ FAMILY DATA---------------------------------------------------------------------
 +-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------------+
 
 
+US01-Dates Before Current Date------------------------------------------------------------------------------------------------------------------------------------------------------------------
 US02------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US02		Family_ID:@F5@		Message: Age of Wife is 11, Age of Husband is 17, therefore marriage is not valid.
 US03------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -129,6 +130,78 @@ US21----------------------------------------------------------------------------
 US22------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Individual:US22		Individual_ID:@I69@	Message: Individual ID @I69@ , occurs twice ,therefore it is not valid.
 US23------------------------------------------------------------------------------------------------------------------------------------------------------------------
+US27-Include Individual Ages------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	NAME			AGE
+	Jiajaji Ugaonkar		51
+	Anandi Joshi		53
+	Shamrao Patel		65
+	Ram Ugaonkar		90
+	Laxman Ugaonkar		100
+	Laxmi Kulkarni		57
+	Vijay Ugaonkar		63
+	Vijaya Ratnaparkhi		90
+	Nanda Ugaonkar		64
+	Vilas Ugaonkar		59
+	Ajay Ugaonkar		57
+	Pratibha Ugaonkar		60
+	Sunil Ugaonkar		52
+	Priya Rajput		50
+	Sunanda Kale		60
+	Abhay Ugaonkar		53
+	Hema Ugaonkar		57
+	Aru Ugaonkar		62
+	Madhukar Tillu		43
+	Madhukar Tillu		63
+	Mansi Tillu		38
+	Shital Mehendale		38
+	Swara Tillu		6
+	Abhay Ganorkar		39
+	Archit Ganorkar		8
+	Archit Ganorkar		1
+	Archita Ganorkar		0
+	Anjali Alpe		50
+	Abhilash Ugaonkar		25
+	Rohini Padalkar		53
+	Sulbha Pujari		28
+	Naresh Ugaonkar		21
+	Tirumala Ugaonkar		17
+	Raghvendra Anakalgi		59
+	Sagar Anakalgi		29
+	Gayatri Joshi		28
+	Badal Anakalgi		27
+	Akshata Joshi		27
+	Nilima Mulay		57
+	Sujit Ugaonkar		32
+	Radhika Telang		28
+	Aara Ugaonkar		0
+	Aabha Ugaonkar		0
+	Ajinkya Ugaonkar		24
+	Ranganath Alpe		90
+	Sunanda Arlulkar		87
+	Sunita Alpe		47
+	Shekhar Arankalle		49
+	Sharvari Arankalle		12
+	Nilima Alpe		43
+	Narendra Panshikar		47
+	Mrunmai Panshikar		16
+	Vivek Alpe		41
+	Neelkanth Ugaonkar		24
+	Manali Ugaonkar		21
+	Shekhar Ugaonkar		57
+	Aditi Ugaonkar		62
+	Bhargav Ugaonkar		67
+	Aarav Ugaonkar		67
+	Aarush Ugaonkar		67
+	Aayush Ugaonkar		67
+	Advika Ugaonkar		67
+	Shalaka Ugaonkar		28
+	Narayan Ugaonkar		54
+	Saraswati Ugaonkar		54
+	Chirag Ugaonkar		68
+	Yogeshwar Ugaonkar		68
+	Guru Ugaonkar		68
+	Dutta Ugaonkar		68
+	Shane Ugaonkar		67
 US25------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US25		Family_ID:@F12@		Message: First name of some members in this Family is Unique
 	Error:  Family:US25		Family_ID:@F13@		Message: First name of some members in this Family is Unique
@@ -189,9 +262,11 @@ US33- List of Orphan Children---------------------------------------------------
 	@F21@		@I67@			Yogeshwar Ugaonkar
 	@F21@		@I68@			Guru Ugaonkar
 	@F21@		@I69@			Dutta Ugaonkar
+US36-Recent Deaths------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	NAME			DEATH DATE
 US35------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@I42@			Aara       Ugaonkar  		2017-03-18 00:00:00		1
-	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		1
+	@I42@			Aara       Ugaonkar  		2017-03-18 00:00:00		2
+	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		2
 US38------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Individual ID		Name				Birthday
 	@I3@			Shamrao    Patel     		1915-05-15 00:00:00
@@ -247,8 +322,14 @@ US38----------------------------------------------------------------------------
 	@I68@			Guru       Ugaonkar  		1949-12-01 00:00:00
 	@I69@			Dutta      Ugaonkar  		1949-12-01 00:00:00
 	@I69@			Shane      Ugaonkar  		1950-12-06 00:00:00
-US39------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Family:US39		Family_ID:@F3@		Message: Anniversary has passed for@F3@
-	Error:  Family:US39		Family_ID:@F11@		Message: Anniversary has passed for@F11@
-	Error:  Family:US39		Family_ID:@F13@		Message: Anniversary has passed for@F13@
-	Error:  Family:US39		Family_ID:@F18@		Message: Anniversary has passed for@F18@
+US39-List of Upcoming Anniversaries------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	HUSBAND				WIFE				ANNIVERSARY DATE
+	Vijay  Ugaonkar		Nilima Mulay			1987-05-11 00:00:00
+	Shamrao  Patel		Vijaya Ratnaparkhi			1932-08-15 00:00:00
+	Vilas  Ugaonkar		Sulbha Pujari			1985-05-08 00:00:00
+	Vilas  Ugaonkar		Rohini Padalkar			1990-05-17 00:00:00
+	Ajay  Ugaonkar		Anjali Alpe			1991-12-25 00:00:00
+	Raghvendra  Anakalgi		Pratibha Ugaonkar			1988-11-09 00:00:00
+	Madhukar  Tillu		Nanda Ugaonkar			1973-09-10 00:00:00
+	Sujit  Ugaonkar		Radhika Telang			2009-11-22 00:00:00
+	Narendra  Panshikar		Nilima Alpe			2000-07-09 00:00:00

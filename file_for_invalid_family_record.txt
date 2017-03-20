@@ -8,7 +8,3 @@
 	 E r r o r :     F a m i l y : U S 2 5 	 	 F a m i l y _ I D : @ F 1 2 @ 	 	 M e s s a g e :   F i r s t   n a m e   o f   s o m e   m e m b e r s   i n   t h i s   F a m i l y   i s   U n i q u e
 	 E r r o r :     F a m i l y : U S 2 5 	 	 F a m i l y _ I D : @ F 1 3 @ 	 	 M e s s a g e :   F i r s t   n a m e   o f   s o m e   m e m b e r s   i n   t h i s   F a m i l y   i s   U n i q u e
 	 E r r o r :     F a m i l y : U S 3 0 	 	 F a m i l y _ I D : @ F 5 @ 	 	 M e s s a g e :   T h i s   i s   n o   L i v i n g   M a r r i a g e   a s   @ I 3 @   a n d   @ I 8 @   o n e   o f   t h e m   i s   n o t   a l i v e
-	 E r r o r :     F a m i l y : U S 3 9 	 	 F a m i l y _ I D : @ F 3 @ 	 	 M e s s a g e :   A n n i v e r s a r y   h a s   p a s s e d   f o r @ F 3 @
-	 E r r o r :     F a m i l y : U S 3 9 	 	 F a m i l y _ I D : @ F 1 1 @ 	 	 M e s s a g e :   A n n i v e r s a r y   h a s   p a s s e d   f o r @ F 1 1 @
-	 E r r o r :     F a m i l y : U S 3 9 	 	 F a m i l y _ I D : @ F 1 3 @ 	 	 M e s s a g e :   A n n i v e r s a r y   h a s   p a s s e d   f o r @ F 1 3 @
-	 E r r o r :     F a m i l y : U S 3 9 	 	 F a m i l y _ I D : @ F 1 8 @ 	 	 M e s s a g e :   A n n i v e r s a r y   h a s   p a s s e d   f o r @ F 1 8 @
