@@ -6,6 +6,7 @@ import argparse
 import os
 
 from US02_birth_date_less_marriage_date import *
+from US01_dates_before_currentdate import *
 from US03_birth_before_death import *
 from US04_Marriagebeforedivorce import *
 from US05_marriageBeforeDeath import *
@@ -15,12 +16,14 @@ from US14_multipleBirthLessThan5 import US14_multipleBirthLessThan5
 from US21_husbandwifegender import *
 from US22_UniqueID import *
 from US23_unique_userName_BirthDate import *
+from US27_individual_age import *
 from US29_listDeceased import US29_listDeceased
 from US30_living_marriages import *
 from US31_above30_single import *
 from US33_listOrphans import US33_listOrphans
+from US36_List_Recent_Deaths import *
 from US38_listUpcomingBirthdays import US38_listUpcomingBirthdays
-from US39_upcoming_anniversary import *
+from US39_upcoming_anniversary import upcoming_anniversary
 from print_data import *
 from src.gedParser import GEDCOMParser
 
@@ -44,6 +47,9 @@ def printPretty(individual, families):
     print(print_individuals())
     print(print_families())
 
+    # USer 01
+    dates_before_current_date()
+
     # Call User Story 02
     birth_date_less_marriage_date()
     # User Story 03
@@ -65,6 +71,8 @@ def printPretty(individual, families):
     unique_famids()
     # User Story 23
     unique_name_bdate()
+    #Call User story 27
+    individual_age()
     # Call User story 29
     US29_listDeceased()
     # Call User Story 30
@@ -73,9 +81,10 @@ def printPretty(individual, families):
     more_than_30_unmarried()
     # Call User story 33
     US33_listOrphans()
+    #User 36
+    recent_deaths()
     # Call User story 38
     US38_listUpcomingBirthdays()
-
     # Call User story 39
     upcoming_anniversary()
 
