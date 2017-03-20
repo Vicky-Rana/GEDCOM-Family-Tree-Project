@@ -6,8 +6,6 @@ import argparse
 import os
 
 from US02_birth_date_less_marriage_date import *
-from US35_List_recent_births import *
-from US21_husbandwifegender import *
 from US03_birth_before_death import *
 from US04_Marriagebeforedivorce import *
 from US05_marriageBeforeDeath import *
@@ -16,8 +14,11 @@ from US07_lessThan150 import *
 from US10_Marriage_after_14 import *
 from US12_Parents_not_too_old import *
 from US14_multipleBirthLessThan5 import US14_multipleBirthLessThan5
+from US16_MaleLastName import *
+from US21_husbandwifegender import *
 from US22_UniqueID import *
 from US23_unique_userName_BirthDate import *
+from US25_UniqueFirstName import *
 from US29_listDeceased import US29_listDeceased
 from US30_living_marriages import *
 from US31_above30_single import *
@@ -65,13 +66,17 @@ def printPretty(individual, families):
     US12_Parents_not_too_old()
     #Call User story 14
     US14_multipleBirthLessThan5()
+    #Call User Story 16
+    male_last_names()
     # Call User Story 21
-   	husbandwifegender()
+    husbandwifegender()
     # Call user story 22
     unique_indids()
     unique_famids()
     # User Story 23
     unique_name_bdate()
+    #Call User Story 25
+    unique_first_famnames()
     # Call User story 29
     US29_listDeceased()
     # Call User Story 30

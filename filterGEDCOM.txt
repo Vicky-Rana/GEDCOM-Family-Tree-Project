@@ -18,7 +18,7 @@
 2   DATE   None   ['11', 'NOV', '1945']
 1   FAMS   None   ['@F1@']
 0   INDI   @I3@   None
-1   NAME   None   ['Shamrao', '/Ugaonkar/']
+1   NAME   None   ['Shamrao', '/Patel/']
 1   SEX   None   ['M']
 1   BIRT   None   []
 2   DATE   None   ['15', 'MAY', '1915']
@@ -161,7 +161,7 @@
 2   DATE   None   ['11', 'SEP', '1978']
 1   FAMS   None   ['@F13@']
 0   INDI   @I25@   None
-1   NAME   None   ['Arya', '/Ganorkar/']
+1   NAME   None   ['Archit', '/Ganorkar/']
 1   SEX   None   ['M']
 1   BIRT   None   []
 2   DATE   None   ['9', 'MAY', '2009']
@@ -419,6 +419,11 @@
 1   SEX   None   ['M']
 1   BIRT   None   []
 2   DATE   None   ['1', 'DEC', '1949']
+0   INDI   @I69@   None
+1   NAME   None   ['Shane', '/Ugaonkar/']
+1   SEX   None   ['M']
+1   BIRT   None   []
+2   DATE   None   ['6', 'DEC', '1950']
 0   FAM   @F1@   None
 1   HUSB   None   ['@I1@']
 1   WIFE   None   ['@I2@']
