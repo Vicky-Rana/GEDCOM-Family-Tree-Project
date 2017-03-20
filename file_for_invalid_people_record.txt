@@ -1,7 +1,9 @@
 	Error:  Individual:US03		Individual_ID:@I27@	Message: Birth Date is invalid for @I27@ Please validate the birth Date.
+	Error:  Individual:US21		Individual_ID:@I11@	Message: Gender for Husband ID @I11@, is F, therefore Gender is not valid.
+	Error:  Individual:US21		Individual_ID:@I21@	Message: Gender for Wife ID @I21@, is M, therefore Gender is not valid.
+	Error:  Individual:US22		Individual_ID:@I69@	Message: Individual ID @I69@ , occurs twice ,therefore it is not valid.
 	Error:  Individual:US31		Individual_ID:@I58@	Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I66@	Message: age is 68 not married yet.
-	Error:  Individual:US31		Individual_ID:@I63@	Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I62@	Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I17@	Message: age is 57 not married yet.
 	Error:  Individual:US31		Individual_ID:@I60@	Message: age is 67 not married yet.
@@ -12,3 +14,4 @@
 	Error:  Individual:US31		Individual_ID:@I61@	Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I53@	Message: age is 41 not married yet.
 	Error:  Individual:US31		Individual_ID:@I69@	Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I69@	Message: age is 67 not married yet.
