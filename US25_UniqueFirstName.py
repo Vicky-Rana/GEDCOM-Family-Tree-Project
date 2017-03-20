@@ -26,10 +26,10 @@ def unique_first_famnames():
 
     for family in families:
         males = []
-        if 'HUSBAND' in family or 'CHILDREN' in family:
+        if 'HUSBAND' in family or 'WIFE' in family or 'CHILDREN' in family:
             #print(family['FAMID'])
             males.append(getPeopleById(family['HUSBAND'])['NAME'])
-            #males.append(getPeopleById(family['WIFE'])['NAME'])
+            males.append(getPeopleById(family['WIFE'])['NAME'])
             
             if 'CHILDREN' in family:
                 for child in family['CHILDREN']:
