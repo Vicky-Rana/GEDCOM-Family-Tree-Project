@@ -5,9 +5,9 @@
 1   NAME   None   ['Jiajaji', '/Ugaonkar/']
 1   SEX   None   ['M']
 1   BIRT   None   []
-2   DATE   None   ['6', 'FEB', '1890']
+2   DATE   None   ['6', 'FEB', '1800']
 1   DEAT   None   ['Y']
-2   DATE   None   ['15', 'FEB', '1941']
+2   DATE   None   ['15', 'FEB', '1953']
 1   FAMS   None   ['@F1@']
 0   INDI   @I2@   None
 1   NAME   None   ['Anandi', '/Joshi/']
@@ -382,7 +382,7 @@
 1   NAME   None   ['Shalaka', '/Ugaonkar/']
 1   SEX   None   ['F']
 1   BIRT   None   []
-2   DATE   None   ['1', 'JAN', '1989']
+2   DATE   None   ['1', 'JAN', '1950']
 0   INDI   @I64@   None
 1   NAME   None   ['Narayan', '/Ugaonkar/']
 1   SEX   None   ['M']
