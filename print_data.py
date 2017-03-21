@@ -29,7 +29,7 @@ def save_invalid_family_for_print (id, user_story, message):
 	file_for_invalid_family_record = open('file_for_invalid_family_record.txt', 'a')
 	message_for_family = "\tError:  Family:" + user_story + "\t\tFamily_ID:" + id + '\t\tMessage: ' + message
 	output(message_for_family)
-    file_for_invalid_family_record.write(str(message_for_family) + '\n')
+	file_for_invalid_family_record.write(str(message_for_family) + '\n')
 
 def print_individuals():
 	person_detail.field_names = ["ID", "Name", "Gender","Birthday","Age","Alive","Death","Child","Spouse"]
