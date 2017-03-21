@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="350cd64c-99e2-4e79-af50-4a68bba70d93" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/US07_lessThan150.py" afterPath="$PROJECT_DIR$/US07_lessThan150.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/US10_Marriage_after_14.py" afterPath="$PROJECT_DIR$/US10_Marriage_after_14.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/US12_Parents_not_too_old.py" afterPath="$PROJECT_DIR$/US12_Parents_not_too_old.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/US14_multipleBirthLessThan5.py" afterPath="$PROJECT_DIR$/US14_multipleBirthLessThan5.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file_for_invalid_family_record.txt" afterPath="$PROJECT_DIR$/file_for_invalid_family_record.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file_for_invalid_people_record.txt" afterPath="$PROJECT_DIR$/file_for_invalid_people_record.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filterGEDCOM.txt" afterPath="$PROJECT_DIR$/filterGEDCOM.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gedcom_files/myTree.ged" afterPath="$PROJECT_DIR$/gedcom_files/myTree.ged" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print_data.py" afterPath="$PROJECT_DIR$/print_data.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,6 +60,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="anuragpatil94 &lt;aspanurag@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -530,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489368579081</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made changes to gedcom anf final output">
+      <created>1490120677907</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1490120677907</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -599,7 +601,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Print to Output file" />
     <MESSAGE value="Output file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Output file" />
+    <MESSAGE value="made changes to gedcom anf final output" />
+    <option name="LAST_COMMIT_MESSAGE" value="made changes to gedcom anf final output" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -801,6 +804,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,6 +812,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,6 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -822,6 +828,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="24" column="151" lean-forward="false" selection-start-line="24" selection-start-column="151" selection-end-line="24" selection-end-column="151" />
+          <folding />
         </state>
       </provider>
     </entry>
