@@ -18,10 +18,9 @@ def dates_before_current_date():
 		if "birthday" in res:
 			birthday= datetime.strptime(res["birthday"],"%Y-%m-%d %H:%M:%S")
 			
-			if (current.month-birthday.year == 0 ):
+			if (current.year-birthday.year == 0 ):
 				if(current.month-birthday.month ==0):
 					if(current.day-birthday.day >  0):
-					 	print(" not oK bdy")
 					 	message="Error!!! ...Birth Date is not before Current Date "
 					 	save_invalid_people_for_print(res["ID"], "US01", message)
 				
@@ -44,5 +43,3 @@ def dates_before_current_date():
 						message="Error!!! ...Divorce Date is not before Current Date "
 						save_invalid_family_for_print(res["FAMID"], "US01", message)
 			
-if __name__ == '__main__':
-	 dates_before_current_date()
