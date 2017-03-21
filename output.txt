@@ -2,7 +2,7 @@ INDIVIDUAL DATA-----------------------------------------------------------------
 +-------+---------------------+--------+---------------------+-----+-------+---------------------+--------------------------------------------------------------+--------+
 |   ID  |         Name        | Gender |       Birthday      | Age | Alive |        Death        |                            Child                             | Spouse |
 +-------+---------------------+--------+---------------------+-----+-------+---------------------+--------------------------------------------------------------+--------+
-|  @I1@ |   Jiajaji Ugaonkar  |   M    | 1890-02-06 00:00:00 |  51 | False | 1941-02-15 00:00:00 |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |  @I1@  |
+|  @I1@ |   Jiajaji Ugaonkar  |   M    | 1800-02-06 00:00:00 | 153 | False | 1953-02-15 00:00:00 |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |  @I1@  |
 |  @I2@ |     Anandi Joshi    |   F    | 1892-02-06 00:00:00 |  53 | False | 1945-11-11 00:00:00 |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |  @I1@  |
 |  @I3@ |    Shamrao Patel    |   M    | 1915-05-15 00:00:00 |  65 | False | 1980-08-12 00:00:00 |  [u'@I7@', u'@I9@', u'@I10@', u'@I11@', u'@I12@', u'@I13@']  |  @I3@  |
 |  @I4@ |     Ram Ugaonkar    |   M    | 1919-05-15 00:00:00 |  90 | False | 2009-05-16 00:00:00 |                              NA                              |   NA   |
@@ -64,7 +64,7 @@ INDIVIDUAL DATA-----------------------------------------------------------------
 | @I60@ |   Aarush Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
 | @I61@ |   Aayush Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
 | @I62@ |   Advika Ugaonkar   |   F    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-| @I63@ |   Shalaka Ugaonkar  |   F    | 1989-01-01 00:00:00 |  28 |  True |          NA         |                              NA                              |   NA   |
+| @I63@ |   Shalaka Ugaonkar  |   F    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
 | @I64@ |   Narayan Ugaonkar  |   M    | 1922-05-06 00:00:00 |  54 | False | 1976-08-02 00:00:00 |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           | @I64@  |
 | @I65@ |  Saraswati Ugaonkar |   F    | 1922-02-06 00:00:00 |  54 | False | 1976-08-02 00:00:00 |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           | @I64@  |
 | @I66@ |   Chirag Ugaonkar   |   M    | 1949-12-01 00:00:00 |  68 |  True |          NA         |                              NA                              |   NA   |
@@ -116,11 +116,17 @@ US05----------------------------------------------------------------------------
 US06------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US06		Family_ID:@F6@		Message: Divorced date 1989-04-01 00:00:00, After Wife id @I31@ Death on 1988-11-13 00:00:00, therefore Divorce is not valid.
 US07------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Error:  Individual:US07		Individual_ID:@I1@	Message: Person with @I1@has age greater than 150
 US10------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@F5@			@I8@       @I3@      		Wife age at the marriage was 11		Husband age at the marriage was 17
+	Error:  Family:US10		Family_ID:@F5@		Message: WIFE: @I8@ Wife age at the marriage was 11  HUSBAND: @I3@ Husband age at the marriage was 17
 US12------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@F20@			@I57@      @I56@     		difference between mother and children age 62		difference between father and children age 65
+	Error:  Family:US12		Family_ID:@F1@		Message: WIFE: @I2@ difference between mother and children age 24  HUSBAND: @I1@ difference between father and children age 116
+	Error:  Family:US12		Family_ID:@F1@		Message: WIFE: @I2@ difference between mother and children age 28  HUSBAND: @I1@ difference between father and children age 120
+	Error:  Family:US12		Family_ID:@F1@		Message: WIFE: @I2@ difference between mother and children age 26  HUSBAND: @I1@ difference between father and children age 118
+	Error:  Family:US12		Family_ID:@F1@		Message: WIFE: @I2@ difference between mother and children age 32  HUSBAND: @I1@ difference between father and children age 124
+	Error:  Family:US12		Family_ID:@F1@		Message: WIFE: @I2@ difference between mother and children age 31  HUSBAND: @I1@ difference between father and children age 123
 US14------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Error:  Family:US14		Family_ID:@F20@		Message: More Than 5 Children born on same day/same time in this family
 US16------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US16		Family_ID:@F1@		Message: Last names of all the males in this Family is not Unique
 	Error:  Family:US16		Family_ID:@F5@		Message: Last names of all the males in this Family is not Unique
@@ -132,7 +138,7 @@ US22----------------------------------------------------------------------------
 US23------------------------------------------------------------------------------------------------------------------------------------------------------------------
 US27-Include Individual Ages------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	NAME			AGE
-	Jiajaji Ugaonkar		51
+	Jiajaji Ugaonkar		153
 	Anandi Joshi		53
 	Shamrao Patel		65
 	Ram Ugaonkar		90
@@ -194,7 +200,7 @@ US27-Include Individual Ages----------------------------------------------------
 	Aarush Ugaonkar		67
 	Aayush Ugaonkar		67
 	Advika Ugaonkar		67
-	Shalaka Ugaonkar		28
+	Shalaka Ugaonkar		67
 	Narayan Ugaonkar		54
 	Saraswati Ugaonkar		54
 	Chirag Ugaonkar		68
@@ -207,7 +213,7 @@ US25----------------------------------------------------------------------------
 	Error:  Family:US25		Family_ID:@F13@		Message: First name of some members in this Family is Unique
 US29 - List of Deceased People------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	People ID		Name    		Death Date
-	@I1@		Jiajaji Ugaonkar    		1941-02-15
+	@I1@		Jiajaji Ugaonkar    		1953-02-15
 	@I2@		Anandi Joshi    		1945-11-11
 	@I3@		Shamrao Patel    		1980-08-12
 	@I4@		Ram Ugaonkar    		2009-05-16
@@ -228,6 +234,7 @@ US30----------------------------------------------------------------------------
 US31------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Individual:US31		Individual_ID:@I58@	Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I66@	Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I63@	Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I62@	Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I17@	Message: age is 57 not married yet.
 	Error:  Individual:US31		Individual_ID:@I60@	Message: age is 67 not married yet.
@@ -265,8 +272,8 @@ US33- List of Orphan Children---------------------------------------------------
 US36-Recent Deaths------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	NAME			DEATH DATE
 US35------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@I42@			Aara       Ugaonkar  		2017-03-18 00:00:00		2
-	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		2
+	@I42@			Aara       Ugaonkar  		2017-03-18 00:00:00		3
+	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		3
 US38------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Individual ID		Name				Birthday
 	@I3@			Shamrao    Patel     		1915-05-15 00:00:00

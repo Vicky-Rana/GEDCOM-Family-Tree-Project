@@ -18,9 +18,9 @@
 2 _MARNM Ugaonkar
 1 SEX M
 1 BIRT
-2 DATE 6 FEB 1890
+2 DATE 6 FEB 1800
 1 DEAT Y
-2 DATE 15 FEB 1941
+2 DATE 15 FEB 1953
 1 FAMS @F1@
 0 @I2@ INDI
 1 NAME Anandi /Joshi/
@@ -260,7 +260,7 @@
 1 FAMS @F13@
 0 @I25@ INDI
 1 NAME Archit /Ganorkar/
-2 GIVN Arya
+2 GIVN Archit
 2 SURN Ganorkar
 2 _MARNM Ganorkar
 1 SEX M
@@ -623,7 +623,7 @@
 2 _MARNM Ugaonkar
 1 SEX F
 1 BIRT
-2 DATE 1 JAN 1989
+2 DATE 1 JAN 1950
 1 FAMC @F20@
 0 @I64@ INDI
 1 NAME Narayan /Ugaonkar/

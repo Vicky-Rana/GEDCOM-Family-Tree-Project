@@ -1,4 +1,3 @@
-from all_db_operations import *
 from print_data import *
 
 connection = MongoClient('localhost', 27017)
@@ -18,8 +17,9 @@ def US12_Parents_not_too_old():
 				if(((age_of_mother - child_age) >= 60) or ((age_of_father - child_age) >= 80)):
 					age_differnece_with_mother = "difference between mother and children age " + str(age_of_mother - child_age)
 					age_differnece_with_father = "difference between father and children age " + str(age_of_father - child_age)
-					output('\t' + doc["FAMID"] + '\t\t\t%-10s' % doc["WIFE"] + " %-10s" % doc["HUSBAND"] + '\t\t' + age_differnece_with_mother + '\t\t' + age_differnece_with_father)
-			
+                    save_invalid_family_for_print(doc["FAMID"], "US12", "WIFE: " + doc[
+                        "WIFE"] + ' ' + age_differnece_with_mother + "  HUSBAND: " +
+                                                  doc["HUSBAND"] + ' ' + age_differnece_with_father)
 
 
 
