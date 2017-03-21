@@ -31,3 +31,14 @@ Throught the semester we will implement many changes as user stories in the soft
 * US35	List recent births	            KT
 * US16	Male last names	                VR
 * US25	Unique first names in families	VR
+
+
+
+
+##SPRINT 3
+* US09	Birth before death of parents	KT
+* US18	Siblings should not marry	    VR
+* US32	List multiple births	        AU
+* US42	Reject illegitimate dates	    AP
+
+

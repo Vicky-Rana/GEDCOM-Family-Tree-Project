@@ -20,8 +20,8 @@ def Marriage_after_14():
                     wbd = datetime.strptime(doc1["birthday"],"%Y-%m-%d %H:%M:%S")
                     wife_age = marriage_date.year - wbd.year
                 if wife_age < 14 or husband_age < 14:
-                    wife_marriage_string = "Wife age at the marriage was "+ str(wife_age)
-                    husband_marriage_string = "Husband age at the marriage was "+ str(husband_age)
-                    save_invalid_family_for_print(res["FAMID"], "US10",
-                                                  "WIFE: " + res["WIFE"] + ' ' + wife_marriage_string + "  HUSBAND: " +
-                                                  res["HUSBAND"] + ' ' + husband_marriage_string)
+                    #wife_marriage_string = "Wife age at the marriage was "+ str(wife_age)
+                    #husband_marriage_string = "Husband age at the marriage was "+ str(husband_age)
+                    #output('\t' + res["FAMID"] + '\t\t\t%-10s' % res["WIFE"] + " %-10s" % res["HUSBAND"] + '\t\t' + wife_marriage_string + '\t\t' + husband_marriage_string)
+                    message = "Wife age at the marriage was "+str(wife_age)+" and Husband age at the marriage was "+str(husband_age)+"."
+                    save_invalid_family_for_print(res["FAMID"], "US10", message)
