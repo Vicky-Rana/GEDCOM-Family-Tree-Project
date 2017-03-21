@@ -19,6 +19,7 @@ def US12_Parents_not_too_old():
 					age_differnece_with_mother = "difference between mother and children age " + str(age_of_mother - child_age)
 					age_differnece_with_father = "difference between father and children age " + str(age_of_father - child_age)
 					output('\t' + doc["FAMID"] + '\t\t\t%-10s' % doc["WIFE"] + " %-10s" % doc["HUSBAND"] + '\t\t' + age_differnece_with_mother + '\t\t' + age_differnece_with_father)
+                   
 			
 
 
