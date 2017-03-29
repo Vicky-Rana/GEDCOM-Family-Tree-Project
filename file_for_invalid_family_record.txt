@@ -8,6 +8,7 @@
 	Error:  Family:US14		Family_ID:@F20@		Message: More Than 5 Children born on same day/same time in this family
 	Error:  Family:US16		Family_ID:@F1@		Message: Last names of all the males in this Family is not Unique
 	Error:  Family:US16		Family_ID:@F5@		Message: Last names of all the males in this Family is not Unique
+	Error:  Family:US18		Family_ID:@F22@		Message: Sibling is married to another sibling
 	Error:  Family:US25		Family_ID:@F12@		Message: First name of some members in this Family is Unique
 	Error:  Family:US25		Family_ID:@F13@		Message: First name of some members in this Family is Unique
 	Error:  Family:US25		Family_ID:@F17@		Message: First name of some members in this Family is Unique

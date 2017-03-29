@@ -564,4 +564,7 @@
 1   CHIL   None   ['@I67@']
 1   CHIL   None   ['@I68@']
 1   CHIL   None   ['@I69@']
+0   FAM   @F22@   None
+1   HUSB   None   ['@I61@']
+1   WIFE   None   ['@I63@']
 0   TRLR   None   None

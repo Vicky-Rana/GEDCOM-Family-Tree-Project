@@ -16,6 +16,7 @@ from US10_Marriage_after_14 import *
 from US12_Parents_not_too_old import *
 from US14_multipleBirthLessThan5 import US14_multipleBirthLessThan5
 from US16_MaleLastName import *
+from US18_SiblingsnotMarry import *
 from US21_husbandwifegender import *
 from US22_UniqueID import *
 from US23_unique_userName_BirthDate import *
@@ -75,6 +76,8 @@ def printPretty(individual, families):
     US14_multipleBirthLessThan5()
     #Call User Story 16
     male_last_names()
+    #Call User Story 18
+    siblingsnotmarry()
     # Call User Story 21
     husbandwifegender()
     # Call user story 22

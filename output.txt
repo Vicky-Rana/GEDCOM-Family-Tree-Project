@@ -100,6 +100,7 @@ FAMILY DATA---------------------------------------------------------------------
 | @F19@ | 2000-07-09 00:00:00 |          NA         |   @I51@    |  Narendra Panshikar |  @I50@  |    Nilima Alpe     |                          [u'@I52@']                          |
 | @F20@ |          NA         |          NA         |   @I56@    |   Shekhar Ugaonkar  |  @I57@  |   Aditi Ugaonkar   | [u'@I58@', u'@I59@', u'@I60@', u'@I61@', u'@I62@', u'@I63@'] |
 | @F21@ |          NA         |          NA         |   @I64@    |   Narayan Ugaonkar  |  @I65@  | Saraswati Ugaonkar |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           |
+| @F22@ |          NA         |          NA         |   @I61@    |   Aayush Ugaonkar   |  @I63@  |  Shalaka Ugaonkar  |                              NA                              |
 +-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------------+
 
 
@@ -133,6 +134,8 @@ US14----------------------------------------------------------------------------
 US16------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US16		Family_ID:@F1@		Message: Last names of all the males in this Family is not Unique
 	Error:  Family:US16		Family_ID:@F5@		Message: Last names of all the males in this Family is not Unique
+US18------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Error:  Family:US18		Family_ID:@F22@		Message: Sibling is married to another sibling
 US21------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Individual:US21		Individual_ID:@I11@		Message: Gender for Husband ID @I11@, is F, therefore Gender is not valid.
 	Error:  Individual:US21		Individual_ID:@I21@		Message: Gender for Wife ID @I21@, is M, therefore Gender is not valid.
@@ -238,7 +241,6 @@ US30----------------------------------------------------------------------------
 US31------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Individual:US31		Individual_ID:@I58@		Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I66@		Message: age is 68 not married yet.
-	Error:  Individual:US31		Individual_ID:@I63@		Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I62@		Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I17@		Message: age is 57 not married yet.
 	Error:  Individual:US31		Individual_ID:@I60@		Message: age is 67 not married yet.
@@ -246,7 +248,6 @@ US31----------------------------------------------------------------------------
 	Error:  Individual:US31		Individual_ID:@I67@		Message: age is 68 not married yet.
 	Error:  Individual:US31		Individual_ID:@I18@		Message: age is 62 not married yet.
 	Error:  Individual:US31		Individual_ID:@I59@		Message: age is 67 not married yet.
-	Error:  Individual:US31		Individual_ID:@I61@		Message: age is 67 not married yet.
 	Error:  Individual:US31		Individual_ID:@I53@		Message: age is 41 not married yet.
 	Error:  Individual:US31		Individual_ID:@I69@		Message: age is 68 not married yet.
 	Error:  Individual:US31		Individual_ID:@I69@		Message: age is 67 not married yet.
@@ -276,8 +277,8 @@ US33- List of Orphan Children---------------------------------------------------
 US36-Recent Deaths------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	NAME			DEATH DATE
 US35------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@I42@			Aabha      Ugaonkar  		2017-03-18 00:00:00		10
-	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		10
+	@I42@			Aabha      Ugaonkar  		2017-03-18 00:00:00		11
+	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		11
 US38------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Individual ID		Name				Birthday
 	@I3@			Shamrao    Patel     		1915-05-15 00:00:00
