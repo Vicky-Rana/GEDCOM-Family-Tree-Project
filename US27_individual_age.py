@@ -13,9 +13,9 @@ def individual_age():
 	results_for_people = get_people()
 	output('\t' + 'NAME' + '\t\t\t'+ 'AGE')
 	for res in results_for_people:
-		if "birthday" in res:
+		if "birthday" in res and res["birthday"] is not None:
 			hbd = datetime.strptime(res["birthday"],"%Y-%m-%d %H:%M:%S")
-			if "deathDate" in res:
+			if "deathDate" in res and res["deathDate"] is not None:
 				deathDate = datetime.strptime(res["deathDate"],"%Y-%m-%d %H:%M:%S")
 				age_of_person = deathDate.year - hbd.year
 				name=res["NAME"][0].strip("/") + ' ' + res["NAME"][1].strip("/")

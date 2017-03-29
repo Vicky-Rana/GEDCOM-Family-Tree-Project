@@ -22,7 +22,7 @@ def upcoming_anniversary():
 	
 	for res in results_for_family: 
 			
-		if "marriage" in res:
+		if "marriage" in res and res["marriage"] is not None:
 			anniversary= datetime.strptime(res["marriage"],"%Y-%m-%d %H:%M:%S")
 			if (anniversary.month- current.month   > 0 ):
 				return_flag=True

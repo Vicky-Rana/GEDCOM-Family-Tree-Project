@@ -15,7 +15,7 @@ def living_marriages():
 		wife_age = 0
 		husband_age = 0
 		
-		if "marriage" in res:
+		if "marriage" in res and res["marriage"] is not None:
 			marriage_date = datetime.strptime(res["marriage"],"%Y-%m-%d %H:%M:%S")
 			if "HUSBAND" in res and "WIFE" in res: 
 				result_for_husband = get_person_details(res["HUSBAND"])

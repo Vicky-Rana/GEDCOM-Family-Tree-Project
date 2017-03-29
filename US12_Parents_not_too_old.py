@@ -27,7 +27,7 @@ def US12_Parents_not_too_old():
 def age_of_person(person):
 	person_details = get_person_details(person)
 	for doc1 in person_details:
-		if "birthday" in doc1:
+		if "birthday" in doc1 and doc1["birthday"] is not None:
 			delta = datetime.date(datetime.now()) - datetime.date(datetime.strptime(doc1["birthday"],"%Y-%m-%d %H:%M:%S"))
 			return int(delta.days/365.25)
 		else:

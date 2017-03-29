@@ -16,7 +16,7 @@ def US07_lessThan150():
 	ageGreaterThan150=[]
 	for res in results: 
 		
-		if "deathDate" in res  and "birthday" in res:
+		if "deathDate" in res  and "birthday" in res and res["deathDate"] is not None and res["birthday"] is not None:
 			
 			death_date= datetime.strptime(res["deathDate"],"%Y-%m-%d %H:%M:%S")
 			birthday= datetime.strptime(res["birthday"],"%Y-%m-%d %H:%M:%S")

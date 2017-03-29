@@ -1,126 +1,127 @@
 INDIVIDUAL DATA------------------------------------------------------------------------------------------------------------------------------------------------------------------
-+-------+---------------------+--------+---------------------+-----+-------+---------------------+--------------------------------------------------------------+--------+
-|   ID  |         Name        | Gender |       Birthday      | Age | Alive |        Death        |                            Child                             | Spouse |
-+-------+---------------------+--------+---------------------+-----+-------+---------------------+--------------------------------------------------------------+--------+
-|  @I1@ |   Jiajaji Ugaonkar  |   M    | 1800-02-06 00:00:00 | 153 | False | 1953-02-15 00:00:00 |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |  @I1@  |
-|  @I2@ |     Anandi Joshi    |   F    | 1892-02-06 00:00:00 |  53 | False | 1945-11-11 00:00:00 |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |  @I1@  |
-|  @I3@ |    Shamrao Patel    |   M    | 1915-05-15 00:00:00 |  65 | False | 1980-08-12 00:00:00 |  [u'@I7@', u'@I9@', u'@I10@', u'@I11@', u'@I12@', u'@I13@']  |  @I3@  |
-|  @I4@ |     Ram Ugaonkar    |   M    | 1919-05-15 00:00:00 |  90 | False | 2009-05-16 00:00:00 |                              NA                              |   NA   |
-|  @I5@ |   Laxman Ugaonkar   |   M    | 1917-05-15 00:00:00 | 100 |  True |          NA         |                [u'@I16@', u'@I17@', u'@I18@']                |  @I5@  |
-|  @I6@ |    Laxmi Kulkarni   |   F    | 1918-06-15 00:00:00 |  57 | False | 1975-08-08 00:00:00 |                [u'@I16@', u'@I17@', u'@I18@']                |  @I5@  |
-|  @I7@ |    Vijay Ugaonkar   |   M    | 1954-09-15 00:00:00 |  63 |  True |          NA         |                     [u'@I40@', u'@I44@']                     |  @I7@  |
-|  @I8@ |  Vijaya Ratnaparkhi |   F    | 1921-07-30 00:00:00 |  90 | False | 2011-01-01 00:00:00 |  [u'@I7@', u'@I9@', u'@I10@', u'@I11@', u'@I12@', u'@I13@']  |  @I3@  |
-|  @I9@ |    Nanda Ugaonkar   |   F    | 1953-09-01 00:00:00 |  64 |  True |          NA         |                     [u'@I19@', u'@I21@']                     | @I20@  |
-| @I10@ |    Vilas Ugaonkar   |   M    | 1958-09-13 00:00:00 |  59 |  True |          NA         |                     [u'@I32@', u'@I33@']                     | @I10@  |
-| @I11@ |    Ajay Ugaonkar    |   F    | 1960-08-30 00:00:00 |  57 |  True |          NA         |                          [u'@I29@']                          | @I11@  |
-| @I12@ |  Pratibha Ugaonkar  |   F    | 1957-10-13 00:00:00 |  60 |  True |          NA         |                     [u'@I35@', u'@I37@']                     | @I34@  |
-| @I13@ |    Sunil Ugaonkar   |   M    | 1962-05-21 00:00:00 |  52 | False | 2014-07-29 00:00:00 |                              NA                              | @I13@  |
-| @I14@ |     Priya Rajput    |   F    | 1967-03-24 00:00:00 |  50 |  True |          NA         |                              NA                              | @I13@  |
-| @I15@ |     Sunanda Kale    |   F    | 1920-06-09 00:00:00 |  60 | False | 1980-06-15 00:00:00 |                              NA                              |  @I5@  |
-| @I16@ |    Abhay Ugaonkar   |   M    | 1963-06-13 00:00:00 |  53 | False | 2016-03-12 00:00:00 |                              NA                              |   NA   |
-| @I17@ |    Hema Ugaonkar    |   F    | 1960-08-30 00:00:00 |  57 |  True |          NA         |                              NA                              |   NA   |
-| @I18@ |     Aru Ugaonkar    |   F    | 1955-09-17 00:00:00 |  62 |  True |          NA         |                              NA                              |   NA   |
-| @I19@ |    Madhukar Tillu   |   M    | 1974-08-17 00:00:00 |  43 |  True |          NA         |                          [u'@I23@']                          | @I19@  |
-| @I20@ |    Madhukar Tillu   |   M    | 1954-03-07 00:00:00 |  63 |  True |          NA         |                     [u'@I19@', u'@I21@']                     | @I20@  |
-| @I21@ |     Mansi Tillu     |   M    | 1979-11-13 00:00:00 |  38 |  True |          NA         |                [u'@I25@', u'@I26@', u'@I27@']                | @I24@  |
-| @I22@ |   Shital Mehendale  |   F    | 1979-10-10 00:00:00 |  38 |  True |          NA         |                          [u'@I23@']                          | @I19@  |
-| @I23@ |     Swara Tillu     |   F    | 2011-11-10 00:00:00 |  6  |  True |          NA         |                              NA                              |   NA   |
-| @I24@ |    Abhay Ganorkar   |   M    | 1978-09-11 00:00:00 |  39 |  True |          NA         |                [u'@I25@', u'@I26@', u'@I27@']                | @I24@  |
-| @I25@ |   Archit Ganorkar   |   M    | 2009-05-09 00:00:00 |  8  |  True |          NA         |                              NA                              |   NA   |
-| @I26@ |   Archit Ganorkar   |   M    | 2016-11-15 00:00:00 |  1  |  True |          NA         |                              NA                              |   NA   |
-| @I27@ |   Archita Ganorkar  |   F    | 2010-09-07 00:00:00 |  0  | False | 2010-09-07 00:00:00 |                              NA                              |   NA   |
-| @I28@ |     Anjali Alpe     |   F    | 1967-11-17 00:00:00 |  50 |  True |          NA         |                          [u'@I29@']                          | @I11@  |
-| @I29@ |  Abhilash Ugaonkar  |   M    | 1992-10-04 00:00:00 |  25 |  True |          NA         |                              NA                              |   NA   |
-| @I30@ |   Rohini Padalkar   |   F    | 1964-05-28 00:00:00 |  53 |  True |          NA         |                     [u'@I32@', u'@I33@']                     | @I10@  |
-| @I31@ |    Sulbha Pujari    |   F    | 1960-09-15 00:00:00 |  28 | False | 1988-11-13 00:00:00 |                     [u'@I54@', u'@I55@']                     | @I10@  |
-| @I32@ |   Naresh Ugaonkar   |   M    | 1996-07-09 00:00:00 |  21 |  True |          NA         |                              NA                              |   NA   |
-| @I33@ |  Tirumala Ugaonkar  |   F    | 2000-04-17 00:00:00 |  17 |  True |          NA         |                              NA                              |   NA   |
-| @I34@ | Raghvendra Anakalgi |   M    | 1958-06-14 00:00:00 |  59 |  True |          NA         |                     [u'@I35@', u'@I37@']                     | @I34@  |
-| @I35@ |    Sagar Anakalgi   |   M    | 1985-08-26 00:00:00 |  29 | False | 2014-12-18 00:00:00 |                              NA                              | @I35@  |
-| @I36@ |    Gayatri Joshi    |   F    | 1989-08-16 00:00:00 |  28 |  True |          NA         |                              NA                              | @I35@  |
-| @I37@ |    Badal Anakalgi   |   M    | 1990-10-30 00:00:00 |  27 |  True |          NA         |                              NA                              | @I37@  |
-| @I38@ |    Akshata Joshi    |   F    | 1990-04-12 00:00:00 |  27 |  True |          NA         |                              NA                              | @I37@  |
-| @I39@ |     Nilima Mulay    |   F    | 1960-11-11 00:00:00 |  57 |  True |          NA         |                     [u'@I40@', u'@I44@']                     |  @I7@  |
-| @I40@ |    Sujit Ugaonkar   |   M    | 1985-07-19 00:00:00 |  32 |  True |          NA         |                     [u'@I42@', u'@I43@']                     | @I40@  |
-| @I41@ |    Radhika Telang   |   F    | 1989-09-28 00:00:00 |  28 |  True |          NA         |                     [u'@I42@', u'@I43@']                     | @I40@  |
-| @I42@ |    Aara Ugaonkar    |   F    | 2017-03-18 00:00:00 |  0  |  True |          NA         |                              NA                              |   NA   |
-| @I43@ |    Aabha Ugaonkar   |   F    | 2017-03-18 00:00:00 |  0  |  True |          NA         |                              NA                              |   NA   |
-| @I44@ |   Ajinkya Ugaonkar  |   NA   | 1993-03-17 00:00:00 |  24 |  True |          NA         |                              NA                              |   NA   |
-| @I45@ |    Ranganath Alpe   |   M    | 1927-01-01 00:00:00 |  90 |  True |          NA         |           [u'@I28@', u'@I47@', u'@I50@', u'@I53@']           | @I45@  |
-| @I46@ |   Sunanda Arlulkar  |   F    | 1930-05-01 00:00:00 |  87 |  True |          NA         |           [u'@I28@', u'@I47@', u'@I50@', u'@I53@']           | @I45@  |
-| @I47@ |     Sunita Alpe     |   F    | 1970-04-21 00:00:00 |  47 |  True |          NA         |                          [u'@I49@']                          | @I48@  |
-| @I48@ |  Shekhar Arankalle  |   M    | 1968-02-17 00:00:00 |  49 |  True |          NA         |                          [u'@I49@']                          | @I48@  |
-| @I49@ |  Sharvari Arankalle |   F    | 2005-08-07 00:00:00 |  12 |  True |          NA         |                              NA                              |   NA   |
-| @I50@ |     Nilima Alpe     |   F    | 1974-04-28 00:00:00 |  43 |  True |          NA         |                          [u'@I52@']                          | @I51@  |
-| @I51@ |  Narendra Panshikar |   M    | 1970-04-26 00:00:00 |  47 |  True |          NA         |                          [u'@I52@']                          | @I51@  |
-| @I52@ |  Mrunmai Panshikar  |   F    | 2001-04-24 00:00:00 |  16 |  True |          NA         |                              NA                              |   NA   |
-| @I53@ |      Vivek Alpe     |   M    | 1976-01-21 00:00:00 |  41 |  True |          NA         |                              NA                              |   NA   |
-| @I54@ |  Neelkanth Ugaonkar |   M    | 1993-06-15 00:00:00 |  24 |  True |          NA         |                              NA                              |   NA   |
-| @I55@ |   Manali Ugaonkar   |   F    | 1996-09-17 00:00:00 |  21 |  True |          NA         |                              NA                              |   NA   |
-| @I56@ |   Shekhar Ugaonkar  |   M    | 1923-08-05 00:00:00 |  57 | False | 1980-06-10 00:00:00 | [u'@I58@', u'@I59@', u'@I60@', u'@I61@', u'@I62@', u'@I63@'] | @I56@  |
-| @I57@ |    Aditi Ugaonkar   |   F    | 1926-07-05 00:00:00 |  62 | False | 1988-04-03 00:00:00 | [u'@I58@', u'@I59@', u'@I60@', u'@I61@', u'@I62@', u'@I63@'] | @I56@  |
-| @I58@ |   Bhargav Ugaonkar  |   M    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-| @I59@ |    Aarav Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-| @I60@ |   Aarush Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-| @I61@ |   Aayush Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-| @I62@ |   Advika Ugaonkar   |   F    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-| @I63@ |   Shalaka Ugaonkar  |   F    | 1950-01-01 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-| @I64@ |   Narayan Ugaonkar  |   M    | 1922-05-06 00:00:00 |  54 | False | 1976-08-02 00:00:00 |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           | @I64@  |
-| @I65@ |  Saraswati Ugaonkar |   F    | 1922-02-06 00:00:00 |  54 | False | 1976-08-02 00:00:00 |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           | @I64@  |
-| @I66@ |   Chirag Ugaonkar   |   M    | 1949-12-01 00:00:00 |  68 |  True |          NA         |                              NA                              |   NA   |
-| @I67@ |  Yogeshwar Ugaonkar |   M    | 1949-12-01 00:00:00 |  68 |  True |          NA         |                              NA                              |   NA   |
-| @I68@ |    Guru Ugaonkar    |   M    | 1949-12-01 00:00:00 |  68 |  True |          NA         |                              NA                              |   NA   |
-| @I69@ |    Dutta Ugaonkar   |   M    | 1949-12-01 00:00:00 |  68 |  True |          NA         |                              NA                              |   NA   |
-| @I69@ |    Shane Ugaonkar   |   M    | 1950-12-06 00:00:00 |  67 |  True |          NA         |                              NA                              |   NA   |
-+-------+---------------------+--------+---------------------+-----+-------+---------------------+--------------------------------------------------------------+--------+
-
++-------+---------------------+--------+---------------------+------+-------+---------------------+--------------------------------------------------------------+--------+
+|   ID  |         Name        | Gender |       Birthday      | Age  | Alive |        Death        |                            Child                             | Spouse |
++-------+---------------------+--------+---------------------+------+-------+---------------------+--------------------------------------------------------------+--------+
+|  @I1@ |   Jiajaji Ugaonkar  |   M    | 1800-02-06 00:00:00 | 153  | False | 1953-02-15 00:00:00 |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |  @I1@  |
+|  @I2@ |     Anandi Joshi    |   F    | 1892-02-06 00:00:00 |  53  | False | 1945-11-11 00:00:00 |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |  @I1@  |
+|  @I3@ |    Shamrao Patel    |   M    | 1915-05-15 00:00:00 |  65  | False | 1980-08-12 00:00:00 |  [u'@I7@', u'@I9@', u'@I10@', u'@I11@', u'@I12@', u'@I13@']  |  @I3@  |
+|  @I4@ |     Ram Ugaonkar    |   M    | 1919-05-15 00:00:00 |  90  | False | 2009-05-16 00:00:00 |                              NA                              |   NA   |
+|  @I5@ |   Laxman Ugaonkar   |   M    | 1917-05-15 00:00:00 | 100  |  True |          NA         |                [u'@I16@', u'@I17@', u'@I18@']                |  @I5@  |
+|  @I6@ |    Laxmi Kulkarni   |   F    | 1918-06-15 00:00:00 |  57  | False | 1975-08-08 00:00:00 |                [u'@I16@', u'@I17@', u'@I18@']                |  @I5@  |
+|  @I7@ |    Vijay Ugaonkar   |   M    | 1954-09-15 00:00:00 |  63  |  True |          NA         |                     [u'@I40@', u'@I44@']                     |  @I7@  |
+|  @I8@ |  Vijaya Ratnaparkhi |   F    | 1921-07-30 00:00:00 |  90  | False | 2011-01-01 00:00:00 |  [u'@I7@', u'@I9@', u'@I10@', u'@I11@', u'@I12@', u'@I13@']  |  @I3@  |
+|  @I9@ |    Nanda Ugaonkar   |   F    | 1953-09-01 00:00:00 |  64  |  True |          NA         |                     [u'@I19@', u'@I21@']                     | @I20@  |
+| @I10@ |    Vilas Ugaonkar   |   M    | 1958-09-13 00:00:00 |  59  |  True |          NA         |                     [u'@I32@', u'@I33@']                     | @I10@  |
+| @I11@ |    Ajay Ugaonkar    |   F    | 1960-08-30 00:00:00 |  57  |  True |          NA         |                          [u'@I29@']                          | @I11@  |
+| @I12@ |  Pratibha Ugaonkar  |   F    | 1957-10-13 00:00:00 |  60  |  True |          NA         |                     [u'@I35@', u'@I37@']                     | @I34@  |
+| @I13@ |    Sunil Ugaonkar   |   M    | 1962-05-21 00:00:00 |  52  | False | 2014-07-29 00:00:00 |                              NA                              | @I13@  |
+| @I14@ |     Priya Rajput    |   F    | 1967-03-24 00:00:00 |  50  |  True |          NA         |                              NA                              | @I13@  |
+| @I15@ |     Sunanda Kale    |   F    | 1920-06-09 00:00:00 |  60  | False | 1980-06-15 00:00:00 |                              NA                              |  @I5@  |
+| @I16@ |    Abhay Ugaonkar   |   M    | 1963-06-13 00:00:00 |  53  | False | 2016-03-12 00:00:00 |                              NA                              |   NA   |
+| @I17@ |    Hema Ugaonkar    |   F    | 1960-08-30 00:00:00 |  57  |  True |          NA         |                              NA                              |   NA   |
+| @I18@ |     Aru Ugaonkar    |   F    | 1955-09-17 00:00:00 |  62  |  True |          NA         |                              NA                              |   NA   |
+| @I19@ |    Madhukar Tillu   |   M    | 1974-08-17 00:00:00 |  43  |  True |          NA         |                          [u'@I23@']                          | @I19@  |
+| @I20@ |    Madhukar Tillu   |   M    | 1954-03-07 00:00:00 |  63  |  True |          NA         |                     [u'@I19@', u'@I21@']                     | @I20@  |
+| @I21@ |     Mansi Tillu     |   M    | 1979-11-13 00:00:00 |  38  |  True |          NA         |                [u'@I25@', u'@I26@', u'@I27@']                | @I24@  |
+| @I22@ |   Shital Mehendale  |   F    | 1979-10-10 00:00:00 |  38  |  True |          NA         |                          [u'@I23@']                          | @I19@  |
+| @I23@ |     Swara Tillu     |   F    | 2011-11-10 00:00:00 |  6   |  True |          NA         |                              NA                              |   NA   |
+| @I24@ |    Abhay Ganorkar   |   M    | 1978-09-11 00:00:00 |  39  |  True |          NA         |                [u'@I25@', u'@I26@', u'@I27@']                | @I24@  |
+| @I25@ |   Archit Ganorkar   |   M    | 2009-05-09 00:00:00 |  8   |  True |          NA         |                              NA                              |   NA   |
+| @I26@ |   Archit Ganorkar   |   M    | 2016-11-15 00:00:00 |  1   |  True |          NA         |                              NA                              |   NA   |
+| @I27@ |   Archita Ganorkar  |   F    | 2010-09-07 00:00:00 |  0   | False | 2010-09-07 00:00:00 |                              NA                              |   NA   |
+| @I28@ |     Anjali Alpe     |   F    | 1967-11-17 00:00:00 |  50  |  True |          NA         |                          [u'@I29@']                          | @I11@  |
+| @I29@ |  Abhilash Ugaonkar  |   M    | 1992-10-04 00:00:00 |  25  |  True |          NA         |                              NA                              |   NA   |
+| @I30@ |   Rohini Padalkar   |   F    | 1964-05-28 00:00:00 |  53  |  True |          NA         |                     [u'@I32@', u'@I33@']                     | @I10@  |
+| @I31@ |    Sulbha Pujari    |   F    | 1960-09-15 00:00:00 |  28  | False | 1988-11-13 00:00:00 |                     [u'@I54@', u'@I55@']                     | @I10@  |
+| @I32@ |   Naresh Ugaonkar   |   M    | 1996-07-09 00:00:00 |  21  |  True |          NA         |                              NA                              |   NA   |
+| @I33@ |  Tirumala Ugaonkar  |   F    | 2000-04-17 00:00:00 |  17  |  True |          NA         |                              NA                              |   NA   |
+| @I34@ | Raghvendra Anakalgi |   M    | 1958-06-14 00:00:00 |  59  |  True |          NA         |                     [u'@I35@', u'@I37@']                     | @I34@  |
+| @I35@ |    Sagar Anakalgi   |   M    | 1985-08-26 00:00:00 |  29  | False | 2014-12-18 00:00:00 |                              NA                              | @I35@  |
+| @I36@ |    Gayatri Joshi    |   F    | 1989-08-16 00:00:00 |  28  |  True |          NA         |                              NA                              | @I35@  |
+| @I37@ |    Badal Anakalgi   |   M    | 1990-10-30 00:00:00 |  27  |  True |          NA         |                              NA                              | @I37@  |
+| @I38@ |    Akshata Joshi    |   F    | 1990-04-12 00:00:00 |  27  |  True |          NA         |                              NA                              | @I37@  |
+| @I39@ |     Nilima Mulay    |   F    | 1960-11-11 00:00:00 |  57  |  True |          NA         |                     [u'@I40@', u'@I44@']                     |  @I7@  |
+| @I40@ |    Sujit Ugaonkar   |   M    | 1985-07-19 00:00:00 |  32  |  True |          NA         |                     [u'@I42@', u'@I43@']                     | @I40@  |
+| @I41@ |    Radhika Telang   |   F    | 1989-09-28 00:00:00 |  28  |  True |          NA         |                     [u'@I42@', u'@I43@']                     | @I40@  |
+| @I42@ |    Aabha Ugaonkar   |   F    | 2017-03-18 00:00:00 |  0   |  True |          NA         |                              NA                              |   NA   |
+| @I43@ |    Aabha Ugaonkar   |   F    | 2017-03-18 00:00:00 |  0   |  True |          NA         |                              NA                              |   NA   |
+| @I44@ |   Ajinkya Ugaonkar  |   NA   | 1993-03-17 00:00:00 |  24  |  True |          NA         |                              NA                              |   NA   |
+| @I45@ |    Ranganath Alpe   |   M    | 1927-01-01 00:00:00 |  90  |  True |          NA         |           [u'@I28@', u'@I47@', u'@I50@', u'@I53@']           | @I45@  |
+| @I46@ |   Sunanda Arlulkar  |   F    | 1930-05-01 00:00:00 |  87  |  True |          NA         |           [u'@I28@', u'@I47@', u'@I50@', u'@I53@']           | @I45@  |
+| @I47@ |     Sunita Alpe     |   F    | 1970-04-21 00:00:00 |  47  |  True |          NA         |                          [u'@I49@']                          | @I48@  |
+| @I48@ |  Shekhar Arankalle  |   M    |         None        | None | False | 2014-12-18 00:00:00 |                          [u'@I49@']                          | @I48@  |
+| @I49@ |  Sharvari Arankalle |   F    | 2005-08-07 00:00:00 |  12  |  True |          NA         |                              NA                              |   NA   |
+| @I50@ |     Nilima Alpe     |   F    | 1974-04-28 00:00:00 |  43  |  True |          NA         |                          [u'@I52@']                          | @I51@  |
+| @I51@ |  Narendra Panshikar |   M    | 1970-04-26 00:00:00 |  47  |  True |          NA         |                          [u'@I52@']                          | @I51@  |
+| @I52@ |  Mrunmai Panshikar  |   F    | 2001-04-24 00:00:00 |  16  |  True |          NA         |                              NA                              |   NA   |
+| @I53@ |      Vivek Alpe     |   M    | 1976-01-21 00:00:00 |  41  |  True |          NA         |                              NA                              |   NA   |
+| @I54@ |  Neelkanth Ugaonkar |   M    | 1993-06-15 00:00:00 |  24  |  True |          NA         |                              NA                              |   NA   |
+| @I55@ |   Manali Ugaonkar   |   F    | 1996-09-17 00:00:00 |  21  |  True |          NA         |                              NA                              |   NA   |
+| @I56@ |   Shekhar Ugaonkar  |   M    |         None        | None | False | 2014-12-18 00:00:00 | [u'@I58@', u'@I59@', u'@I60@', u'@I61@', u'@I62@', u'@I63@'] | @I56@  |
+| @I57@ |    Aditi Ugaonkar   |   F    | 1926-07-05 00:00:00 |  62  | False | 1988-04-03 00:00:00 | [u'@I58@', u'@I59@', u'@I60@', u'@I61@', u'@I62@', u'@I63@'] | @I56@  |
+| @I58@ |   Bhargav Ugaonkar  |   M    | 1950-01-01 00:00:00 |  67  |  True |          NA         |                              NA                              |   NA   |
+| @I59@ |    Aarav Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67  |  True |          NA         |                              NA                              |   NA   |
+| @I60@ |   Aarush Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67  |  True |          NA         |                              NA                              |   NA   |
+| @I61@ |   Aayush Ugaonkar   |   M    | 1950-01-01 00:00:00 |  67  |  True |          NA         |                              NA                              |   NA   |
+| @I62@ |   Advika Ugaonkar   |   F    | 1950-01-01 00:00:00 |  67  |  True |          NA         |                              NA                              |   NA   |
+| @I63@ |   Shalaka Ugaonkar  |   F    | 1950-01-01 00:00:00 |  67  |  True |          NA         |                              NA                              |   NA   |
+| @I64@ |   Narayan Ugaonkar  |   M    | 1922-05-06 00:00:00 |  54  | False | 1976-08-02 00:00:00 |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           | @I64@  |
+| @I65@ |  Saraswati Ugaonkar |   F    | 1922-02-06 00:00:00 |  54  | False | 1976-08-02 00:00:00 |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           | @I64@  |
+| @I66@ |   Chirag Ugaonkar   |   M    | 1949-12-01 00:00:00 |  68  |  True |          NA         |                              NA                              |   NA   |
+| @I67@ |  Yogeshwar Ugaonkar |   M    | 1949-12-01 00:00:00 |  68  |  True |          NA         |                              NA                              |   NA   |
+| @I68@ |    Guru Ugaonkar    |   M    | 1949-12-01 00:00:00 |  68  |  True |          NA         |                              NA                              |   NA   |
+| @I69@ |    Dutta Ugaonkar   |   M    | 1949-12-01 00:00:00 |  68  |  True |          NA         |                              NA                              |   NA   |
+| @I69@ |    Shane Ugaonkar   |   M    | 1950-12-06 00:00:00 |  67  |  True |          NA         |                              NA                              |   NA   |
++-------+---------------------+--------+---------------------+------+-------+---------------------+--------------------------------------------------------------+--------+
 
 
 FAMILY DATA------------------------------------------------------------------------------------------------------------------------------------------------------------------
-+-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------+
-|   ID  |       Married       |       Divorced      | Husband Id |     Husband Name    | Wife ID |     Wife Name      |                        Children                        |
-+-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------+
-|  @F1@ |          NA         |          NA         |    @I1@    |   Jiajaji Ugaonkar  |   @I2@  |    Anandi Joshi    |       ['@I3@', '@I4@', '@I5@', '@I56@', '@I64@']       |
-|  @F2@ |          NA         |          NA         |    @I5@    |   Laxman Ugaonkar   |  @I15@  |    Sunanda Kale    |                           NA                           |
-|  @F3@ | 1980-02-08 00:00:00 |          NA         |    @I5@    |   Laxman Ugaonkar   |   @I6@  |   Laxmi Kulkarni   |              ['@I16@', '@I17@', '@I18@']               |
-|  @F4@ | 1987-05-11 00:00:00 |          NA         |    @I7@    |    Vijay Ugaonkar   |  @I39@  |    Nilima Mulay    |                   ['@I40@', '@I44@']                   |
-|  @F5@ | 1932-08-15 00:00:00 |          NA         |    @I3@    |    Shamrao Patel    |   @I8@  | Vijaya Ratnaparkhi |  ['@I7@', '@I9@', '@I10@', '@I11@', '@I12@', '@I13@']  |
-|  @F6@ | 1985-05-08 00:00:00 | 1989-04-01 00:00:00 |   @I10@    |    Vilas Ugaonkar   |  @I31@  |   Sulbha Pujari    |                   ['@I54@', '@I55@']                   |
-|  @F7@ | 1990-05-17 00:00:00 |          NA         |   @I10@    |    Vilas Ugaonkar   |  @I30@  |  Rohini Padalkar   |                   ['@I32@', '@I33@']                   |
-|  @F8@ | 1991-12-25 00:00:00 |          NA         |   @I11@    |    Ajay Ugaonkar    |  @I28@  |    Anjali Alpe     |                       ['@I29@']                        |
-|  @F9@ | 1988-11-09 00:00:00 |          NA         |   @I34@    | Raghvendra Anakalgi |  @I12@  | Pratibha Ugaonkar  |                   ['@I35@', '@I37@']                   |
-| @F10@ |          NA         |          NA         |   @I13@    |    Sunil Ugaonkar   |  @I14@  |    Priya Rajput    |                           NA                           |
-| @F11@ | 2007-03-29 00:00:00 |          NA         |   @I19@    |    Madhukar Tillu   |  @I22@  |  Shital Mehendale  |                       ['@I23@']                        |
-| @F12@ | 1973-09-10 00:00:00 |          NA         |   @I20@    |    Madhukar Tillu   |   @I9@  |   Nanda Ugaonkar   |                   ['@I19@', '@I21@']                   |
-| @F13@ | 2009-02-11 00:00:00 |          NA         |   @I24@    |    Abhay Ganorkar   |  @I21@  |    Mansi Tillu     |              ['@I25@', '@I26@', '@I27@']               |
-| @F14@ |          NA         |          NA         |   @I45@    |    Ranganath Alpe   |  @I46@  |  Sunanda Arlulkar  |          ['@I28@', '@I47@', '@I50@', '@I53@']          |
-| @F15@ |          NA         |          NA         |   @I35@    |    Sagar Anakalgi   |  @I36@  |   Gayatri Joshi    |                           NA                           |
-| @F16@ |          NA         |          NA         |   @I37@    |    Badal Anakalgi   |  @I38@  |   Akshata Joshi    |                           NA                           |
-| @F17@ | 2009-11-22 00:00:00 |          NA         |   @I40@    |    Sujit Ugaonkar   |  @I41@  |   Radhika Telang   |                   ['@I42@', '@I43@']                   |
-| @F18@ | 1996-02-22 00:00:00 |          NA         |   @I48@    |  Shekhar Arankalle  |  @I47@  |    Sunita Alpe     |                       ['@I49@']                        |
-| @F19@ | 2000-07-09 00:00:00 |          NA         |   @I51@    |  Narendra Panshikar |  @I50@  |    Nilima Alpe     |                       ['@I52@']                        |
-| @F20@ |          NA         |          NA         |   @I56@    |   Shekhar Ugaonkar  |  @I57@  |   Aditi Ugaonkar   | ['@I58@', '@I59@', '@I60@', '@I61@', '@I62@', '@I63@'] |
-| @F21@ |          NA         |          NA         |   @I64@    |   Narayan Ugaonkar  |  @I65@  | Saraswati Ugaonkar |          ['@I66@', '@I67@', '@I68@', '@I69@']          |
-+-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------+
++-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------------+
+|   ID  |       Married       |       Divorced      | Husband Id |     Husband Name    | Wife ID |     Wife Name      |                           Children                           |
++-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------------+
+|  @F1@ |          NA         |          NA         |    @I1@    |   Jiajaji Ugaonkar  |   @I2@  |    Anandi Joshi    |       [u'@I3@', u'@I4@', u'@I5@', u'@I56@', u'@I64@']        |
+|  @F2@ |          NA         |          NA         |    @I5@    |   Laxman Ugaonkar   |  @I15@  |    Sunanda Kale    |                              NA                              |
+|  @F3@ |         None        |          NA         |    @I5@    |   Laxman Ugaonkar   |   @I6@  |   Laxmi Kulkarni   |                [u'@I16@', u'@I17@', u'@I18@']                |
+|  @F4@ | 1987-05-11 00:00:00 | 1986-04-01 00:00:00 |    @I7@    |    Vijay Ugaonkar   |  @I39@  |    Nilima Mulay    |                     [u'@I40@', u'@I44@']                     |
+|  @F5@ | 1932-08-15 00:00:00 |          NA         |    @I3@    |    Shamrao Patel    |   @I8@  | Vijaya Ratnaparkhi |  [u'@I7@', u'@I9@', u'@I10@', u'@I11@', u'@I12@', u'@I13@']  |
+|  @F6@ | 1985-05-08 00:00:00 | 1989-04-01 00:00:00 |   @I10@    |    Vilas Ugaonkar   |  @I31@  |   Sulbha Pujari    |                     [u'@I54@', u'@I55@']                     |
+|  @F7@ | 1990-05-17 00:00:00 |          NA         |   @I10@    |    Vilas Ugaonkar   |  @I30@  |  Rohini Padalkar   |                     [u'@I32@', u'@I33@']                     |
+|  @F8@ | 1991-12-25 00:00:00 |          NA         |   @I11@    |    Ajay Ugaonkar    |  @I28@  |    Anjali Alpe     |                          [u'@I29@']                          |
+|  @F9@ | 1988-11-09 00:00:00 |          NA         |   @I34@    | Raghvendra Anakalgi |  @I12@  | Pratibha Ugaonkar  |                     [u'@I35@', u'@I37@']                     |
+| @F10@ |          NA         |          NA         |   @I13@    |    Sunil Ugaonkar   |  @I14@  |    Priya Rajput    |                              NA                              |
+| @F11@ | 2007-03-29 00:00:00 |          NA         |   @I19@    |    Madhukar Tillu   |  @I22@  |  Shital Mehendale  |                          [u'@I23@']                          |
+| @F12@ | 1973-09-10 00:00:00 |          NA         |   @I20@    |    Madhukar Tillu   |   @I9@  |   Nanda Ugaonkar   |                     [u'@I19@', u'@I21@']                     |
+| @F13@ | 2009-02-11 00:00:00 |          NA         |   @I24@    |    Abhay Ganorkar   |  @I21@  |    Mansi Tillu     |                [u'@I25@', u'@I26@', u'@I27@']                |
+| @F14@ |          NA         |          NA         |   @I45@    |    Ranganath Alpe   |  @I46@  |  Sunanda Arlulkar  |           [u'@I28@', u'@I47@', u'@I50@', u'@I53@']           |
+| @F15@ |          NA         |          NA         |   @I35@    |    Sagar Anakalgi   |  @I36@  |   Gayatri Joshi    |                              NA                              |
+| @F16@ |          NA         |          NA         |   @I37@    |    Badal Anakalgi   |  @I38@  |   Akshata Joshi    |                              NA                              |
+| @F17@ | 2009-11-22 00:00:00 |          NA         |   @I40@    |    Sujit Ugaonkar   |  @I41@  |   Radhika Telang   |                     [u'@I42@', u'@I43@']                     |
+| @F18@ | 1996-02-22 00:00:00 |          NA         |   @I48@    |  Shekhar Arankalle  |  @I47@  |    Sunita Alpe     |                          [u'@I49@']                          |
+| @F19@ | 2000-07-09 00:00:00 |          NA         |   @I51@    |  Narendra Panshikar |  @I50@  |    Nilima Alpe     |                          [u'@I52@']                          |
+| @F20@ |          NA         |          NA         |   @I56@    |   Shekhar Ugaonkar  |  @I57@  |   Aditi Ugaonkar   | [u'@I58@', u'@I59@', u'@I60@', u'@I61@', u'@I62@', u'@I63@'] |
+| @F21@ |          NA         |          NA         |   @I64@    |   Narayan Ugaonkar  |  @I65@  | Saraswati Ugaonkar |           [u'@I66@', u'@I67@', u'@I68@', u'@I69@']           |
++-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------------+
 
 
 US01-Dates Before Current Date------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US01		Individual_ID:@I42@	Message: Error!!! ...Birth Date is not before Current Date 
+	Error:  Individual:US01		Individual_ID:@I42@		Message: Error!!! ...Birth Date is not before Current Date 
+	Error:  Individual:US01		Individual_ID:@I43@		Message: Error!!! ...Birth Date is not before Current Date 
 US02------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US02		Family_ID:@F5@		Message: Age of Wife is 11, Age of Husband is 17, therefore marriage is not valid.
+	Error:  Family:US02		Family_ID:@F18@		Message: Age of Wife is 26, Age of Husband is 0, therefore marriage is not valid.
 US03------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US03		Individual_ID:@I27@	Message: Birth Date is invalid for @I27@ Please validate the birth Date.
+	Error:  Individual:US03		Individual_ID:@I27@		Message: Birth Date is invalid for @I27@ Please validate the birth Date.
 US04------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US04		Family_ID:@F4@		Message: Divorced date 1986-04-01 00:00:00, Before Marriage date 1987-05-11 00:00:00 , therefore it is not valid.
 US05------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Family:US05		Family_ID:@F3@		Message: A member of this family has marriage date after their death date
 	Error:  Family:US05		Family_ID:@F4@		Message: A member of this family has marriage date after their death date
 US06------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US06		Family_ID:@F6@		Message: Divorced date 1989-04-01 00:00:00, After Wife id @I31@ Death on 1988-11-13 00:00:00, therefore Divorce is not valid.
 US07------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US07		Individual_ID:@I1@	Message: Person with @I1@has age greater than 150
+	Error:  Individual:US07		Individual_ID:@I1@		Message: Person with @I1@has age greater than 150
 US10------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US10		Family_ID:@F5@		Message: Wife age at the marriage was 11 and Husband age at the marriage was 17.
+	Error:  Family:US10		Family_ID:@F18@		Message: Wife age at the marriage was 26 and Husband age at the marriage was 0.
 US12------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	@F1@			@I2@       @I1@      		difference between mother and children age 24		difference between father and children age 116
 	@F1@			@I2@       @I1@      		difference between mother and children age 28		difference between father and children age 120
@@ -132,10 +133,14 @@ US14----------------------------------------------------------------------------
 US16------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US16		Family_ID:@F1@		Message: Last names of all the males in this Family is not Unique
 	Error:  Family:US16		Family_ID:@F5@		Message: Last names of all the males in this Family is not Unique
+US21------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Error:  Individual:US21		Individual_ID:@I11@		Message: Gender for Husband ID @I11@, is F, therefore Gender is not valid.
+	Error:  Individual:US21		Individual_ID:@I21@		Message: Gender for Wife ID @I21@, is M, therefore Gender is not valid.
 US22------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US22		Individual_ID:@I69@	Message: Individual ID @I69@ , occurs twice ,therefore it is not valid.
+	Error:  Individual:US22		Individual_ID:@I69@		Message: Individual ID @I69@ , occurs twice ,therefore it is not valid.
 US23------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US23		Individual_ID:@I42@	Message: Individual with@I42@ doesn't have unique birthdate
+	Error:  Individual:US23		Individual_ID:@I42@		Message: Individual with@I42@ doesn't have unique birthdate
+	Error:  Individual:US23		Individual_ID:@I43@		Message: Individual with@I43@ doesn't have unique birthdate
 US27-Include Individual Ages------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	NAME			AGE
 	Jiajaji Ugaonkar		153
@@ -185,7 +190,6 @@ US27-Include Individual Ages----------------------------------------------------
 	Ranganath Alpe		90
 	Sunanda Arlulkar		87
 	Sunita Alpe		47
-	Shekhar Arankalle		49
 	Sharvari Arankalle		12
 	Nilima Alpe		43
 	Narendra Panshikar		47
@@ -193,14 +197,14 @@ US27-Include Individual Ages----------------------------------------------------
 	Vivek Alpe		41
 	Neelkanth Ugaonkar		24
 	Manali Ugaonkar		21
-	Shekhar Ugaonkar		57
+	Shekhar Ugaonkar		94
 	Aditi Ugaonkar		62
 	Bhargav Ugaonkar		67
 	Aarav Ugaonkar		67
 	Aarush Ugaonkar		67
 	Aayush Ugaonkar		67
 	Advika Ugaonkar		67
-	Shalaka Ugaonkar		-1
+	Shalaka Ugaonkar		67
 	Narayan Ugaonkar		54
 	Saraswati Ugaonkar		54
 	Chirag Ugaonkar		68
@@ -224,28 +228,28 @@ US29 - List of Deceased People--------------------------------------------------
 	@I15@		Sunanda Kale    		1980-06-15
 	@I16@		Abhay Ugaonkar    		2016-03-12
 	@I27@		Archita Ganorkar    		2010-09-07
-	@I31@		Sulbha Pujari    		2015-11-13
+	@I31@		Sulbha Pujari    		1988-11-13
 	@I35@		Sagar Anakalgi    		2014-12-18
-	@I56@		Shekhar Ugaonkar    		1980-06-10
 	@I57@		Aditi Ugaonkar    		1988-04-03
 	@I64@		Narayan Ugaonkar    		1976-08-02
 	@I65@		Saraswati Ugaonkar    		1976-08-02
-	@I66@		Chirag Ugaonkar    		2017-03-18
 US30------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US30		Family_ID:@F5@		Message: This is no Living Marriage as @I3@ and @I8@ one of them is not alive
 US31------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US31		Individual_ID:@I68@	Message: age is 68 not married yet.
-	Error:  Individual:US31		Individual_ID:@I58@	Message: age is 67 not married yet.
-	Error:  Individual:US31		Individual_ID:@I67@	Message: age is 68 not married yet.
-	Error:  Individual:US31		Individual_ID:@I62@	Message: age is 67 not married yet.
-	Error:  Individual:US31		Individual_ID:@I61@	Message: age is 67 not married yet.
-	Error:  Individual:US31		Individual_ID:@I18@	Message: age is 62 not married yet.
-	Error:  Individual:US31		Individual_ID:@I60@	Message: age is 67 not married yet.
-	Error:  Individual:US31		Individual_ID:@I69@	Message: age is 68 not married yet.
-	Error:  Individual:US31		Individual_ID:@I69@	Message: age is 67 not married yet.
-	Error:  Individual:US31		Individual_ID:@I17@	Message: age is 57 not married yet.
-	Error:  Individual:US31		Individual_ID:@I59@	Message: age is 67 not married yet.
-	Error:  Individual:US31		Individual_ID:@I53@	Message: age is 41 not married yet.
+	Error:  Individual:US31		Individual_ID:@I58@		Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I66@		Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I63@		Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I62@		Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I17@		Message: age is 57 not married yet.
+	Error:  Individual:US31		Individual_ID:@I60@		Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I68@		Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I67@		Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I18@		Message: age is 62 not married yet.
+	Error:  Individual:US31		Individual_ID:@I59@		Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I61@		Message: age is 67 not married yet.
+	Error:  Individual:US31		Individual_ID:@I53@		Message: age is 41 not married yet.
+	Error:  Individual:US31		Individual_ID:@I69@		Message: age is 68 not married yet.
+	Error:  Individual:US31		Individual_ID:@I69@		Message: age is 67 not married yet.
 US33- List of Orphan Children------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	FAMILY ID	INDIVIDUAL ID		NAME
 	@F1@		@I3@			Shamrao Patel
@@ -271,10 +275,9 @@ US33- List of Orphan Children---------------------------------------------------
 	@F21@		@I69@			Dutta Ugaonkar
 US36-Recent Deaths------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	NAME			DEATH DATE
-	Chirag Ugaonkar		2017-03-18 00:00:00
 US35------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@I42@			Aabha      Ugaonkar  		2017-03-18 00:00:00		3
-	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		3
+	@I42@			Aabha      Ugaonkar  		2017-03-18 00:00:00		10
+	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		10
 US38------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Individual ID		Name				Birthday
 	@I3@			Shamrao    Patel     		1915-05-15 00:00:00
@@ -341,3 +344,7 @@ US39-List of Upcoming Anniversaries---------------------------------------------
 	Madhukar  Tillu		Nanda Ugaonkar			1973-09-10 00:00:00
 	Sujit  Ugaonkar		Radhika Telang			2009-11-22 00:00:00
 	Narendra  Panshikar		Nilima Alpe			2000-07-09 00:00:00
+US42------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Error:  Individual:US42		Individual_ID:@I48@		Message: Invalid BirthDate Entered
+	Error:  Individual:US42		Individual_ID:@I56@		Message: Invalid Death Date Entered
+	Error:  Family:US42		Family_ID:@F3@		Message: Invalid marriage Date Entered

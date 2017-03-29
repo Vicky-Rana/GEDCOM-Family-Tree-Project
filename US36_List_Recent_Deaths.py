@@ -15,7 +15,7 @@ def recent_deaths():
 	current=datetime.now()
 	
 	for res in results_for_people: 			
-		if "deathDate" in res:
+		if "deathDate" in res and res["deathDate"] is not None:
 			deathDay= datetime.strptime(res["deathDate"],"%Y-%m-%d %H:%M:%S")
 			if (current.year - deathDay.year == 0 ):
 				if (current.month - deathDay.month ==0 and current.day-deathDay.day > 0):

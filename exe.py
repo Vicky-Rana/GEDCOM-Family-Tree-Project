@@ -29,6 +29,7 @@ from US36_List_Recent_Deaths import *
 from US35_List_recent_births import *
 from US38_listUpcomingBirthdays import US38_listUpcomingBirthdays
 from US39_upcoming_anniversary import upcoming_anniversary
+from US42_Reject_illegitimate_dates import US42_rejectIllegitimateDates
 from print_data import *
 from src.gedParser import GEDCOMParser
 
@@ -107,6 +108,8 @@ def printPretty(individual, families):
     US38_listUpcomingBirthdays()
     # Call User story 39
     upcoming_anniversary()
+
+    US42_rejectIllegitimateDates()
     
 
 def main():
