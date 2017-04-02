@@ -7,34 +7,45 @@ User Story: US-39 List Upcoming Anniversary
 #from collections import counter
 from print_data import *
 
+def getPeopleById(PersonId):
+    results_for_people=get_people()
+    for people in results_for_people:
+        if people['ID'] == PersonId:
+            return people
+
 def upcoming_anniversary():
-	userStoryName('US39')
+	userStoryName('US39-List of Upcoming Anniversaries')
+	output('\t' + 'HUSBAND' + '\t\t\t\t' + 'WIFE' + '\t\t\t\t' + 'ANNIVERSARY DATE')
 	return_flag=False
 	results_for_family = get_family()
 	current=datetime.now()
-	fw=open('upcoming_anniversaries.txt','w')
-	fw.write('\n--------------------------------')
-	fw.write('\n LIST OF UPCOMING ANNIVERSARIES')
-	fw.write('\n--------------------------------')
+	
 	for res in results_for_family: 
 			
-		if "marriage" in res:
+		if "marriage" in res and res["marriage"] is not None:
 			anniversary= datetime.strptime(res["marriage"],"%Y-%m-%d %H:%M:%S")
 			if (anniversary.month- current.month   > 0 ):
 				return_flag=True
-				fw.write("\n"+res["FAMID"]+"\t"+res["marriage"]+"\n")
-				
+				husband= getPeopleById(res["HUSBAND"])
+				wife= getPeopleById (res["WIFE"])
+
+				h=husband["NAME"][0]+"  " +husband["NAME"][1].strip("/")
+				w=wife["NAME"][0]+ " "+ wife["NAME"][1].strip("/")   
+				ad=str(anniversary.day) + "/" + str(anniversary.month)
+				output('\t' + str(h) + '\t\t'+ str(w) + '\t\t\t' + str(res["marriage"]))
+							
 			elif (anniversary.month- current.month==0 & anniversary.day - current.day >0):
 				return_flag=True
-				print(res["FAMID"] + res["NAME"]+res["marriage"])
-				fw.write(res["FAMID"]+"\t"+res["marriage"])
+				husband= getPeopleById(res["HUSBAND"])
+				wife= getPeopleById (res["WIFE"])
+
+				h=husband["NAME"][0]+"  " +husband["NAME"][1].strip("/")
+				w=wife["NAME"][0]+ " "+ wife["NAME"][1].strip("/")   
+				ad=str(anniversary.day) + "/" + str(anniversary.month)
+				output('\t' + str(h) + '\t\t'+ str(w) + '\t\t\t' + str(res["marriage"]))
+
 			else:
 				return_flag=False
-				message="Anniversary has passed for"+res["FAMID"]
-				save_invalid_family_for_print(res["FAMID"], "US39", message)
-
+				
 	return return_flag
 
-if __name__ == '__main__':
-
-	b= upcoming_anniversary()

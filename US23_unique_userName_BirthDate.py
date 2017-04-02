@@ -10,7 +10,6 @@ from print_data import *
 def unique_name_bdate():
 	userStoryName('US23')
 	#Search for individual
-	individual = db.people.find({})
 	results_for_people = get_people()
 
 	for res in results_for_people:

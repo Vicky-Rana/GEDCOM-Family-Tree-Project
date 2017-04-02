@@ -8,7 +8,7 @@ def US35_list_recent_births():
 	userStoryName('US35')
 	people = get_people()
 	for doc in people:
-		if "birthday" in doc:
+		if "birthday" in doc and doc["birthday"] is not None:
 			birth_date = datetime.strptime(doc["birthday"],"%Y-%m-%d %H:%M:%S") 
 			delta = datetime.date(datetime.now()) - datetime.date(birth_date)
 			if(delta.days < 30 and delta.days >= 0):

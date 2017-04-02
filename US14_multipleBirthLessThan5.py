@@ -1,7 +1,6 @@
 """
 US_14
 """
-from all_db_operations import *
 from print_data import *
 
 connection=MongoClient('localhost',27017)
@@ -18,11 +17,13 @@ def US14_multipleBirthLessThan5():
     for family in results_for_family:
         if 'CHILDREN' not in family:
             continue
-        if len(family['CHILDREN'])>5:
+        if len(family['CHILDREN']) >= 5:
             s=set()
+            # print family["FAMID"]
             for children in family['CHILDREN']:
                 person=getPeopleById(children)
                 s.add(person['birthday'])
+            #print s
             if len(s)==1:
                 message="More Than 5 Children born on same day/same time in this family"
                 save_invalid_family_for_print(family['FAMID'],"US14",message)
