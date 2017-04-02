@@ -7,12 +7,13 @@ import os
 
 from US02_birth_date_less_marriage_date import *
 from US35_List_recent_births import *
-from US21_husbandwifegender import *
+#from US21_husbandwifegender import *
 from US03_birth_before_death import *
 from US04_Marriagebeforedivorce import *
 from US05_marriageBeforeDeath import *
 from US06_Divorcebeforedeath import *
 from US07_lessThan150 import *
+from US09_birth_before_death_of_parents import *
 from US10_Marriage_after_14 import *
 from US12_Parents_not_too_old import *
 from US14_multipleBirthLessThan5 import US14_multipleBirthLessThan5
@@ -28,7 +29,7 @@ from US39_upcoming_anniversary import *
 from print_data import *
 from src.gedParser import GEDCOMParser
 
-FILENAME = 'gedcom_files/myTree.ged'
+FILENAME = 'gedcom_files/My-Family-2-Apr-2017-550.ged'
 
 connection = MongoClient('localhost', 27017)
 db = connection['GEDCOMDB']
@@ -66,7 +67,7 @@ def printPretty(individual, families):
     #Call User story 14
     US14_multipleBirthLessThan5()
     # Call User Story 21
-   	husbandwifegender()
+   #husbandwifegender()
     # Call user story 22
     unique_indids()
     unique_famids()
@@ -86,6 +87,8 @@ def printPretty(individual, families):
     US38_listUpcomingBirthdays()
     # Call User story 39
     upcoming_anniversary()
+    #Call User Story 09
+    US09_birth_before_death_of_parents()
     
 
 def main():
