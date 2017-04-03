@@ -11,6 +11,6 @@ def US29_listDeceased():
     output('\t' + 'People ID' + '\t\t' + 'Name' + '    \t\t' + 'Death Date')
     results_for_people=get_people()
     for people in results_for_people:
-        if 'deathDate' in people:
+        if 'deathDate' in people and people['deathDate'] is not None:
             death = people['deathDate'].split(' ')
             output('\t' + people['ID'] + "\t\t" + people["NAME"][0] + " " + (people["NAME"][1]).strip("/") + "    \t\t" +death[0])

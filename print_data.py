@@ -21,7 +21,7 @@ def userStoryName(user_story):
 
 def save_invalid_people_for_print(id, user_story,message):
 	file_for_invalid_people_record = open('file_for_invalid_people_record.txt', 'a')
-	message_for_person = "\tError:  Individual:" + user_story + "\t\tIndividual_ID:" + id + '\tMessage: ' + message
+	message_for_person = "\tError:  Individual:" + user_story + "\t\tIndividual_ID:" + id + '\t\tMessage: ' + message
 	output(message_for_person)
 	file_for_invalid_people_record.write(str(message_for_person) + '\n')
 
@@ -44,20 +44,30 @@ def print_individuals():
 		else:
 			person_details.append("NA")
 		if "birthday" in res:
-			hbd = datetime.strptime(res["birthday"],"%Y-%m-%d %H:%M:%S")
-			if "deathDate" in res:
-				deathDate = datetime.strptime(res["deathDate"],"%Y-%m-%d %H:%M:%S")
-				age_of_person = deathDate.year - hbd.year
+
+			try:
+				hbd = datetime.strptime(res["birthday"],"%Y-%m-%d %H:%M:%S")
+
+				if "deathDate" in res:
+					deathDate = datetime.strptime(res["deathDate"],"%Y-%m-%d %H:%M:%S")
+					age_of_person = deathDate.year - hbd.year
+					person_details.append(hbd)
+					person_details.append(age_of_person)
+					person_details.append(False)
+					person_details.append(deathDate)
+				else:
+					age_of_person = datetime.now().year - hbd.year
+					person_details.append(hbd)
+					person_details.append(age_of_person)
+					person_details.append(True)
+					person_details.append("NA")
+			except:
+				hbd=None
+				age_of_person=None
 				person_details.append(hbd)
 				person_details.append(age_of_person)
 				person_details.append(False)
 				person_details.append(deathDate)
-			else:
-				age_of_person = datetime.now().year - hbd.year
-				person_details.append(hbd)
-				person_details.append(age_of_person)
-				person_details.append(True)
-				person_details.append("NA")
 		else:
 			person_details.append("NA")	
 			if "deathDate" in res:
@@ -104,11 +114,17 @@ def print_families():
 		family_details = []
 		family_details.append(res1["FAMID"])
 		if "marriage" in res1:
-			family_details.append(datetime.strptime(res1["marriage"],"%Y-%m-%d %H:%M:%S"))
+			try:
+				family_details.append(datetime.strptime(res1["marriage"],"%Y-%m-%d %H:%M:%S"))
+			except:
+				family_details.append(None)
 		else:
 			family_details.append("NA")
 		if "divorce" in res1:
-			family_details.append(datetime.strptime(res1["divorce"],"%Y-%m-%d %H:%M:%S"))
+			try:
+				family_details.append(datetime.strptime(res1["divorce"],"%Y-%m-%d %H:%M:%S"))
+			except:
+				family_details.append(None)
 		else:
 			family_details.append("NA")
 		if "HUSBAND" in res1: 
