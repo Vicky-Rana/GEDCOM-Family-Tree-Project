@@ -24,11 +24,13 @@ from US25_UniqueFirstName import *
 from US29_listDeceased import US29_listDeceased
 from US30_living_marriages import *
 from US31_above30_single import *
+from US32_multiple_births import *
 from US33_listOrphans import US33_listOrphans
 from US36_List_Recent_Deaths import *
 from US35_List_recent_births import *
 from US38_listUpcomingBirthdays import US38_listUpcomingBirthdays
 from US39_upcoming_anniversary import upcoming_anniversary
+
 from print_data import *
 from src.gedParser import GEDCOMParser
 
@@ -75,7 +77,7 @@ def printPretty(individual, families):
     #Call User Story 16
     male_last_names()
     # Call User Story 21
-    husbandwifegender()
+    #husbandwifegender()
     # Call user story 22
     unique_indids()
     unique_famids()
@@ -94,6 +96,9 @@ def printPretty(individual, families):
     living_marriages()
     # Call user story 31
     more_than_30_unmarried()
+    
+    #call user story 32
+    US32_multiple_births()
     # Call User story 33
     US33_listOrphans()
 
