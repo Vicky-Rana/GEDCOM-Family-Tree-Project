@@ -103,9 +103,8 @@ FAMILY DATA---------------------------------------------------------------------
 | @F22@ |          NA         |          NA         |   @I61@    |   Aayush Ugaonkar   |  @I63@  |  Shalaka Ugaonkar  |                              NA                              |
 +-------+---------------------+---------------------+------------+---------------------+---------+--------------------+--------------------------------------------------------------+
 
+
 US01-Dates Before Current Date------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US01		Individual_ID:@I42@		Message: Error!!! ...Birth Date is not before Current Date 
-	Error:  Individual:US01		Individual_ID:@I43@		Message: Error!!! ...Birth Date is not before Current Date 
 US02------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US02		Family_ID:@F5@		Message: Age of Wife is 11, Age of Husband is 17, therefore marriage is not valid.
 	Error:  Family:US02		Family_ID:@F18@		Message: Age of Wife is 26, Age of Husband is 0, therefore marriage is not valid.
@@ -120,8 +119,8 @@ US06----------------------------------------------------------------------------
 US07------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Individual:US07		Individual_ID:@I1@		Message: Person with @I1@has age greater than 150
 US09------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@F15@		2015-07-11		2014-12-18		          
-	@F19@		2001-04-24	    2000-08-11
+	@F6@		%-10s1993-06-15		          		1988-11-13
+	@F6@		%-10s1996-09-17		          		1988-11-13
 US10------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US10		Family_ID:@F5@		Message: Wife age at the marriage was 11 and Husband age at the marriage was 17.
 	Error:  Family:US10		Family_ID:@F18@		Message: Wife age at the marriage was 26 and Husband age at the marriage was 0.
@@ -138,14 +137,15 @@ US16----------------------------------------------------------------------------
 	Error:  Family:US16		Family_ID:@F5@		Message: Last names of all the males in this Family is not Unique
 US18------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Family:US18		Family_ID:@F22@		Message: Sibling is married to another sibling
-US21------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Individual:US21		Individual_ID:@I11@		Message: Gender for Husband ID @I11@, is F, therefore Gender is not valid.
-	Error:  Individual:US21		Individual_ID:@I21@		Message: Gender for Wife ID @I21@, is M, therefore Gender is not valid.
 US22------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Individual:US22		Individual_ID:@I69@		Message: Individual ID @I69@ , occurs twice ,therefore it is not valid.
 US23------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Error:  Individual:US23		Individual_ID:@I42@		Message: Individual with@I42@ doesn't have unique birthdate
 	Error:  Individual:US23		Individual_ID:@I43@		Message: Individual with@I43@ doesn't have unique birthdate
+US25------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Error:  Family:US25		Family_ID:@F12@		Message: First name of some members in this Family is Unique
+	Error:  Family:US25		Family_ID:@F13@		Message: First name of some members in this Family is Unique
+	Error:  Family:US25		Family_ID:@F17@		Message: First name of some members in this Family is Unique
 US27-Include Individual Ages------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	NAME			AGE
 	Jiajaji Ugaonkar		153
@@ -217,10 +217,89 @@ US27-Include Individual Ages----------------------------------------------------
 	Guru Ugaonkar		68
 	Dutta Ugaonkar		68
 	Shane Ugaonkar		67
-US25------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Error:  Family:US25		Family_ID:@F12@		Message: First name of some members in this Family is Unique
-	Error:  Family:US25		Family_ID:@F13@		Message: First name of some members in this Family is Unique
-	Error:  Family:US25		Family_ID:@F17@		Message: First name of some members in this Family is Unique
+US28-listDescendingAge------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	FAM_ID		ID			AGE
+	@F1@
+				@I3@		65
+				@I4@		90
+				@I5@		100
+				@I56@		94
+				@I64@		54
+	---------------------------
+	@F3@
+				@I16@		53
+				@I17@		57
+				@I18@		62
+	---------------------------
+	@F4@
+				@I40@		32
+				@I44@		24
+	---------------------------
+	@F5@
+				@I7@		63
+				@I9@		64
+				@I10@		59
+				@I11@		57
+				@I12@		60
+				@I13@		52
+	---------------------------
+	@F6@
+				@I54@		24
+				@I55@		21
+	---------------------------
+	@F7@
+				@I32@		21
+				@I33@		17
+	---------------------------
+	@F8@
+				@I29@		25
+	---------------------------
+	@F9@
+				@I35@		29
+				@I37@		27
+	---------------------------
+	@F11@
+				@I23@		6
+	---------------------------
+	@F12@
+				@I19@		43
+				@I21@		38
+	---------------------------
+	@F13@
+				@I25@		8
+				@I26@		1
+				@I27@		0
+	---------------------------
+	@F14@
+				@I28@		50
+				@I47@		47
+				@I50@		43
+				@I53@		41
+	---------------------------
+	@F17@
+				@I42@		0
+				@I43@		0
+	---------------------------
+	@F18@
+				@I49@		12
+	---------------------------
+	@F19@
+				@I52@		16
+	---------------------------
+	@F20@
+				@I58@		67
+				@I59@		67
+				@I60@		67
+				@I61@		67
+				@I62@		67
+				@I63@		67
+	---------------------------
+	@F21@
+				@I66@		68
+				@I67@		68
+				@I68@		68
+				@I69@		68
+	---------------------------
 US29 - List of Deceased People------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	People ID		Name    		Death Date
 	@I1@		Jiajaji Ugaonkar    		1953-02-15
@@ -254,10 +333,10 @@ US31----------------------------------------------------------------------------
 	Error:  Individual:US31		Individual_ID:@I69@		Message: age is 68 not married yet.
 	Error:  Individual:US31		Individual_ID:@I69@		Message: age is 67 not married yet.
 US32------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	Individual with ID['@I11@', '@I17@']have same birthdate:  1960-08-30
-	Individual with ID['@I42@', '@I43@']have same birthdate:  2017-03-18
-	Individual with ID['@I58@', '@I59@', '@I60@', '@I61@', '@I62@', '@I63@']have same birthdate:  1950-01-01
-	Individual with ID['@I66@', '@I67@', '@I68@']have same birthdate:  1949-12-01
+	Individual with ID[u'@I58@', u'@I62@', u'@I60@', u'@I63@', u'@I59@', u'@I61@']have same birthdate:  1950-01-01
+	Individual with ID[u'@I42@', u'@I43@']have same birthdate:  2017-03-18
+	Individual with ID[u'@I17@', u'@I11@']have same birthdate:  1960-08-30
+	Individual with ID[u'@I66@', u'@I68@', u'@I67@']have same birthdate:  1949-12-01
 US33- List of Orphan Children------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	FAMILY ID	INDIVIDUAL ID		NAME
 	@F1@		@I3@			Shamrao Patel
@@ -282,12 +361,10 @@ US33- List of Orphan Children---------------------------------------------------
 	@F21@		@I68@			Guru Ugaonkar
 	@F21@		@I69@			Dutta Ugaonkar
 US35------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	@I42@			Aara       Ugaonkar  		2017-03-14 00:00:00		19
-	@I43@			Aabha      Ugaonkar  		2017-03-14 00:00:00		19
-
+	@I42@			Aabha      Ugaonkar  		2017-03-18 00:00:00		17
+	@I43@			Aabha      Ugaonkar  		2017-03-18 00:00:00		17
 US36-Recent Deaths------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	NAME			DEATH DATE
-	Chirag Ugaonkar		2017-03-18 00:00:00
 US38------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Individual ID		Name				Birthday
 	@I3@			Shamrao    Patel     		1915-05-15 00:00:00
@@ -326,7 +403,7 @@ US38----------------------------------------------------------------------------
 	@I40@			Sujit      Ugaonkar  		1985-07-19 00:00:00
 	@I41@			Radhika    Telang    		1989-09-28 00:00:00
 	@I46@			Sunanda    Arlulkar  		1930-05-01 00:00:00
-	@I49@			Sharvari   Arankalle 		2005-09-12 00:00:00
+	@I49@			Sharvari   Arankalle 		2005-08-07 00:00:00
 	@I54@			Neelkanth  Ugaonkar  		1993-06-15 00:00:00
 	@I55@			Manali     Ugaonkar  		1996-09-17 00:00:00
 	@I56@			Shekhar    Ugaonkar  		1923-08-05 00:00:00
@@ -336,7 +413,7 @@ US38----------------------------------------------------------------------------
 	@I67@			Yogeshwar  Ugaonkar  		1949-12-01 00:00:00
 	@I68@			Guru       Ugaonkar  		1949-12-01 00:00:00
 	@I69@			Dutta      Ugaonkar  		1949-12-01 00:00:00
-	@I70@			Jasmine    Anakalgi  		2015-07-11 00:00:00
+	@I69@			Shane      Ugaonkar  		1950-12-06 00:00:00
 US39-List of Upcoming Anniversaries------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	HUSBAND				WIFE				ANNIVERSARY DATE
 	Vijay  Ugaonkar		Nilima Mulay			1987-05-11 00:00:00

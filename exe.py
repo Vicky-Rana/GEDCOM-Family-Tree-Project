@@ -5,10 +5,8 @@ Team Members: Abhilash Ugaonkar, Anurag Patil, Ketaki Thatte, Vicky Rana
 import argparse
 import os
 
-from US02_birth_date_less_marriage_date import *
-from US35_List_recent_births import *
-from US21_husbandwifegender import *
 from US01_dates_before_currentdate import *
+from US02_birth_date_less_marriage_date import *
 from US03_birth_before_death import *
 from US04_Marriagebeforedivorce import *
 from US05_marriageBeforeDeath import *
@@ -20,25 +18,25 @@ from US12_Parents_not_too_old import *
 from US14_multipleBirthLessThan5 import US14_multipleBirthLessThan5
 from US16_MaleLastName import *
 from US18_SiblingsnotMarry import *
-from US21_husbandwifegender import *
 from US22_UniqueID import *
 from US23_unique_userName_BirthDate import *
-from US27_individual_age import *
 from US25_UniqueFirstName import *
+from US27_individual_age import *
+from US28_listDescendingAge import *
 from US29_listDeceased import US29_listDeceased
 from US30_living_marriages import *
 from US31_above30_single import *
 from US32_multiple_births import *
 from US33_listOrphans import US33_listOrphans
-from US36_List_Recent_Deaths import *
 from US35_List_recent_births import *
+from US36_List_Recent_Deaths import *
 from US38_listUpcomingBirthdays import US38_listUpcomingBirthdays
 from US39_upcoming_anniversary import upcoming_anniversary
 from US42_Reject_illegitimate_dates import US42_rejectIllegitimateDates
 from print_data import *
 from src.gedParser import GEDCOMParser
 
-FILENAME = 'gedcom_files/My-Family-2-Apr-2017-550.ged'
+FILENAME = 'gedcom_files/myTree.ged'
 
 connection = MongoClient('localhost', 27017)
 db = connection['GEDCOMDB']
@@ -72,6 +70,8 @@ def printPretty(individual, families):
     divorcebeforedeath()
     #Call User story 07
     US07_lessThan150()
+    # Call User Story 09
+    US09_birth_before_death_of_parents()
     #US10  User story 10
     Marriage_after_14()
     # Call User Story 12
@@ -90,12 +90,14 @@ def printPretty(individual, families):
     # User Story 23
     unique_name_bdate()
 
-    #Call User story 27
-    individual_age()
+
 
     #Call User Story 25
     unique_first_famnames()
-
+    # Call User story 27
+    individual_age()
+    # Call User story 28
+    US28_listDescendingAge()
     # Call User story 29
     US29_listDeceased()
     # Call User Story 30
@@ -108,20 +110,16 @@ def printPretty(individual, families):
     # Call User story 33
     US33_listOrphans()
 
+    # Call User story 35
+    US35_list_recent_births()
     #User 36
     recent_deaths()
 
-    #Call User story 35
-    US35_list_recent_births()
 
     # Call User story 38
     US38_listUpcomingBirthdays()
     # Call User story 39
     upcoming_anniversary()
-
-    #Call User Story 09
-    US09_birth_before_death_of_parents()
-
 
     US42_rejectIllegitimateDates()
 

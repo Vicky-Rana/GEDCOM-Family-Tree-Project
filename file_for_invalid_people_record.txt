@@ -1,9 +1,5 @@
-	Error:  Individual:US01		Individual_ID:@I42@		Message: Error!!! ...Birth Date is not before Current Date 
-	Error:  Individual:US01		Individual_ID:@I43@		Message: Error!!! ...Birth Date is not before Current Date 
 	Error:  Individual:US03		Individual_ID:@I27@		Message: Birth Date is invalid for @I27@ Please validate the birth Date.
 	Error:  Individual:US07		Individual_ID:@I1@		Message: Person with @I1@has age greater than 150
-	Error:  Individual:US21		Individual_ID:@I11@		Message: Gender for Husband ID @I11@, is F, therefore Gender is not valid.
-	Error:  Individual:US21		Individual_ID:@I21@		Message: Gender for Wife ID @I21@, is M, therefore Gender is not valid.
 	Error:  Individual:US22		Individual_ID:@I69@		Message: Individual ID @I69@ , occurs twice ,therefore it is not valid.
 	Error:  Individual:US23		Individual_ID:@I42@		Message: Individual with@I42@ doesn't have unique birthdate
 	Error:  Individual:US23		Individual_ID:@I43@		Message: Individual with@I43@ doesn't have unique birthdate

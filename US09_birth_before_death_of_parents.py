@@ -1,4 +1,3 @@
-from all_db_operations import *
 from print_data import *
 
 connection = MongoClient('localhost', 27017)
@@ -32,7 +31,7 @@ def get_birth_date(individual):
 def get_death_date(individual):
 	indi = get_person_details(individual)
 	for doc in indi:
-		if "deathDate" in doc:
+		if "deathDate" in doc and doc['deathDate'] is not None:
 			death_date = datetime.date(datetime.strptime(doc["deathDate"],"%Y-%m-%d %H:%M:%S") )
 		else:
 			death_date = ""

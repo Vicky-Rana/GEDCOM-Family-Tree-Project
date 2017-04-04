@@ -1,4 +1,3 @@
-from all_db_operations import *
 from print_data import *
 
 def US32_multiple_births():
@@ -7,7 +6,7 @@ def US32_multiple_births():
 	birth_dates = {}
 	flipped = {}
 	for doc in people:
-		if "birthday" in doc:
+		if "birthday" in doc and doc['birthday'] is not None:
 			birth_date = datetime.date(datetime.strptime(doc["birthday"],"%Y-%m-%d %H:%M:%S"))
 			birth_dates[doc["ID"]] = birth_date
 	#print(birth_dates) 
