@@ -693,6 +693,141 @@
 1 BIRT
 2 DATE 6 DEC 1950
 1 FAMC @F21@
+0 @I71@ INDI
+1 NAME Amey /Arankalle/
+2 GIVN Amey
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 10 DEC 2008
+1 FAMC @F18@
+0 @I72@ INDI
+1 NAME Shila /Arankalle/
+2 GIVN Shila
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 4 JAN 2002
+1 FAMC @F18@
+0 @I73@ INDI
+1 NAME Eshu /Arankalle/
+2 GIVN Eshu
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 7 APR 1990
+1 FAMC @F18@
+0 @I74@ INDI
+1 NAME Rita /Arankalle/
+2 GIVN Rita
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 8 JUL 2008
+1 FAMC @F18@
+0 @I75@ INDI
+1 NAME Gita /Arankalle/
+2 GIVN Gita
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 6 MAY 2004
+1 FAMC @F18@
+0 @I76@ INDI
+1 NAME Tilu /Arankalle/
+2 GIVN Tilu
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 8 APR 1998
+1 FAMC @F18@
+0 @I77@ INDI
+1 NAME Tiya /Arankalle/
+2 GIVN Tiya
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 7 DEC 1995
+1 FAMC @F18@
+0 @I78@ INDI
+1 NAME Yeshu /Arankalle/
+2 GIVN Yeshu
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 4 FEB 2006
+1 FAMC @F18@
+0 @I79@ INDI
+1 NAME Esha /Arankalle/
+2 GIVN Esha
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 14 MAR 2008
+1 FAMC @F18@
+0 @I80@ INDI
+1 NAME Diya /Arankalle/
+2 GIVN Diya
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 9 SEP 2012
+1 FAMC @F18@
+0 @I81@ INDI
+1 NAME Falu /Arankalle/
+2 GIVN Falu
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 17 SEP 2014
+1 FAMC @F18@
+0 @I82@ INDI
+1 NAME Varun /Arankalle/
+2 GIVN Varun
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 27 JUL 2003
+1 FAMC @F18@
+0 @I83@ INDI
+1 NAME Hitesh /Arankalle/
+2 GIVN Hitesh
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 17 OCT 2005
+1 FAMC @F18@
+0 @I84@ INDI
+1 NAME Sauresh /Arankalle/
+2 GIVN Sauresh
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 23 AUG 2010
+1 FAMC @F18@
+0 @I85@ INDI
+1 NAME Lokesh /Arankalle/
+2 GIVN Lokesh
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 27 MAY 2014
+1 FAMC @F18@
 0 @F1@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
@@ -834,6 +969,21 @@
 1 HUSB @I48@
 1 WIFE @I47@
 1 CHIL @I49@
+1 CHIL @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+1 CHIL @I74@
+1 CHIL @I75@
+1 CHIL @I76@
+1 CHIL @I77@
+1 CHIL @I78@
+1 CHIL @I79@
+1 CHIL @I80@
+1 CHIL @I81@
+1 CHIL @I82@
+1 CHIL @I83@
+1 CHIL @I84@
+1 CHIL @I85@
 1 MARR
 2 DATE 22 FEB 1996
 1 _CURRENT Y
