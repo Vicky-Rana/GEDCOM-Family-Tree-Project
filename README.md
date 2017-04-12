@@ -4,6 +4,7 @@ This repository is for coursework in CS555-agile methodologies. We are developin
 Throught the semester we will implement many changes as user stories in the software for evaluating the GEDCOM file. 
 
 ##SPRINT 1
+        User Story                  Owner
 * US02	Birth before marriage	      KT
 * US03	Birth before death	        AU
 * US04	Marriage before divorce	    VR
@@ -19,6 +20,7 @@ Throught the semester we will implement many changes as user stories in the soft
 
 
 ##SPRINT 2
+          User Story                  Owner
 * US01	Dates before current date	      AU
 * US27	Include individual ages	        AU
 * US36	List recent deaths	            AU
@@ -33,12 +35,19 @@ Throught the semester we will implement many changes as user stories in the soft
 * US25	Unique first names in families	VR
 
 
-
-
 ##SPRINT 3
+        User Story                  Owner
 * US09	Birth before death of parents	KT
 * US18	Siblings should not marry	    VR
 * US32	List multiple births	        AU
 * US42	Reject illegitimate dates	    AP
+
+##SPRINT 4
+            User Story                  Owner
+* US08	Birth before marriage of parents	KT
+* US15	Fewer than 15 siblings	          VR
+* US28	Order siblings by age	            AP
+* US41	Include partial dates	            AU
+
 
 
