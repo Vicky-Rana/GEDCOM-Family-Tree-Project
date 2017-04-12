@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="350cd64c-99e2-4e79-af50-4a68bba70d93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/US08_birth_before_marriage_of_parents" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upcoming_anniversaries.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Homework_04/Code for User Story and Output/UniqueUserNameAndBirthDate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Homework_04/Code for User Story and Output/UniqueUserNameAndBirthDate_output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Homework_04/Code for User_story/UniqueUserNameAndBirthDate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Homework_04/Output/Homework_04_testcase_output.PNG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Homework_04/Test_Code/UniqueUserNameAndBirthDate_unittest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Sprint_1/DivorceBeforeDeath/Divorcebeforedeath.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Sprint_1/DivorceBeforeDeath/Divorcebeforedeath_output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Sprint_1/MarriagebeforeDivorce/Marriagebeforedivorce.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Sprint_1/MarriagebeforeDivorce/Marriagebeforedivorce_output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Sprint_1/Sprint1 Gedcom test file/myFTree.ged" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Sprint_1/UniqueIDs/UniqueID.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicky/Sprint_1/UniqueIDs/UniqueIDs_output" afterPath="" />
+    <list default="true" id="350cd64c-99e2-4e79-af50-4a68bba70d93" name="Default" comment="OUTPUT">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exe.py" afterPath="$PROJECT_DIR$/exe.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +29,8 @@
       <file leaf-file-name="US28_listDescendingAge.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/US28_listDescendingAge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="756">
+              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -57,8 +41,8 @@
       <file leaf-file-name="exe.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="1701">
+              <caret line="113" column="19" lean-forward="false" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
               <folding>
                 <element signature="e#92#107#0" expanded="true" />
               </folding>
@@ -93,8 +77,8 @@
       <file leaf-file-name="US03_birth_before_death.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/US03_birth_before_death.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="378">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#88#136#0" expanded="true" />
               </folding>
@@ -102,11 +86,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="US02_birth_date_less_marriage_date.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/US02_birth_date_less_marriage_date.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2935">
+            <state relative-caret-position="1743">
               <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_for_invalid_family_record.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file_for_invalid_family_record.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,16 +131,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="US29_listDeceased.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/US29_listDeceased.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -213,8 +207,8 @@
         <option value="$PROJECT_DIR$/US28_listDescendingAge.py" />
         <option value="$PROJECT_DIR$/US32_multiple_births.py" />
         <option value="$PROJECT_DIR$/US09_birth_before_death_of_parents.py" />
-        <option value="$PROJECT_DIR$/exe.py" />
         <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/exe.py" />
       </list>
     </option>
   </component>
@@ -245,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,7 +255,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -680,7 +674,21 @@
       <option name="project" value="LOCAL" />
       <updated>1491316584403</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed Unnecessary Files">
+      <created>1491923614464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491923614464</updated>
+    </task>
+    <task id="LOCAL-00008" summary="OUTPUT">
+      <created>1491923797816</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1491923797816</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -694,19 +702,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24006444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38419318" sideWeight="0.3203125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43468717" sideWeight="0.6796875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43468717" sideWeight="0.6796875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35236004" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35220838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -730,7 +737,9 @@
     <MESSAGE value="Output file" />
     <MESSAGE value="made changes to gedcom anf final output" />
     <MESSAGE value="some conflicts and US42" />
-    <option name="LAST_COMMIT_MESSAGE" value="some conflicts and US42" />
+    <MESSAGE value="Removed Unnecessary Files" />
+    <MESSAGE value="OUTPUT" />
+    <option name="LAST_COMMIT_MESSAGE" value="OUTPUT" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -771,7 +780,6 @@
     <entry file="file://$PROJECT_DIR$/US06_Divorcebeforedeath.py" />
     <entry file="file://$PROJECT_DIR$/US04_Marriagebeforedivorce.py" />
     <entry file="file://$PROJECT_DIR$/US16_MaleLastName.py" />
-    <entry file="file://$PROJECT_DIR$/file_for_invalid_family_record.txt" />
     <entry file="file://$PROJECT_DIR$/US21_husbandwifegender.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -872,13 +880,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/US35_List_recent_births" />
-    <entry file="file://$PROJECT_DIR$/US02_birth_date_less_marriage_date.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all_db_operations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -918,17 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="130" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/US03_birth_before_death.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#88#136#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,6 +950,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/US28_listDescendingAge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upcoming_anniversaries.txt" />
+    <entry file="file://$PROJECT_DIR$/US39_upcoming_anniversary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_for_invalid_family_record.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="113" column="19" lean-forward="false" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+          <folding>
+            <element signature="e#92#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/print_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
@@ -968,46 +994,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="e#92#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/US28_listDescendingAge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upcoming_anniversaries.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/US39_upcoming_anniversary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2935">
+        <state relative-caret-position="1743">
           <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/US03_birth_before_death.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#88#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/US02_birth_date_less_marriage_date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding />
         </state>
       </provider>
