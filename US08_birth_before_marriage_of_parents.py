@@ -1,4 +1,3 @@
-from all_db_operations import *
 from print_data import *
 
 def US08_birth_before_marriage_of_parents():
@@ -6,7 +5,8 @@ def US08_birth_before_marriage_of_parents():
 	diff = False
 	family = get_family()
 	for doc in family:
-		if (("CHILDREN" in doc) and ("HUSBAND" in doc) and ("WIFE" in doc) and ("marriage" in doc)):
+		if (("CHILDREN" in doc) and ("HUSBAND" in doc) and ("WIFE" in doc) and ("marriage" in doc)) and doc[
+			'marriage'] is not None:
 			for child in doc["CHILDREN"]:
 				birthday = get_birth_date(child)
 				marriage_date = datetime.date(datetime.strptime(doc["marriage"],"%Y-%m-%d %H:%M:%S"))

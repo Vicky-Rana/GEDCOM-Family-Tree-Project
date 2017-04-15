@@ -15,7 +15,7 @@ def US41_accpet_partial_dates():
 
     for res in results_for_people:
         if "birthday" in res and res["birthday"]==None:
-            print(str(res["ID"])+ " Has Partial Date in GEDCOM File..")
+            # print(str(res["ID"])+ " Has Partial Date in GEDCOM File..")
             message="Error!!! ..."+str(res["ID"])+ " Has Partial Birthdate in GEDCOM File." 
             output('\t'+message)
 

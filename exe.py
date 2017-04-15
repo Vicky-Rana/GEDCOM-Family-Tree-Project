@@ -38,7 +38,7 @@ from US41_Accept_Partial_Dates import US41_accpet_partial_dates
 from US42_Reject_illegitimate_dates import US42_rejectIllegitimateDates
 from print_data import *
 from src.gedParser import GEDCOMParser
-
+
 FILENAME = 'gedcom_files/myTree.ged'
 
 connection = MongoClient('localhost', 27017)
