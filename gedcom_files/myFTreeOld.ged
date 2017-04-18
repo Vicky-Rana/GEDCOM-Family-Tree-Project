@@ -1,0 +1,696 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE My Family
+1 DATE 26 FEB 2017
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Abhilash Ugaonkar
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Jiajaji /Ugaonkar/
+2 GIVN Jiajaji
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 6 FEB 1890
+1 DEAT Y
+2 DATE 15 FEB 1941
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME Anandi /Joshi/
+2 GIVN Anandi
+2 SURN Joshi
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 6 FEB 1892
+1 DEAT Y
+2 DATE 11 NOV 1945
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Shamrao /Ugaonkar/
+2 GIVN Shamrao
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 15 MAY 1915
+1 DEAT Y
+2 DATE 12 AUG 1980
+1 FAMS @F5@
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME Ram /Ugaonkar/
+2 GIVN Ram
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 15 MAY 1919
+1 DEAT Y
+2 DATE 16 MAY 2009
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Laxman /Ugaonkar/
+2 GIVN Laxman
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 15 MAY 1917
+1 FAMS @F2@
+1 FAMS @F3@
+1 FAMC @F1@
+0 @I6@ INDI
+1 NAME Laxmi /Kulkarni/
+2 GIVN Laxmi
+2 SURN Kulkarni
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 15 JUN 1918
+1 DEAT Y
+2 DATE 8 AUG 1975
+1 FAMS @F3@
+0 @I7@ INDI
+1 NAME Vijay /Ugaonkar/
+2 GIVN Vijay
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 15 SEP 1954
+1 FAMS @F4@
+1 FAMC @F5@
+0 @I8@ INDI
+1 NAME Vijaya /Ratnaparkhi/
+2 GIVN Vijaya
+2 SURN Ratnaparkhi
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 30 JUL 1921
+1 DEAT Y
+2 DATE 1 JAN 2011
+1 FAMS @F5@
+0 @I9@ INDI
+1 NAME Nanda /Ugaonkar/
+2 GIVN Nanda
+2 SURN Ugaonkar
+2 _MARNM Tillu
+1 SEX F
+1 BIRT
+2 DATE 1 SEP 1953
+1 FAMS @F12@
+1 FAMC @F5@
+0 @I10@ INDI
+1 NAME Vilas /Ugaonkar/
+2 GIVN Vilas
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 13 SEP 1958
+1 FAMS @F6@
+1 FAMS @F7@
+1 FAMC @F5@
+0 @I11@ INDI
+1 NAME Ajay /Ugaonkar/
+2 GIVN Ajay
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 30 AUG 1960
+1 FAMS @F8@
+1 FAMC @F5@
+0 @I12@ INDI
+1 NAME Pratibha /Ugaonkar/
+2 GIVN Pratibha
+2 SURN Ugaonkar
+2 _MARNM Anakalgi
+1 SEX F
+1 BIRT
+2 DATE 13 OCT 1957
+1 FAMS @F9@
+1 FAMC @F5@
+0 @I13@ INDI
+1 NAME Sunil /Ugaonkar/
+2 GIVN Sunil
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 21 MAY 1962
+1 DEAT Y
+2 DATE 29 JUL 2014
+1 FAMS @F10@
+1 FAMC @F5@
+0 @I14@ INDI
+1 NAME Priya /Rajput/
+2 GIVN Priya
+2 SURN Rajput
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 24 MAR 1967
+1 FAMS @F10@
+0 @I15@ INDI
+1 NAME Sunanda /Kale/
+2 GIVN Sunanda
+2 SURN Kale
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 9 JUN 1920
+1 DEAT Y
+2 DATE 15 JUN 1980
+1 FAMS @F2@
+0 @I16@ INDI
+1 NAME Abhay /Ugaonkar/
+2 GIVN Abhay
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 13 JUN 1963
+1 DEAT Y
+2 DATE 12 MAR 2016
+1 FAMC @F3@
+0 @I17@ INDI
+1 NAME Hema /Ugaonkar/
+2 GIVN Hema
+2 SURN Ugaonkar
+2 _MARNM Bakshi
+1 SEX F
+1 BIRT
+2 DATE 13 JUN 1960
+1 FAMC @F3@
+0 @I18@ INDI
+1 NAME Aru /Ugaonkar/
+2 GIVN Aru
+2 SURN Ugaonkar
+2 _MARNM Phadke
+1 SEX F
+1 BIRT
+2 DATE 17 SEP 1955
+1 FAMC @F3@
+0 @I19@ INDI
+1 NAME Madhukar /Tillu/
+2 GIVN Madhukar
+2 SURN Tillu
+2 _MARNM Tillu
+1 SEX M
+1 BIRT
+2 DATE 17 AUG 1974
+1 FAMS @F11@
+1 FAMC @F12@
+0 @I20@ INDI
+1 NAME Madhukar /Tillu/
+2 GIVN Madhukar
+2 SURN Tillu
+2 _MARNM Tillu
+1 SEX M
+1 BIRT
+2 DATE 7 MAR 1954
+1 FAMS @F12@
+0 @I21@ INDI
+1 NAME Mansi /Tillu/
+2 GIVN Mansi
+2 SURN Tillu
+2 _MARNM Ganorkar
+1 SEX F
+1 BIRT
+2 DATE 13 NOV 1979
+1 FAMS @F13@
+1 FAMC @F12@
+0 @I22@ INDI
+1 NAME Shital /Mehendale/
+2 GIVN Shital
+2 SURN Mehendale
+2 _MARNM Tillu
+1 SEX F
+1 BIRT
+2 DATE 10 OCT 1979
+1 FAMS @F11@
+0 @I23@ INDI
+1 NAME Swara /Tillu/
+2 GIVN Swara
+2 SURN Tillu
+2 _MARNM Tillu
+1 SEX F
+1 BIRT
+2 DATE 10 NOV 2011
+1 FAMC @F11@
+0 @I24@ INDI
+1 NAME Abhay /Ganorkar/
+2 GIVN Abhay
+2 SURN Ganorkar
+2 _MARNM Ganorkar
+1 SEX M
+1 BIRT
+2 DATE 11 SEP 1978
+2 PLAC Abhay
+1 FAMS @F13@
+0 @I25@ INDI
+1 NAME Arya /Ganorkar/
+2 GIVN Arya
+2 SURN Ganorkar
+2 _MARNM Ganorkar
+1 SEX M
+1 BIRT
+2 DATE 9 MAY 2009
+1 FAMC @F13@
+0 @I26@ INDI
+1 NAME Archit /Ganorkar/
+2 GIVN Archit
+2 SURN Ganorkar
+2 _MARNM Ganorkar
+1 SEX M
+1 BIRT
+2 DATE 15 NOV 2016
+1 FAMC @F13@
+0 @I27@ INDI
+1 NAME Archita /Ganorkar/
+2 GIVN Archita
+2 SURN Ganorkar
+2 _MARNM Ganorkar
+1 SEX F
+1 BIRT
+2 DATE 7 SEP 2010
+1 DEAT Y
+2 DATE 7 SEP 2010
+1 FAMC @F13@
+0 @I28@ INDI
+1 NAME Anjali /Alpe/
+2 GIVN Anjali
+2 SURN Alpe
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 17 NOV 1967
+1 FAMS @F8@
+1 FAMC @F14@
+0 @I29@ INDI
+1 NAME Abhilash /Ugaonkar/
+2 GIVN Abhilash
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 4 OCT 1992
+1 FAMC @F8@
+0 @I30@ INDI
+1 NAME Rohini /Padalkar/
+2 GIVN Rohini
+2 SURN Padalkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 28 MAY 1964
+1 FAMS @F7@
+0 @I31@ INDI
+1 NAME Sulbha /Pujari/
+2 GIVN Sulbha
+2 SURN Pujari
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 15 SEP 1960
+1 DEAT Y
+2 DATE 13 NOV 2015
+1 FAMS @F6@
+0 @I32@ INDI
+1 NAME Naresh /Ugaonkar/
+2 GIVN Naresh
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 9 JUL 1996
+1 FAMC @F7@
+0 @I33@ INDI
+1 NAME Tirumala /Ugaonkar/
+2 GIVN Tirumala
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 17 APR 2000
+1 FAMC @F7@
+0 @I34@ INDI
+1 NAME Raghvendra /Anakalgi/
+2 GIVN Raghvendra
+2 SURN Anakalgi
+2 _MARNM Anakalgi
+1 SEX M
+1 BIRT
+2 DATE 14 JUN 1958
+1 FAMS @F9@
+0 @I35@ INDI
+1 NAME Sagar /Anakalgi/
+2 GIVN Sagar
+2 SURN Anakalgi
+2 _MARNM Anakalgi
+1 SEX M
+1 BIRT
+2 DATE 26 AUG 1985
+1 DEAT Y
+2 DATE 18 DEC 2014
+1 FAMS @F15@
+1 FAMC @F9@
+0 @I36@ INDI
+1 NAME Gayatri /Joshi/
+2 GIVN Gayatri
+2 SURN Joshi
+2 _MARNM Anakalgi
+1 SEX F
+1 BIRT
+2 DATE 16 AUG 1989
+1 FAMS @F15@
+0 @I37@ INDI
+1 NAME Badal /Anakalgi/
+2 GIVN Badal
+2 SURN Anakalgi
+2 _MARNM Anakalgi
+1 SEX M
+1 BIRT
+2 DATE 30 OCT 1990
+1 FAMS @F16@
+1 FAMC @F9@
+0 @I38@ INDI
+1 NAME Akshata /Joshi/
+2 GIVN Akshata
+2 SURN Joshi
+2 _MARNM Anakalgi
+1 SEX F
+1 BIRT
+2 DATE 12 APR 1990
+1 FAMS @F16@
+0 @I39@ INDI
+1 NAME Nilima /Mulay/
+2 GIVN Nilima
+2 SURN Mulay
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 11 NOV 1960
+1 FAMS @F4@
+0 @I40@ INDI
+1 NAME Sujit /Ugaonkar/
+2 GIVN Sujit
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 19 JUL 1985
+1 FAMS @F17@
+1 FAMC @F4@
+0 @I41@ INDI
+1 NAME Radhika /Telang/
+2 GIVN Radhika
+2 SURN Telang
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 28 SEP 1989
+1 FAMS @F17@
+0 @I42@ INDI
+1 NAME Aara /Ugaonkar/
+2 GIVN Aara
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 8 AUG 2016
+1 FAMC @F17@
+0 @I43@ INDI
+1 NAME Aabha /Ugaonkar/
+2 GIVN Aabha
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 8 AUG 2016
+1 FAMC @F17@
+0 @I44@ INDI
+1 NAME Ajinkya /Ugaonkar/
+2 GIVN Ajinkya
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 BIRT
+2 DATE 17 MAR 1993
+1 FAMC @F4@
+0 @I45@ INDI
+1 NAME Ranganath /Alpe/
+2 GIVN Ranganath
+2 SURN Alpe
+2 _MARNM Alpe
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1927
+1 FAMS @F14@
+0 @I46@ INDI
+1 NAME Sunanda /Arlulkar/
+2 GIVN Sunanda
+2 SURN Arlulkar
+2 _MARNM Alpe
+1 SEX F
+1 BIRT
+2 DATE 1 MAY 1930
+1 FAMS @F14@
+0 @I47@ INDI
+1 NAME Sunita /Alpe/
+2 GIVN Sunita
+2 SURN Alpe
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 21 APR 1970
+1 FAMS @F18@
+1 FAMC @F14@
+0 @I48@ INDI
+1 NAME Shekhar /Arankalle/
+2 GIVN Shekhar
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX M
+1 BIRT
+2 DATE 17 FEB 1968
+1 FAMS @F18@
+0 @I49@ INDI
+1 NAME Sharvari /Arankalle/
+2 GIVN Sharvari
+2 SURN Arankalle
+2 _MARNM Arankalle
+1 SEX F
+1 BIRT
+2 DATE 7 AUG 2005
+1 FAMC @F18@
+0 @I50@ INDI
+1 NAME Nilima /Alpe/
+2 GIVN Nilima
+2 SURN Alpe
+2 _MARNM Panshikar
+1 SEX F
+1 BIRT
+2 DATE 28 APR 1974
+1 FAMS @F19@
+1 FAMC @F14@
+0 @I51@ INDI
+1 NAME Narendra /Panshikar/
+2 GIVN Narendra
+2 SURN Panshikar
+2 _MARNM Panshikar
+1 SEX M
+1 BIRT
+2 DATE 26 APR 1970
+1 FAMS @F19@
+0 @I52@ INDI
+1 NAME Mrunmai /Panshikar/
+2 GIVN Mrunmai
+2 SURN Panshikar
+2 _MARNM Panshikar
+1 SEX F
+1 BIRT
+2 DATE 24 APR 2001
+1 FAMC @F19@
+0 @I53@ INDI
+1 NAME Vivek /Alpe/
+2 GIVN Vivek
+2 SURN Alpe
+2 _MARNM Alpe
+1 SEX M
+1 BIRT
+2 DATE 21 JAN 1976
+1 FAMC @F14@
+0 @I54@ INDI
+1 NAME Neelkanth /Ugaonkar/
+2 GIVN Neelkanth
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX M
+1 BIRT
+2 DATE 15 JUN 1993
+1 FAMC @F6@
+0 @I55@ INDI
+1 NAME Manali /Ugaonkar/
+2 GIVN Manali
+2 SURN Ugaonkar
+2 _MARNM Ugaonkar
+1 SEX F
+1 BIRT
+2 DATE 17 SEP 1996
+1 FAMC @F6@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+1 _CURRENT Y
+0 @F2@ FAM
+1 HUSB @I5@
+1 WIFE @I15@
+1 _CURRENT Y
+0 @F3@ FAM
+1 HUSB @I5@
+1 WIFE @I6@
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I18@
+1 MARR
+2 DATE 8 FEB 1980
+1 EVEN
+2 TYPE Ending
+1 _CURRENT N
+0 @F4@ FAM
+1 HUSB @I7@
+1 WIFE @I39@
+1 CHIL @I40@
+1 CHIL @I44@
+1 MARR
+2 DATE 11 MAY 1987
+1 _CURRENT Y
+0 @F5@ FAM
+1 HUSB @I3@
+1 WIFE @I8@
+1 CHIL @I7@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHIL @I13@
+1 MARR
+2 DATE 15 AUG 1935
+1 EVEN
+2 TYPE Ending
+1 _CURRENT N
+0 @F6@ FAM
+1 HUSB @I10@
+1 WIFE @I31@
+1 CHIL @I54@
+1 CHIL @I55@
+1 MARR
+1 DIV
+1 _CURRENT Y
+0 @F7@ FAM
+1 HUSB @I10@
+1 WIFE @I30@
+1 CHIL @I32@
+1 CHIL @I33@
+1 MARR
+2 DATE 17 MAY 1990
+1 EVEN
+2 TYPE Ending
+1 _CURRENT N
+0 @F8@ FAM
+1 HUSB @I11@
+1 WIFE @I28@
+1 CHIL @I29@
+1 MARR
+2 DATE 25 DEC 1991
+1 _CURRENT Y
+0 @F9@ FAM
+1 HUSB @I34@
+1 WIFE @I12@
+1 CHIL @I35@
+1 CHIL @I37@
+1 MARR
+2 DATE 9 NOV 1988
+1 _CURRENT Y
+0 @F10@ FAM
+1 HUSB @I13@
+1 WIFE @I14@
+1 _CURRENT Y
+0 @F11@ FAM
+1 HUSB @I19@
+1 WIFE @I22@
+1 CHIL @I23@
+1 MARR
+2 DATE 29 MAR 2007
+1 _CURRENT Y
+0 @F12@ FAM
+1 HUSB @I20@
+1 WIFE @I9@
+1 CHIL @I19@
+1 CHIL @I21@
+1 MARR
+2 DATE 10 SEP 1973
+1 EVEN
+2 TYPE Ending
+1 _CURRENT N
+0 @F13@ FAM
+1 HUSB @I24@
+1 WIFE @I21@
+1 CHIL @I25@
+1 CHIL @I26@
+1 CHIL @I27@
+1 MARR
+2 DATE 11 FEB 2009
+1 _CURRENT Y
+0 @F14@ FAM
+1 HUSB @I45@
+1 WIFE @I46@
+1 CHIL @I28@
+1 CHIL @I47@
+1 CHIL @I50@
+1 CHIL @I53@
+1 _CURRENT Y
+0 @F15@ FAM
+1 HUSB @I35@
+1 WIFE @I36@
+1 _CURRENT Y
+0 @F16@ FAM
+1 HUSB @I37@
+1 WIFE @I38@
+1 _CURRENT Y
+0 @F17@ FAM
+1 HUSB @I40@
+1 WIFE @I41@
+1 CHIL @I42@
+1 CHIL @I43@
+1 MARR
+2 DATE 22 NOV 2009
+1 _CURRENT Y
+0 @F18@ FAM
+1 HUSB @I48@
+1 WIFE @I47@
+1 CHIL @I49@
+1 MARR
+2 DATE 22 FEB 1996
+1 _CURRENT Y
+0 @F19@ FAM
+1 HUSB @I51@
+1 WIFE @I50@
+1 CHIL @I52@
+1 MARR
+2 DATE 9 JUL 2000
+1 _CURRENT Y
+0 TRLR

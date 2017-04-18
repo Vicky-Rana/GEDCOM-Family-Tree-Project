@@ -1,0 +1,17 @@
+	Error:  Family:US02		Family_ID:@F5@		Message: Age of Wife is 11, Age of Husband is 17, therefore marriage is not valid.
+	Error:  Family:US02		Family_ID:@F18@		Message: Age of Wife is 26, Age of Husband is 0, therefore marriage is not valid.
+	Error:  Family:US04		Family_ID:@F4@		Message: Divorced date 1986-04-01 00:00:00, Before Marriage date 1987-05-11 00:00:00 , therefore it is not valid.
+	Error:  Family:US05		Family_ID:@F4@		Message: A member of this family has marriage date after their death date
+	Error:  Family:US06		Family_ID:@F6@		Message: Divorced date 1989-04-01 00:00:00, After Wife id @I31@ Death on 1988-11-13 00:00:00, therefore Divorce is not valid.
+	Error:  Family:US10		Family_ID:@F5@		Message: Wife age at the marriage was 11 and Husband age at the marriage was 17.
+	Error:  Family:US10		Family_ID:@F18@		Message: Wife age at the marriage was 26 and Husband age at the marriage was 0.
+	Error:  Family:US14		Family_ID:@F20@		Message: More Than 5 Children born on same day/same time in this family
+	Error:  Family:US15		Family_ID:@F18@		Message: Siblings in this family is greater than or equal to 15
+	Error:  Family:US16		Family_ID:@F1@		Message: Last names of all the males in this Family is not Unique
+	Error:  Family:US16		Family_ID:@F5@		Message: Last names of all the males in this Family is not Unique
+	Error:  Family:US18		Family_ID:@F22@		Message: Sibling is married to another sibling
+	Error:  Family:US25		Family_ID:@F12@		Message: First name of some members in this Family is Unique
+	Error:  Family:US25		Family_ID:@F13@		Message: First name of some members in this Family is Unique
+	Error:  Family:US25		Family_ID:@F17@		Message: First name of some members in this Family is Unique
+	Error:  Family:US30		Family_ID:@F5@		Message: This is no Living Marriage as @I3@ and @I8@ one of them is not alive
+	Error:  Family:US42		Family_ID:@F3@		Message: Invalid marriage Date Entered
