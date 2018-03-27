@@ -1,16 +1,6 @@
 # Agile Methods
 This repository is for coursework in CS555-agile methodologies. We are developing some functionalities for parsing and evaluating GEDCOM file.
 
-Contributors - 
-
-VR - VICKY RANA
-
-KT - KETKI THATTE
-
-AU - ABHILASH UGAONKAR
-
-AP - ANURAG PATIL
-
 Throught the semester we will implement many changes as user stories in the software for evaluating the GEDCOM file. 
 
 ##SPRINT 1
