@@ -1,6 +1,10 @@
 # Agile Methods
 This repository is for coursework in CS555-agile methodologies. We are developing some functionalities for parsing and evaluating GEDCOM file.
 
+We have created a random family tree and have created some on purpose anomalies in our GEDCOM File in order to verify the working of our User Stories on our GEDCOM file. 
+
+The main purpose of this project was to work in a Team using one of the Agile Methodologies called as Scrum following it with continous integration at the end of each sprint in order to create a full working model of the Software.
+
 Contributors:
 
 VR - VICKY RANA
